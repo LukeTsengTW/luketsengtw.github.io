@@ -10,9 +10,9 @@
     </author>
     <updated>2025-02-28T12:49:48.000Z</updated>
     <entry>
-        <id>https://luketsengtw.github.io/2025/02/28/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91Friend%20Classes%20&amp;%20Functions%20-%20part%2019/</id>
+        <id>https://luketsengtw.github.io/2025/02/28/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91Friend%20Classes%20&amp;%20Functions%20-%20part%2019/</id>
         <title>【C++ 筆記】Friend Classes &amp; Functions - part 19</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/02/28/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91Friend%20Classes%20&amp;%20Functions%20-%20part%2019/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/02/28/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91Friend%20Classes%20&amp;%20Functions%20-%20part%2019/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記friend-classes-functions-part-19&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記friend-classes-functions-part-19&#34;&gt;#&lt;/a&gt; 【C++ 筆記】Friend Classes &amp;amp; Functions - part 19&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -78,15 +78,15 @@ Protected Variable: 99
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-02-28T12:49:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2025/01/28/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%202/</id>
+        <id>https://luketsengtw.github.io/2025/01/28/competitive-programming/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%202/</id>
         <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 2</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/28/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%202/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/28/competitive-programming/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%202/"/>
         <content type="html">&lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-2&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 2&lt;/h1&gt;
 &lt;p&gt;a015.：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96ZXJvanVkZ2UudHcvU2hvd1Byb2JsZW0/cHJvYmxlbWlkPWEwMDQ=&#34;&gt;https://zerojudge.tw/ShowProblem?problemid=a004&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;難度：★★★☆☆&lt;/p&gt;
@@ -196,9 +196,9 @@ Protected Variable: 99
         <updated>2025-01-28T12:22:13.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2025/01/22/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%201/</id>
+        <id>https://luketsengtw.github.io/2025/01/22/competitive-programming/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%201/</id>
         <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 1</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/22/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%201/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/22/competitive-programming/%E3%80%90%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98%E3%80%91C++%20ZeroJudge%20%E5%9F%BA%E7%A4%8E%E9%A1%8C%E5%BA%AB%E8%A7%A3%E9%A1%8C(%E7%B4%94%E7%B7%B4%E7%BF%92)%20-%20part%201/"/>
         <content type="html">&lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-1&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 1&lt;/h1&gt;
 &lt;p&gt;a003.：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96ZXJvanVkZ2UudHcvU2hvd1Byb2JsZW0/cHJvYmxlbWlkPWEwMDM=&#34;&gt;https://zerojudge.tw/ShowProblem?problemid=a003&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;難度：☆☆☆☆☆&lt;/p&gt;
@@ -306,9 +306,9 @@ abc
         <updated>2025-01-22T13:10:34.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2025/01/17/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E8%A7%A3%E6%A7%8B%E5%AD%90%EF%BC%88Destructors%EF%BC%89%20-%20part%2018.5/</id>
+        <id>https://luketsengtw.github.io/2025/01/17/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E8%A7%A3%E6%A7%8B%E5%AD%90%EF%BC%88Destructors%EF%BC%89%20-%20part%2018.5/</id>
         <title>【C++ 筆記】解構子（Destructors） - part 18.5</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/17/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E8%A7%A3%E6%A7%8B%E5%AD%90%EF%BC%88Destructors%EF%BC%89%20-%20part%2018.5/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/17/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E8%A7%A3%E6%A7%8B%E5%AD%90%EF%BC%88Destructors%EF%BC%89%20-%20part%2018.5/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記解構子destructors-part-185&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記解構子destructors-part-185&#34;&gt;#&lt;/a&gt; 【C++ 筆記】解構子（Destructors） - part 18.5&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -332,15 +332,15 @@ Object is being deleted
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-17T12:36:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2025/01/05/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%BB%BA%E6%A7%8B%E5%AD%90%EF%BC%88Constructors%EF%BC%89%20-%20part%2018/</id>
+        <id>https://luketsengtw.github.io/2025/01/05/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%BB%BA%E6%A7%8B%E5%AD%90%EF%BC%88Constructors%EF%BC%89%20-%20part%2018/</id>
         <title>【C++ 筆記】建構子（Constructors） - part 18</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/05/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%BB%BA%E6%A7%8B%E5%AD%90%EF%BC%88Constructors%EF%BC%89%20-%20part%2018/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/05/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%BB%BA%E6%A7%8B%E5%AD%90%EF%BC%88Constructors%EF%BC%89%20-%20part%2018/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記建構子constructors-part-18&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記建構子constructors-part-18&#34;&gt;#&lt;/a&gt; 【C++ 筆記】建構子（Constructors） - part 18&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -455,15 +455,15 @@ GeeksforGeeks
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-05T13:21:42.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2025/01/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%A1%9E%E5%88%A5%EF%BC%88Class%EF%BC%89%E7%9A%84%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%20-%20part%2017/</id>
+        <id>https://luketsengtw.github.io/2025/01/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%A1%9E%E5%88%A5%EF%BC%88Class%EF%BC%89%E7%9A%84%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%20-%20part%2017/</id>
         <title>【C++ 筆記】類別（Class）的基礎概念 - part 17</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%A1%9E%E5%88%A5%EF%BC%88Class%EF%BC%89%E7%9A%84%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%20-%20part%2017/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/01/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%A1%9E%E5%88%A5%EF%BC%88Class%EF%BC%89%E7%9A%84%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5%20-%20part%2017/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記類別class的基礎概念-part-17&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記類別class的基礎概念-part-17&#34;&gt;#&lt;/a&gt; 【C++ 筆記】類別（Class）的基礎概念 - part 17&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -609,15 +609,15 @@ This is a private method.
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-01T06:08:02.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/31/%E3%80%90Windows%2011%20%E7%A7%98%E7%AC%88%E3%80%91%E9%87%8D%E7%81%8C%E6%88%96%E8%A3%9D%E6%96%B0%E7%B3%BB%E7%B5%B1%E5%BF%85%E5%81%9A%E7%9A%84%E4%BA%94%E4%BB%B6%E4%BA%8B%EF%BC%81/</id>
+        <id>https://luketsengtw.github.io/2024/12/31/computer-talk/%E3%80%90Windows%2011%20%E7%A7%98%E7%AC%88%E3%80%91%E9%87%8D%E7%81%8C%E6%88%96%E8%A3%9D%E6%96%B0%E7%B3%BB%E7%B5%B1%E5%BF%85%E5%81%9A%E7%9A%84%E4%BA%94%E4%BB%B6%E4%BA%8B%EF%BC%81/</id>
         <title>【Windows 11 秘笈】重灌或裝新系統必做的五件事！</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/31/%E3%80%90Windows%2011%20%E7%A7%98%E7%AC%88%E3%80%91%E9%87%8D%E7%81%8C%E6%88%96%E8%A3%9D%E6%96%B0%E7%B3%BB%E7%B5%B1%E5%BF%85%E5%81%9A%E7%9A%84%E4%BA%94%E4%BB%B6%E4%BA%8B%EF%BC%81/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/31/computer-talk/%E3%80%90Windows%2011%20%E7%A7%98%E7%AC%88%E3%80%91%E9%87%8D%E7%81%8C%E6%88%96%E8%A3%9D%E6%96%B0%E7%B3%BB%E7%B5%B1%E5%BF%85%E5%81%9A%E7%9A%84%E4%BA%94%E4%BB%B6%E4%BA%8B%EF%BC%81/"/>
         <content type="html">&lt;h1 id=&#34;windows-11-秘笈重灌或裝新系統必做的五件事&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows-11-秘笈重灌或裝新系統必做的五件事&#34;&gt;#&lt;/a&gt; 【Windows 11 秘笈】重灌或裝新系統必做的五件事！&lt;/h1&gt;
 &lt;p&gt;哈囉大家好，我是 LukeTseng，近期換新電腦裝系統時，發現忘記 win 11 有些操作令我不太習慣，且又忘記該如何操作，實在令人煩惱，所以便製作了這篇文章。&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
@@ -714,9 +714,9 @@ This is a private method.
         <updated>2024-12-31T09:48:59.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/29/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91vector%20-%20part%2016/</id>
+        <id>https://luketsengtw.github.io/2024/12/29/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91vector%20-%20part%2016/</id>
         <title>【C++ 筆記】vector - part 16</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/29/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91vector%20-%20part%2016/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/29/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91vector%20-%20part%2016/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記vector-part-16&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記vector-part-16&#34;&gt;#&lt;/a&gt; 【C++ 筆記】vector - part 16&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -987,15 +987,15 @@ BMW
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-29T09:16:56.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/14/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E7%B5%90%E6%A7%8B%EF%BC%88Struct%EF%BC%89%20-%20part%2015/</id>
+        <id>https://luketsengtw.github.io/2024/12/14/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E7%B5%90%E6%A7%8B%EF%BC%88Struct%EF%BC%89%20-%20part%2015/</id>
         <title>【C++ 筆記】結構（Struct） - part 15</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/14/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E7%B5%90%E6%A7%8B%EF%BC%88Struct%EF%BC%89%20-%20part%2015/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/14/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E7%B5%90%E6%A7%8B%EF%BC%88Struct%EF%BC%89%20-%20part%2015/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記結構struct-part-15&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記結構struct-part-15&#34;&gt;#&lt;/a&gt; 【C++ 筆記】結構（Struct） - part 15&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1086,15 +1086,15 @@ Age: 20
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-14T12:37:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/14/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%8F%83%E8%80%83%EF%BC%88Reference%EF%BC%89%20-%20part%2014/</id>
+        <id>https://luketsengtw.github.io/2024/12/14/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%8F%83%E8%80%83%EF%BC%88Reference%EF%BC%89%20-%20part%2014/</id>
         <title>【C++ 筆記】參考（Reference） - part 14</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/14/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%8F%83%E8%80%83%EF%BC%88Reference%EF%BC%89%20-%20part%2014/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/14/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%8F%83%E8%80%83%EF%BC%88Reference%EF%BC%89%20-%20part%2014/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記參考reference-part-14&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記參考reference-part-14&#34;&gt;#&lt;/a&gt; 【C++ 筆記】參考（Reference） - part 14&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1215,15 +1215,15 @@ vals[4] = 50
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-14T09:15:40.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/08/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2013/</id>
+        <id>https://luketsengtw.github.io/2024/12/08/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2013/</id>
         <title>【C++ 筆記】指標（Pointer）（下） - part 13</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/08/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2013/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/08/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2013/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記指標pointer下-part-13&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記指標pointer下-part-13&#34;&gt;#&lt;/a&gt; 【C++ 筆記】指標（Pointer）（下） - part 13&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1337,15 +1337,15 @@ Value of names[3] = good night.
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-08T11:28:30.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/07/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%84%B2%E5%AD%98%E9%A1%9E%E5%88%A5%EF%BC%88Storage%20classes%EF%BC%89%20-%20part%2012/</id>
+        <id>https://luketsengtw.github.io/2024/12/07/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%84%B2%E5%AD%98%E9%A1%9E%E5%88%A5%EF%BC%88Storage%20classes%EF%BC%89%20-%20part%2012/</id>
         <title>【C++ 筆記】儲存類別（Storage classes） - part 12</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/07/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%84%B2%E5%AD%98%E9%A1%9E%E5%88%A5%EF%BC%88Storage%20classes%EF%BC%89%20-%20part%2012/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/07/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%84%B2%E5%AD%98%E9%A1%9E%E5%88%A5%EF%BC%88Storage%20classes%EF%BC%89%20-%20part%2012/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記儲存類別storage-classes-part-12&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記儲存類別storage-classes-part-12&#34;&gt;#&lt;/a&gt; 【C++ 筆記】儲存類別（Storage classes） - part 12&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1465,15 +1465,15 @@ Modified value: 100
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-07T05:28:50.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2011/</id>
+        <id>https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2011/</id>
         <title>【C++ 筆記】函數（Function）（下） - part 11</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2011/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8B%EF%BC%89%20-%20part%2011/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記函數function下-part-11&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記函數function下-part-11&#34;&gt;#&lt;/a&gt; 【C++ 筆記】函數（Function）（下） - part 11&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1566,15 +1566,15 @@ Modified value: 100
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T12:37:41.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%2010/</id>
+        <id>https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%2010/</id>
         <title>【C++ 筆記】指標（Pointer）（上） - part 10</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%2010/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%8C%87%E6%A8%99%EF%BC%88Pointer%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%2010/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記指標pointer上-part-10&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記指標pointer上-part-10&#34;&gt;#&lt;/a&gt; 【C++ 筆記】指標（Pointer）（上） - part 10&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1741,15 +1741,15 @@ ptr2 的地址大於或等於 ptr1 的地址
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T08:01:58.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%AD%97%E4%B8%B2%EF%BC%88String%EF%BC%89%20-%20part%209/</id>
+        <id>https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%AD%97%E4%B8%B2%EF%BC%88String%EF%BC%89%20-%20part%209/</id>
         <title>【C++ 筆記】字串（String） - part 9</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%AD%97%E4%B8%B2%EF%BC%88String%EF%BC%89%20-%20part%209/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%AD%97%E4%B8%B2%EF%BC%88String%EF%BC%89%20-%20part%209/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記字串string-part-9&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記字串string-part-9&#34;&gt;#&lt;/a&gt; 【C++ 筆記】字串（String） - part 9&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1842,15 +1842,15 @@ str3.size() :  12
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T04:19:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%99%A3%E5%88%97%EF%BC%88Array%EF%BC%89%20-%20part%208/</id>
+        <id>https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%99%A3%E5%88%97%EF%BC%88Array%EF%BC%89%20-%20part%208/</id>
         <title>【C++ 筆記】陣列（Array） - part 8</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%99%A3%E5%88%97%EF%BC%88Array%EF%BC%89%20-%20part%208/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E9%99%A3%E5%88%97%EF%BC%88Array%EF%BC%89%20-%20part%208/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記陣列array-part-8&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記陣列array-part-8&#34;&gt;#&lt;/a&gt; 【C++ 筆記】陣列（Array） - part 8&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1921,15 +1921,15 @@ str3.size() :  12
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T03:06:32.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%EF%BC%88cmath%20library%EF%BC%89%20-%20part%207.5/</id>
+        <id>https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%EF%BC%88cmath%20library%EF%BC%89%20-%20part%207.5/</id>
         <title>【C++ 筆記】數學函式庫（cmath library） - part 7.5</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%EF%BC%88cmath%20library%EF%BC%89%20-%20part%207.5/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/12/01/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%EF%BC%88cmath%20library%EF%BC%89%20-%20part%207.5/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記數學函式庫cmath-library-part-75&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記數學函式庫cmath-library-part-75&#34;&gt;#&lt;/a&gt; 【C++ 筆記】數學函式庫（cmath library） - part 7.5&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2038,15 +2038,15 @@ random： 881636108
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T02:37:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/11/30/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%207/</id>
+        <id>https://luketsengtw.github.io/2024/11/30/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%207/</id>
         <title>【C++ 筆記】函數（Function）（上） - part 7</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/11/30/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%207/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/11/30/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%87%BD%E6%95%B8%EF%BC%88Function%EF%BC%89%EF%BC%88%E4%B8%8A%EF%BC%89%20-%20part%207/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記函數function上-part-7&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記函數function上-part-7&#34;&gt;#&lt;/a&gt; 【C++ 筆記】函數（Function）（上） - part 7&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2116,15 +2116,15 @@ Total value is :120
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-11-30T13:51:45.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/08/14/%E3%80%90%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98%E3%80%91%E8%A8%88%E6%95%B8%E6%8E%92%E5%BA%8F%20_%20%E6%A1%B6%E6%8E%92%E5%BA%8F%20_%20%E5%9F%BA%E6%95%B8%E6%8E%92%E5%BA%8F/</id>
+        <id>https://luketsengtw.github.io/2024/08/14/algorithm/%E3%80%90%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98%E3%80%91%E8%A8%88%E6%95%B8%E6%8E%92%E5%BA%8F%20_%20%E6%A1%B6%E6%8E%92%E5%BA%8F%20_%20%E5%9F%BA%E6%95%B8%E6%8E%92%E5%BA%8F/</id>
         <title>【演算法筆記】計數排序 / 桶排序 / 基數排序</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/08/14/%E3%80%90%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98%E3%80%91%E8%A8%88%E6%95%B8%E6%8E%92%E5%BA%8F%20_%20%E6%A1%B6%E6%8E%92%E5%BA%8F%20_%20%E5%9F%BA%E6%95%B8%E6%8E%92%E5%BA%8F/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/08/14/algorithm/%E3%80%90%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98%E3%80%91%E8%A8%88%E6%95%B8%E6%8E%92%E5%BA%8F%20_%20%E6%A1%B6%E6%8E%92%E5%BA%8F%20_%20%E5%9F%BA%E6%95%B8%E6%8E%92%E5%BA%8F/"/>
         <content type="html">&lt;h1 id=&#34;演算法筆記計數排序-桶排序-基數排序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#演算法筆記計數排序-桶排序-基數排序&#34;&gt;#&lt;/a&gt; 【演算法筆記】計數排序 / 桶排序 / 基數排序&lt;/h1&gt;
 &lt;p&gt;大家好我是 LukeTseng！這篇是我的一個小小學習筆記，為了想要了解更快速的排序法，所以特別製作了此篇。&lt;/p&gt;
 &lt;p&gt;在總結部分會將這三種排序法的各個優缺點，以及其他屬性等等做比較。&lt;/p&gt;
@@ -2296,15 +2296,15 @@ Total value is :120
 </content>
         <category term="演算法" scheme="https://luketsengtw.github.io/categories/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2024-08-14T10:46:12.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/2024/07/02/%E3%80%90Lua%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%20-%20%E7%95%AA%E5%A4%96/</id>
+        <id>https://luketsengtw.github.io/2024/07/02/programming/lua/%E3%80%90Lua%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%20-%20%E7%95%AA%E5%A4%96/</id>
         <title>【Lua 筆記】數學函式庫 - 番外</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2024/07/02/%E3%80%90Lua%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%20-%20%E7%95%AA%E5%A4%96/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/2024/07/02/programming/lua/%E3%80%90Lua%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%20-%20%E7%95%AA%E5%A4%96/"/>
         <content type="html">&lt;h1 id=&#34;lua-筆記數學函式庫-番外&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lua-筆記數學函式庫-番外&#34;&gt;#&lt;/a&gt; 【Lua 筆記】數學函式庫 - 番外&lt;/h1&gt;
 &lt;p&gt;詳情參考自：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVhLm9yZy9tYW51YWwvNS40L21hbnVhbC5odG1sIzYuNw==&#34;&gt;Lua 5.4 Reference Manual&lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
