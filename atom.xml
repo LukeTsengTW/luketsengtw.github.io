@@ -76,9 +76,11 @@ Protected Variable: 99
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLXR3L2NwcC9jcHAvZnJpZW5kLWNwcD92aWV3PW1zdmMtMTcw&#34;&gt;friend (C++) | Microsoft Learn&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWZyaWVuZC1mdW5jdGlvbnMuaHRtbA==&#34;&gt;C++ 友元函数 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-02-28T12:49:48.000Z</updated>
     </entry>
     <entry>
@@ -187,8 +189,10 @@ Protected Variable: 99
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaGVuZ3l1NzY5Ny5naXRodWIuaW8vc3RkLXN0YWNrLw==&#34;&gt;C++ std::stack 用法與範例 | ShengYu Talk&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWxpYnMtc3RhY2suaHRtbA==&#34;&gt;C++ 容器类 &amp;lt;stack&amp;gt; | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+        <category term="競程" scheme="https://luketsengtw.github.io/categories/%E7%AB%B6%E7%A8%8B/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+        <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <updated>2025-01-28T12:22:13.000Z</updated>
     </entry>
     <entry>
@@ -295,8 +299,10 @@ abc
 &lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;string result&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; symbol&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; roman_values&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;num &lt;span class=&#34;token operator&#34;&gt;&gt;=&lt;/span&gt; value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            num &lt;span class=&#34;token operator&#34;&gt;-=&lt;/span&gt; value&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            result &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; symbol&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;這個部分，至於使用到  &lt;code&gt;const auto &amp;amp;[value, symbol]&lt;/code&gt;  的目的，在於這東西是固定不動的（裡面是既定的羅馬數字對應十進位數字），不會被修改，所以給他加上 const。還有個好處就是帶來效能提升跟避免不必要的錯誤（如被修改到）。&lt;/p&gt;
 &lt;p&gt;另外加上  &lt;code&gt;&amp;amp;&lt;/code&gt;  是因為 range-based for 內容物需要被修改到。&lt;/p&gt;
 </content>
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+        <category term="競程" scheme="https://luketsengtw.github.io/categories/%E7%AB%B6%E7%A8%8B/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+        <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <updated>2025-01-22T13:10:34.000Z</updated>
     </entry>
     <entry>
@@ -324,9 +330,11 @@ Object is being deleted
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvYy1jbGFzc2VzLWFuZC1vYmplY3RzLw==&#34;&gt;C++ Classes and Objects - GeeksforGeeks&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWNvbnN0cnVjdG9yLWRlc3RydWN0b3IuaHRtbA==&#34;&gt;C++ 类构造函数 &amp;amp; 析构函数 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-17T12:36:19.000Z</updated>
     </entry>
     <entry>
@@ -445,9 +453,11 @@ GeeksforGeeks
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWNvbnN0cnVjdG9yLWRlc3RydWN0b3IuaHRtbA==&#34;&gt;C++ 类构造函数 &amp;amp; 析构函数 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWNvcHktY29uc3RydWN0b3IuaHRtbA==&#34;&gt;C++ 拷贝构造函数 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-05T13:21:42.000Z</updated>
     </entry>
     <entry>
@@ -597,9 +607,11 @@ This is a private method.
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWNsYXNzLWFjY2Vzcy1tb2RpZmllcnMuaHRtbA==&#34;&gt;C++ 类访问修饰符 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWNsYXNzZXMtb2JqZWN0cy5odG1s&#34;&gt;C++ 类 &amp;amp; 对象 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-01T06:08:02.000Z</updated>
     </entry>
     <entry>
@@ -696,6 +708,7 @@ This is a private method.
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cua29jLmNvbS50dy9hcmNoaXZlcy80MzU3MjQ=&#34;&gt;覺得 Windows 11 新版右鍵選單難用嗎？二個方法教你怎麼還原舊版 - 電腦王阿達&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9mb3J1bS5nYW1lci5jb20udHcvQy5waHA/YnNuPTc2OTcmYW1wO3NuQT02MzMw&#34;&gt;【討論】FH4 啟動卡住、記憶體占用飆高 解決辦法（AMD） @極限競速 哈啦板 - 巴哈姆特&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/" />
         <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/" />
         <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/" />
         <updated>2024-12-31T09:48:59.000Z</updated>
@@ -972,9 +985,11 @@ BMW
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ob21lLmdhbWVyLmNvbS50dy9hcnR3b3JrLnBocD9zbj01ODE4OTE1&#34;&gt;資料結構筆記：C++ 中的迭代器 iterator - hifone2191 的創作 - 巴哈姆特&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXZlY3Rvci5odG1s&#34;&gt;C++ vector 容器 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-29T09:16:56.000Z</updated>
     </entry>
     <entry>
@@ -1069,9 +1084,11 @@ Age: 20
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLXR3L2NwcC9jcHAvc3RydWN0LWNwcD92aWV3PW1zdmMtMTcw&#34;&gt;struct (C++) | Microsoft Learn&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXN0cnVjdC5odG1s&#34;&gt;C++ 结构体 (struct) | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-14T12:37:25.000Z</updated>
     </entry>
     <entry>
@@ -1196,9 +1213,11 @@ vals[4] = 50
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvcmV0dXJuaW5nLXZhbHVlcy1ieS1yZWZlcmVuY2UuaHRtbA==&#34;&gt;C++ 把引用作为返回值 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXJlZmVyZW5jZXMuaHRtbA==&#34;&gt;C++ 引用 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-14T09:15:40.000Z</updated>
     </entry>
     <entry>
@@ -1316,9 +1335,11 @@ Value of names[3] = good night.
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXBvaW50ZXItdG8tcG9pbnRlci5odG1s&#34;&gt;C++ 指向指针的指针（多级间接寻址） | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXJldHVybi1wb2ludGVyLWZyb20tZnVuY3Rpb25zLmh0bWw=&#34;&gt;C++ 从函数返回指针 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-08T11:28:30.000Z</updated>
     </entry>
     <entry>
@@ -1442,9 +1463,11 @@ Modified value: 100
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXYudG8vY29kZW1lZS9jLXl1LXlhbi1kZS14dWFuLWdhby1kaW5nLXlpLWNodS1jdW4tbGVpLXhpbmctc3RvcmFnZS1jbGFzcy15dS1saWFuLWppZS14aW5nLWxpbmthZ2UtNHAxZA==&#34;&gt;C 語言的宣告、定義、儲存類型 (storage class) 與連結性 (linkage) - DEV Community&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXN0b3JhZ2UtY2xhc3Nlcy5odG1s&#34;&gt;C++ 存储类 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-07T05:28:50.000Z</updated>
     </entry>
     <entry>
@@ -1541,9 +1564,11 @@ Modified value: 100
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWZ1bmN0aW9uLWNhbGwtYnktcG9pbnRlci5odG1s&#34;&gt;C++ 指针调用 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWZ1bmN0aW9uLWNhbGwtYnktcmVmZXJlbmNlLmh0bWw=&#34;&gt;C++ 引用调用 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T12:37:41.000Z</updated>
     </entry>
     <entry>
@@ -1714,9 +1739,11 @@ ptr2 的地址大於或等於 ptr1 的地址
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXBvaW50ZXJzLmh0bWw=&#34;&gt;C++ 指针 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLW51bGwtcG9pbnRlcnMuaHRtbA==&#34;&gt;C++ Null 指针 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T08:01:58.000Z</updated>
     </entry>
     <entry>
@@ -1813,9 +1840,11 @@ str3.size() :  12
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvc3RyaW5ncy1pbi1jcHAv&#34;&gt;Strings in C++ - GeeksforGeeks&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLXN0cmluZ3MuaHRtbA==&#34;&gt;C++ 字符串 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T04:19:27.000Z</updated>
     </entry>
     <entry>
@@ -1890,9 +1919,11 @@ str3.size() :  12
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWFycmF5cy5odG1s&#34;&gt;C++ 数组 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLW11bHRpLWRpbWVuc2lvbmFsLWFycmF5cy5odG1s&#34;&gt;C++ 多维数组 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T03:06:32.000Z</updated>
     </entry>
     <entry>
@@ -2005,9 +2036,11 @@ random： 881636108
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudzNzY2hvb2xzLmNvbS9jcHAvY3BwX3JlZl9tYXRoLmFzcA==&#34;&gt;C++ cmath Library Reference (cmath functions)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLW51bWJlcnMuaHRtbA==&#34;&gt;C++ 数字 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T02:37:19.000Z</updated>
     </entry>
     <entry>
@@ -2081,9 +2114,11 @@ Total value is :120
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pdGhlbHAuaXRob21lLmNvbS50dy9tL2FydGljbGVzLzEwMjkzNTgy&#34;&gt;Day07 - C++ function (函式 \ 函數) iT 邦幫忙：：一起幫忙解決難題，拯救 IT 人的一天&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWZ1bmN0aW9ucy5odG1s&#34;&gt;C++ 函数 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/C/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-11-30T13:51:45.000Z</updated>
     </entry>
     <entry>
@@ -2259,9 +2294,11 @@ Total value is :120
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ydXN0LWFsZ28uY2x1Yi9zb3J0aW5nL3JhZGl4X3NvcnQvaW5kZXguaHRtbA==&#34;&gt;基數排序 Radix sort - Rust Algorithm Club&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tZWRpdW0uY29tL0BhbWJlci5mcmFnbWVudHMvJUU2JUJDJTk0JUU3JUFFJTk3JUU2JUIzJTk1LSVFNSVBRCVCOCVFNyVCRiU5MiVFNyVBRCU4NiVFOCVBOCU5OC0xMy0lRTUlOUYlQkElRTYlOTUlQjglRTYlOEUlOTIlRTUlQkElOEYlRTYlQjMlOTUtcmFkaXgtc29ydC00NTMxNzk2N2FkMDM=&#34;&gt;[演算法] 學習筆記 — 13. 基數排序法 Radix Sort | by Amber Fragments | Medium&lt;/span&gt;&lt;/p&gt;
 </content>
+        <category term="演算法" scheme="https://luketsengtw.github.io/categories/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2024-08-14T10:46:12.000Z</updated>
     </entry>
     <entry>
@@ -2301,6 +2338,8 @@ Total value is :120
 &lt;li&gt;math.tanh (x) - 回傳 x 的雙曲正切值。&lt;/li&gt;
 &lt;/ol&gt;
 </content>
+        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="Lua" scheme="https://luketsengtw.github.io/categories/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/Lua/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
         <category term="Lua" scheme="https://luketsengtw.github.io/tags/Lua/" />
         <updated>2024-07-02T08:04:02.000Z</updated>
