@@ -10,8 +10,106 @@
         </author>
         <description>一個軟硬體都愛的資工人，也是個無名的程式熱愛者。</description>
         <language>zh-TW</language>
-        <pubDate>Fri, 28 Feb 2025 20:49:48 +0800</pubDate>
-        <lastBuildDate>Fri, 28 Feb 2025 20:49:48 +0800</lastBuildDate>
+        <pubDate>Fri, 07 Mar 2025 22:21:18 +0800</pubDate>
+        <lastBuildDate>Fri, 07 Mar 2025 22:21:18 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://luketsengtw.github.io/2025/03/07/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%85%A7%E5%B5%8C%E5%87%BD%E6%95%B8%EF%BC%88inline%20function%EF%BC%89%20-%20part%2020/</guid>
+            <title>【C++ 筆記】內嵌函數（inline function） - part 20</title>
+            <link>https://luketsengtw.github.io/2025/03/07/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91%E5%85%A7%E5%B5%8C%E5%87%BD%E6%95%B8%EF%BC%88inline%20function%EF%BC%89%20-%20part%2020/</link>
+            <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <pubDate>Fri, 07 Mar 2025 22:21:18 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;c-筆記內嵌函數inline-function-part-20&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記內嵌函數inline-function-part-20&#34;&gt;#&lt;/a&gt; 【C++ 筆記】內嵌函數（inline function） - part 20&lt;/h1&gt;
+&lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
+&lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
+&lt;h2 id=&#34;內嵌函數inline-function&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#內嵌函數inline-function&#34;&gt;#&lt;/a&gt; 內嵌函數（inline function）&lt;/h2&gt;
+&lt;p&gt;內嵌函數或稱內聯函數。&lt;/p&gt;
+&lt;p&gt;在 C++，內嵌函數（inline function）是一種特殊的函數。&lt;/p&gt;
+&lt;p&gt;此函數需要用關鍵字  &lt;code&gt;inline&lt;/code&gt;  於欲使用之函數名前方，使 compiler 將函數呼叫替換為函數的本體代碼，而非如普通函數要透過函數呼叫機制（如：跳轉到函數地址並回傳）。&lt;/p&gt;
+&lt;p&gt;這種方式可減少函數呼叫的開銷（如：stack 的 push、pop 操作），從而提高程式執行效率。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下擷取至菜鳥教程的原理解釋：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C++ 內聯函數通常與類別一起使用。如果一個函數是內聯的，那麼在編譯時，編譯器會把函數的程式碼副本放置在每個呼叫該函數的地方。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;對內聯函數進行任何修改，都需要重新編譯函數的所有客戶端，因為編譯器需要重新更換一次所有的程式碼，否則將繼續使用舊的函數。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWlubGluZS1mdW5jdGlvbnMuaHRtbA==&#34;&gt;https://www.runoob.com/cplusplus/cpp-inline-functions.html&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;內嵌函數主要功能：優化小型、頻繁呼叫的函數。&lt;/p&gt;
+&lt;p&gt;以下是內嵌函數的語法：&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;inline&lt;/span&gt; return_type &lt;span class=&#34;token function&#34;&gt;function_name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;params&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;inline：關鍵字。&lt;/p&gt;
+&lt;p&gt;return_type：回傳型態。&lt;/p&gt;
+&lt;p&gt;function_name：函數名稱。&lt;/p&gt;
+&lt;p&gt;params：一個或以上的參數。&lt;/p&gt;
+&lt;h3 id=&#34;範例-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#範例-1&#34;&gt;#&lt;/a&gt; 範例 1&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;inline&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 使用關鍵字 inline&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Sum: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 編譯器可能將此替換為直接計算&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;輸出結果：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sum: 15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;搭配範例-1細講內嵌函數的原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭配範例-1細講內嵌函數的原理&#34;&gt;#&lt;/a&gt; 搭配範例 1：細講內嵌函數的原理&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;首先我們必須釐清，當一個普通函數被呼叫時，會有怎樣的行為：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;保存當前執行狀態（如：register）。&lt;/li&gt;
+&lt;li&gt;將參數 push to stack 中。&lt;/li&gt;
+&lt;li&gt;跳轉到函數的代碼位置。&lt;/li&gt;
+&lt;li&gt;執行函數。&lt;/li&gt;
+&lt;li&gt;回傳結果並恢復呼叫點的狀態。若為小型函數，呼叫的開銷可能比函數本身的執行時間大。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以下是我們用內嵌函數的運作原理（以範例 1 而言）：&lt;/p&gt;
+&lt;p&gt;首先，編譯器會試著在呼叫點直接插入函數的代碼：&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; result &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然後會被編譯器直接換成：&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; result &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;具體圖示可如下所示（Image Source：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvaW5saW5lLWZ1bmN0aW9ucy1jcHAvJUVGJUJDJTg5JUVGJUJDJTlB&#34;&gt;https://www.geeksforgeeks.org/inline-functions-cpp/）：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://hackmd.io/_uploads/Sk09I_Kokx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;內嵌函數的例外情況&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#內嵌函數的例外情況&#34;&gt;#&lt;/a&gt; 內嵌函數的例外情況&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Inlining is only a request to the compiler, not a command. The compiler may not perform inlining in such circumstances as:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Source：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvaW5saW5lLWZ1bmN0aW9ucy1jcHAv&#34;&gt;https://www.geeksforgeeks.org/inline-functions-cpp/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;翻譯蒟蒻：inline 僅為對編譯器的「請求」，而不是一個指令。編譯器也許不會在以下這些情形執行 inline。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;函數內部含有迴圈&lt;/li&gt;
+&lt;li&gt;函數內部含有  &lt;code&gt;static&lt;/code&gt;  變數&lt;/li&gt;
+&lt;li&gt;遞迴函數&lt;/li&gt;
+&lt;li&gt;若函數回傳型態不是  &lt;code&gt;void&lt;/code&gt; ，並且函數體中不存在回傳語句。&lt;/li&gt;
+&lt;li&gt;函數內部含有  &lt;code&gt;switch&lt;/code&gt;  或  &lt;code&gt;goto&lt;/code&gt;  語法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;Tip：當函數只有 10 行甚至更少時才將其定義為內嵌函數。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;內嵌函數的優缺點&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#內嵌函數的優缺點&#34;&gt;#&lt;/a&gt; 內嵌函數的優缺點&lt;/h2&gt;
+&lt;p&gt;優點（Advantages）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;函數的呼叫開銷不會發生。&lt;/li&gt;
+&lt;li&gt;可對函數主體進行優化。（具體事項如上的原理解釋）&lt;/li&gt;
+&lt;li&gt;內嵌函數對於嵌入式系統（embedded systems：如 Arduino）可能是有用的（如果函數本體很小），因為 inline 可回傳更少的代碼。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;缺點（Disadvantages）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用於變數的 register 數量可能會增加。&lt;/li&gt;
+&lt;li&gt;內嵌函數可能會導致 thrashing，inline 可能會增加二進位可執行檔的大小。&lt;/li&gt;
+&lt;li&gt;若有人改了內嵌函數的代碼，則所有呼叫位置都必須重新編譯，因為編譯器需要再次替換所有代碼。&lt;/li&gt;
+&lt;li&gt;內嵌函數對許多嵌入式系統可能不實用。因為在嵌入式系統中，程式碼大小比速度更重要（身為一個長期有在接觸 Arduino 的作者，我覺得這太他媽正確了）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;thrashing 可參見：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhyYXNoaW5nXyhjb21wdXRlcl9zY2llbmNlKQ==&#34;&gt;https://en.wikipedia.org/wiki/Thrashing_(computer_science)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Source：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvaW5saW5lLWZ1bmN0aW9ucy1jcHAv&#34;&gt;https://www.geeksforgeeks.org/inline-functions-cpp/&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;範例-2內嵌函數搭配-class-使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#範例-2內嵌函數搭配-class-使用&#34;&gt;#&lt;/a&gt; 範例 2：內嵌函數搭配 Class 使用&lt;/h2&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Rectangle&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; width&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;Rectangle&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; w&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; h&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;w&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;h&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 內嵌成員函數&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;inline&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;area&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; width &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 外部定義的內嵌函數&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;inline&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;perimeter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;inline&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Rectangle&lt;/span&gt;&lt;span class=&#34;token double-colon punctuation&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;perimeter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;width &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Rectangle &lt;span class=&#34;token function&#34;&gt;rect&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Area: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; rect&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;area&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Perimeter: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; rect&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;perimeter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;輸出結果：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Area: 15
+Perimeter: 16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvaW5saW5lLWZ1bmN0aW9ucy1jcHAv&#34;&gt;Inline Functions in C++ - GeeksforGeeks&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb3RibG9ncy5jb20udHcvdjY2MTA2ODgvMjAxMy8xMS8yNy9pbnRyb2R1Y3Rpb25faW5saW5lX2Z1bmN0aW9u&#34;&gt;[C++] 內嵌函數（inline　function）筆記 | 郭董 &amp;lt; 3 小花園 - 點部落&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLXR3L2NwcC9jcHAvaW5saW5lLWZ1bmN0aW9ucy1jcHA/dmlldz1tc3ZjLTE3MA==&#34;&gt;內嵌函式 (C++) | Microsoft Learn&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWlubGluZS1mdW5jdGlvbnMuaHRtbA==&#34;&gt;C++ 内联函数 | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://luketsengtw.github.io/2025/02/28/programming/cpp/%E3%80%90C++%20%E7%AD%86%E8%A8%98%E3%80%91Friend%20Classes%20&amp;%20Functions%20-%20part%2019/</guid>
             <title>【C++ 筆記】Friend Classes &amp; Functions - part 19</title>
@@ -2302,49 +2400,6 @@ Total value is :120
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvcmFkaXgtc29ydC8=&#34;&gt;Radix Sort - Data Structures and Algorithms Tutorials - GeeksforGeeks&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ydXN0LWFsZ28uY2x1Yi9zb3J0aW5nL3JhZGl4X3NvcnQvaW5kZXguaHRtbA==&#34;&gt;基數排序 Radix sort - Rust Algorithm Club&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tZWRpdW0uY29tL0BhbWJlci5mcmFnbWVudHMvJUU2JUJDJTk0JUU3JUFFJTk3JUU2JUIzJTk1LSVFNSVBRCVCOCVFNyVCRiU5MiVFNyVBRCU4NiVFOCVBOCU5OC0xMy0lRTUlOUYlQkElRTYlOTUlQjglRTYlOEUlOTIlRTUlQkElOEYlRTYlQjMlOTUtcmFkaXgtc29ydC00NTMxNzk2N2FkMDM=&#34;&gt;[演算法] 學習筆記 — 13. 基數排序法 Radix Sort | by Amber Fragments | Medium&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://luketsengtw.github.io/2024/07/02/programming/lua/%E3%80%90Lua%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%20-%20%E7%95%AA%E5%A4%96/</guid>
-            <title>【Lua 筆記】數學函式庫 - 番外</title>
-            <link>https://luketsengtw.github.io/2024/07/02/programming/lua/%E3%80%90Lua%20%E7%AD%86%E8%A8%98%E3%80%91%E6%95%B8%E5%AD%B8%E5%87%BD%E5%BC%8F%E5%BA%AB%20-%20%E7%95%AA%E5%A4%96/</link>
-            <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
-            <category term="Lua" scheme="https://luketsengtw.github.io/categories/programming/lua/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="Lua" scheme="https://luketsengtw.github.io/tags/Lua/" />
-            <pubDate>Tue, 02 Jul 2024 16:04:02 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;lua-筆記數學函式庫-番外&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lua-筆記數學函式庫-番外&#34;&gt;#&lt;/a&gt; 【Lua 筆記】數學函式庫 - 番外&lt;/h1&gt;
-&lt;p&gt;詳情參考自：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVhLm9yZy9tYW51YWwvNS40L21hbnVhbC5odG1sIzYuNw==&#34;&gt;Lua 5.4 Reference Manual&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;math.abs (x) - 回傳 x 的絕對值。&lt;/li&gt;
-&lt;li&gt;math.acos (x) - 回傳 x 的反餘弦值（以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.asin (x) - 回傳 x 的反正弦值（以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.atan (x) - 回傳 x 的反正切值（以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.atan2 (y, x) - 回傳點 (x, y) 的反正切值（以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.ceil (x) - 回傳不小於 x 的最小整數。&lt;em&gt;&lt;strong&gt;（可理解成無條件進位）&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;math.cos (x) - 回傳 x 的餘弦值（x 是以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.cosh (x) - 回傳 x 的雙曲餘弦值。&lt;/li&gt;
-&lt;li&gt;math.deg (x) - 將角度 x 從弧度轉換為角度。&lt;/li&gt;
-&lt;li&gt;math.exp (x) - 回傳 e（數學常數） 的 x 次方。&lt;/li&gt;
-&lt;li&gt;math.floor (x) - 回傳不大於 x 的最大整數。&lt;em&gt;&lt;strong&gt;（可理解成無條件退位）&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;math.fmod (x, y) - 回傳 x 除以 y 的餘數。&lt;/li&gt;
-&lt;li&gt;math.huge - 表示無窮大的值。&lt;/li&gt;
-&lt;li&gt;math.log (x) - 回傳 x 的自然對數。&lt;/li&gt;
-&lt;li&gt;math.log10 (x) - 回傳 x 的以 10 為底的對數。&lt;/li&gt;
-&lt;li&gt;math.max (x, ...) - 回傳所有參數中的最大值。&lt;/li&gt;
-&lt;li&gt;math.min (x, ...) - 回傳所有參數中的最小值。&lt;/li&gt;
-&lt;li&gt;math.modf (x) - 回傳 x 的整數部分和小數部分。&lt;/li&gt;
-&lt;li&gt;math.pi - 表示 π 的值。&lt;/li&gt;
-&lt;li&gt;math.pow (x, y) - 回傳 x 的 y 次方。&lt;/li&gt;
-&lt;li&gt;math.rad (x) - 將角度 x 從度轉換為弧度。&lt;/li&gt;
-&lt;li&gt;math.random ([m [, n]]) - 生成一個隨機數。&lt;/li&gt;
-&lt;li&gt;math.randomseed (x) - 設置隨機數生成的種子。&lt;/li&gt;
-&lt;li&gt;math.sin (x) - 回傳 x 的正弦值（x 是以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.sinh (x) - 回傳 x 的雙曲正弦值。&lt;/li&gt;
-&lt;li&gt;math.sqrt (x) - 回傳 x 的平方根。&lt;/li&gt;
-&lt;li&gt;math.tan (x) - 回傳 x 的正切值（x 是以弧度為單位）。&lt;/li&gt;
-&lt;li&gt;math.tanh (x) - 回傳 x 的雙曲正切值。&lt;/li&gt;
-&lt;/ol&gt;
  ]]></description>
         </item>
     </channel>
