@@ -43,11 +43,11 @@
 &lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//lambda 函數（匿名函數） -&gt; 輕量化的函數形式&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;unsigned&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;unsigned&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;__builtin_popcount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;__builtin_popcount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 若 a 二進位中的 1 數量比 b 少，則 true，否則 false。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;a &amp;lt; b 的做法是因為題目要求如果數量相同，則維持原輸入測資的排序。&lt;/p&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2025-03-16T08:35:45.592Z</updated>
     </entry>
     <entry>
@@ -144,8 +144,8 @@
 &lt;p&gt;之後程式碼的部分，for 迴圈內部就直接代入微分公式就好囉。&lt;/p&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <updated>2025-03-16T08:35:41.206Z</updated>
@@ -425,11 +425,11 @@
 &lt;/code&gt;&lt;/pre&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2025-03-10T14:06:05.000Z</updated>
     </entry>
     <entry>
@@ -495,8 +495,8 @@
 &lt;p&gt;Tip：若題目範圍上限是 N，則陣列範圍可能取 N + 5，或 N + 10。&lt;/p&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <updated>2025-03-09T05:44:48.000Z</updated>
@@ -574,9 +574,9 @@
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-03-08T09:32:53.000Z</updated>
     </entry>
     <entry>
@@ -672,9 +672,9 @@ Perimeter: 16
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-03-07T14:21:18.000Z</updated>
     </entry>
     <entry>
@@ -746,9 +746,9 @@ Protected Variable: 99
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-02-28T12:49:48.000Z</updated>
     </entry>
     <entry>
@@ -858,8 +858,8 @@ Protected Variable: 99
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9jcGx1c3BsdXMvY3BwLWxpYnMtc3RhY2suaHRtbA==&#34;&gt;C++ 容器类 &amp;lt;stack&amp;gt; | 菜鸟教程&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <updated>2025-01-28T12:22:13.000Z</updated>
     </entry>
@@ -968,8 +968,8 @@ abc
 &lt;p&gt;另外加上  &lt;code&gt;&amp;amp;&lt;/code&gt;  是因為 range-based for 內容物需要被修改到。&lt;/p&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <updated>2025-01-22T13:10:34.000Z</updated>
     </entry>
@@ -1000,9 +1000,9 @@ Object is being deleted
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-17T12:36:19.000Z</updated>
     </entry>
     <entry>
@@ -1123,9 +1123,9 @@ GeeksforGeeks
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-05T13:21:42.000Z</updated>
     </entry>
     <entry>
@@ -1277,9 +1277,9 @@ This is a private method.
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2025-01-01T06:08:02.000Z</updated>
     </entry>
     <entry>
@@ -1655,9 +1655,9 @@ BMW
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-29T09:16:56.000Z</updated>
     </entry>
     <entry>
@@ -1754,9 +1754,9 @@ Age: 20
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-14T12:37:25.000Z</updated>
     </entry>
     <entry>
@@ -1883,9 +1883,9 @@ vals[4] = 50
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-14T09:15:40.000Z</updated>
     </entry>
     <entry>
@@ -2005,9 +2005,9 @@ Value of names[3] = good night.
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-08T11:28:30.000Z</updated>
     </entry>
     <entry>
@@ -2133,9 +2133,9 @@ Modified value: 100
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-07T05:28:50.000Z</updated>
     </entry>
     <entry>
@@ -2234,9 +2234,9 @@ Modified value: 100
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T12:37:41.000Z</updated>
     </entry>
     <entry>
@@ -2409,9 +2409,9 @@ ptr2 的地址大於或等於 ptr1 的地址
 </content>
         <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
         <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <updated>2024-12-01T08:01:58.000Z</updated>
     </entry>
 </feed>
