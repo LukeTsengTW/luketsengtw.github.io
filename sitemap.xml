@@ -668,14 +668,14 @@
   </url>
   
   <url>
-    <loc>https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</loc>
+    <loc>https://luketsengtw.github.io/tags/Lua/</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://luketsengtw.github.io/tags/Lua/</loc>
+    <loc>https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -712,7 +712,7 @@
   </url>
   
   <url>
-    <loc>https://luketsengtw.github.io/categories/programming/python/</loc>
+    <loc>https://luketsengtw.github.io/categories/programming/lua/</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -726,7 +726,7 @@
   </url>
   
   <url>
-    <loc>https://luketsengtw.github.io/categories/programming/lua/</loc>
+    <loc>https://luketsengtw.github.io/categories/programming/python/</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
