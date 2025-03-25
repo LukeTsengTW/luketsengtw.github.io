@@ -605,20 +605,6 @@
 
   
   <url>
-    <loc>https://luketsengtw.github.io/tags/Windows/</loc>
-    <lastmod>2025-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/</loc>
-    <lastmod>2025-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://luketsengtw.github.io/tags/Python/</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -668,6 +654,20 @@
   </url>
   
   <url>
+    <loc>https://luketsengtw.github.io/tags/Windows/</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://luketsengtw.github.io/tags/Lua/</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -684,13 +684,6 @@
 
   
   <url>
-    <loc>https://luketsengtw.github.io/categories/computer-talk/</loc>
-    <lastmod>2025-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://luketsengtw.github.io/categories/algorithm/</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -699,6 +692,13 @@
   
   <url>
     <loc>https://luketsengtw.github.io/categories/competitive-programming/</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://luketsengtw.github.io/categories/computer-talk/</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
