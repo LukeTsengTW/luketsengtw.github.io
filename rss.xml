@@ -33,8 +33,8 @@
             <title>【C++】競程筆記（貪心法則、貪婪演算法）</title>
             <link>https://luketsengtw.github.io/2025/04/06/competitive-programming/@3b93d90c2286/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -68,7 +68,7 @@
 &lt;p&gt;第一次交的時候 WA，發現我忘記這是 EOF，忘記加 &amp;quot;\n&amp;quot; XD。&lt;/p&gt;
 &lt;p&gt;這邊用到 STL 的 pair，因為有 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;C_{i}, E_{i}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8778em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07153em;&#34;&gt;C&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; ，兩者是有關聯的，所以用上了所謂的關聯式容器 pair。&lt;/p&gt;
 &lt;p&gt;然後 sort () 部分用到了 lambda 函數，原因是我覺得這樣比較省麻煩，寫成一般函數就長這樣（比較直觀一點）：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;compare_func&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; pair&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; pair&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;second &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;second&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然後有個細節就是這邊要以 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;E_{i}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 去排序，因為在直觀上，如果吃飯時間長的人排在後面，他的菜煮好的時間會因為前面的累積烹飪時間而變晚，再加上大的 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;E_{i}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; ，可能導致總時間增加。&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;compare_func&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; pair&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; pair&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;second &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;second&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然後有個細節就是這邊要以 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;E_{i}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 去排序，因為在直觀上，如果吃飯時間長的人排在後面，那等於說我們飯都吃完了，就他沒吃完，等於說還要等他，再加上大的 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;E_{i}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; ，可能導致總時間增加。&lt;/p&gt;
 &lt;p&gt;那至於是要讓 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;E_{i}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8333em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;E&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 升序還是降序呢？答案當然是降序，以最大吃飯時間的人為優先，就以這題範例測資來講：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1 1
 2 2
@@ -161,9 +161,9 @@
             <link>https://luketsengtw.github.io/2025/04/03/programming/cpp/@3908575c1066/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
             <pubDate>Thu, 03 Apr 2025 21:00:08 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記繼承inheritance-part-22&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記繼承inheritance-part-22&#34;&gt;#&lt;/a&gt; 【C++ 筆記】繼承（Inheritance） - part 22&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -524,8 +524,8 @@ Child method
             <title>【C++】競程筆記（數學&amp;程式設計）</title>
             <link>https://luketsengtw.github.io/2025/04/03/competitive-programming/@d5a84163844f/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -646,8 +646,8 @@ c + 2d
             <title>【C++】競程筆記（搜尋演算法、習題練習）</title>
             <link>https://luketsengtw.github.io/2025/03/30/competitive-programming/@1ec27e7ff13a/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -786,8 +786,8 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <title>【C++】競程筆記（枚舉習題練習）</title>
             <link>https://luketsengtw.github.io/2025/03/29/competitive-programming/@47d7f1b36821/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -834,8 +834,8 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <title>【C++】競程筆記（枚舉）</title>
             <link>https://luketsengtw.github.io/2025/03/28/competitive-programming/@3f737d19b289/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -965,11 +965,11 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <title>【Python】競程相關模組、函數、方法等整理 - part 2</title>
             <link>https://luketsengtw.github.io/2025/03/23/competitive-programming/@6b79bbf0775b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <pubDate>Sun, 23 Mar 2025 13:30:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python競程相關模組-函數-方法等整理-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python競程相關模組-函數-方法等整理-part-2&#34;&gt;#&lt;/a&gt; 【Python】競程相關模組、函數、方法等整理 - part 2&lt;/h1&gt;
 &lt;p&gt;因為最近又要比賽了，所以趕緊做一篇整理複習一下，然後備註一下：這是個人筆記。&lt;/p&gt;
@@ -1234,8 +1234,8 @@ D
             <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 3</title>
             <link>https://luketsengtw.github.io/2025/03/22/competitive-programming/@1c7a05ad54c8/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -1275,11 +1275,11 @@ D
             <title>【Python】競程相關模組、函數、方法等整理 - part 1</title>
             <link>https://luketsengtw.github.io/2025/03/20/competitive-programming/@5428748d192c/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <pubDate>Thu, 20 Mar 2025 19:41:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python競程相關模組-函數-方法等整理-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python競程相關模組-函數-方法等整理-part-1&#34;&gt;#&lt;/a&gt; 【Python】競程相關模組、函數、方法等整理 - part 1&lt;/h1&gt;
 &lt;p&gt;因為最近又要比賽了，所以趕緊做一篇整理複習一下，然後備註一下：這是個人筆記。&lt;/p&gt;
@@ -1532,8 +1532,8 @@ print(a, b, c, d)
             <title>【Uva 題庫解題】C++ 個人解題筆記 - part1</title>
             <link>https://luketsengtw.github.io/2025/03/16/competitive-programming/@408b1213dd49/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Sun, 16 Mar 2025 12:28:09 +0800</pubDate>
@@ -1632,8 +1632,8 @@ print(a, b, c, d)
             <title>【C++】競程筆記（algorithm 習題練習）</title>
             <link>https://luketsengtw.github.io/2025/03/15/competitive-programming/@d4c2ef9df33b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -1673,8 +1673,8 @@ print(a, b, c, d)
             <title>【C++】競程筆記（演算法函式庫）</title>
             <link>https://luketsengtw.github.io/2025/03/10/competitive-programming/@4a93810f017d/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
@@ -1955,8 +1955,8 @@ print(a, b, c, d)
             <title>【C++】競程筆記（基礎題型）</title>
             <link>https://luketsengtw.github.io/2025/03/09/competitive-programming/@282cdf593620/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Sun, 09 Mar 2025 13:44:48 +0800</pubDate>
@@ -2025,9 +2025,9 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/08/programming/cpp/@589e06c631ad/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
             <pubDate>Sat, 08 Mar 2025 17:32:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記this-pointer-part-21&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記this-pointer-part-21&#34;&gt;#&lt;/a&gt; 【C++ 筆記】this pointer - part 21&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2103,9 +2103,9 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/07/programming/cpp/@30fbd82184d7/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
             <pubDate>Fri, 07 Mar 2025 22:21:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記內嵌函數inline-function-part-20&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記內嵌函數inline-function-part-20&#34;&gt;#&lt;/a&gt; 【C++ 筆記】內嵌函數（inline function） - part 20&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2201,9 +2201,9 @@ Perimeter: 16
             <link>https://luketsengtw.github.io/2025/02/28/programming/cpp/@881bb2003c7d/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
             <pubDate>Fri, 28 Feb 2025 20:49:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記friend-classes-functions-part-19&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記friend-classes-functions-part-19&#34;&gt;#&lt;/a&gt; 【C++ 筆記】Friend Classes &amp;amp; Functions - part 19&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2274,8 +2274,8 @@ Protected Variable: 99
             <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 2</title>
             <link>https://luketsengtw.github.io/2025/01/28/competitive-programming/@2ddadfd4cb97/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <pubDate>Tue, 28 Jan 2025 20:22:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-2&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 2&lt;/h1&gt;
@@ -2386,8 +2386,8 @@ Protected Variable: 99
             <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 1</title>
             <link>https://luketsengtw.github.io/2025/01/22/competitive-programming/@dc627061dd9e/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <pubDate>Wed, 22 Jan 2025 21:10:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-1&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 1&lt;/h1&gt;
@@ -2497,9 +2497,9 @@ abc
             <link>https://luketsengtw.github.io/2025/01/17/programming/cpp/@a6078d0735bf/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
             <pubDate>Fri, 17 Jan 2025 20:36:19 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記解構子destructors-part-185&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記解構子destructors-part-185&#34;&gt;#&lt;/a&gt; 【C++ 筆記】解構子（Destructors） - part 18.5&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2529,9 +2529,9 @@ Object is being deleted
             <link>https://luketsengtw.github.io/2025/01/05/programming/cpp/@0ff5f5a812a5/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
             <pubDate>Sun, 05 Jan 2025 21:21:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記建構子constructors-part-18&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記建構子constructors-part-18&#34;&gt;#&lt;/a&gt; 【C++ 筆記】建構子（Constructors） - part 18&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
