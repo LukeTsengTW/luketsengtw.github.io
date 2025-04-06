@@ -12,16 +12,32 @@
         <language>zh-TW</language>
         <pubDate>Sun, 06 Apr 2025 16:22:55 +0800</pubDate>
         <lastBuildDate>Sun, 06 Apr 2025 16:22:55 +0800</lastBuildDate>
+        <category term="電腦" />
+        <category term=" 軟體" />
+        <category term=" 工程師" />
+        <category term=" C++" />
+        <category term=" cpp" />
+        <category term=" Python" />
+        <category term=" 程式設計" />
+        <category term=" coding" />
+        <category term=" 演算法" />
+        <category term=" 資料結構" />
+        <category term=" 競程" />
+        <category term=" CP" />
+        <category term=" 資工" />
+        <category term=" 資訊工程" />
+        <category term=" 資訊科學" />
+        <category term=" 電機" />
         <item>
             <guid isPermalink="true">https://luketsengtw.github.io/2025/04/06/competitive-programming/@3b93d90c2286/index.html</guid>
             <title>【C++】競程筆記（貪心法則、貪婪演算法）</title>
             <link>https://luketsengtw.github.io/2025/04/06/competitive-programming/@3b93d90c2286/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sun, 06 Apr 2025 16:22:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記貪心法則-貪婪演算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記貪心法則-貪婪演算法&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（貪心法則、貪婪演算法）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -145,8 +161,8 @@
             <link>https://luketsengtw.github.io/2025/04/03/programming/cpp/@3908575c1066/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Thu, 03 Apr 2025 21:00:08 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記繼承inheritance-part-22&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記繼承inheritance-part-22&#34;&gt;#&lt;/a&gt; 【C++ 筆記】繼承（Inheritance） - part 22&lt;/h1&gt;
@@ -509,10 +525,10 @@ Child method
             <link>https://luketsengtw.github.io/2025/04/03/competitive-programming/@d5a84163844f/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Thu, 03 Apr 2025 16:25:43 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記數學程式設計&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記數學程式設計&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（數學 &amp;amp; 程式設計）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -631,10 +647,10 @@ c + 2d
             <link>https://luketsengtw.github.io/2025/03/30/competitive-programming/@1ec27e7ff13a/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sun, 30 Mar 2025 21:44:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記搜尋演算法-習題練習&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記搜尋演算法-習題練習&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（搜尋演算法、習題練習）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -771,10 +787,10 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <link>https://luketsengtw.github.io/2025/03/29/competitive-programming/@47d7f1b36821/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 29 Mar 2025 20:34:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記枚舉習題練習&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記枚舉習題練習&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（枚舉習題練習）&lt;/h1&gt;
 &lt;ol&gt;
@@ -819,10 +835,10 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <link>https://luketsengtw.github.io/2025/03/28/competitive-programming/@3f737d19b289/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Fri, 28 Mar 2025 21:21:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記枚舉&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記枚舉&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（枚舉）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -951,9 +967,9 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sun, 23 Mar 2025 13:30:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python競程相關模組-函數-方法等整理-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python競程相關模組-函數-方法等整理-part-2&#34;&gt;#&lt;/a&gt; 【Python】競程相關模組、函數、方法等整理 - part 2&lt;/h1&gt;
 &lt;p&gt;因為最近又要比賽了，所以趕緊做一篇整理複習一下，然後備註一下：這是個人筆記。&lt;/p&gt;
@@ -1219,10 +1235,10 @@ D
             <link>https://luketsengtw.github.io/2025/03/22/competitive-programming/@1c7a05ad54c8/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 22 Mar 2025 19:10:57 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-3&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 3&lt;/h1&gt;
 &lt;p&gt;a020：&lt;a href=&#34;https://zerojudge.tw/ShowProblem?problemid=a020&#34;&gt;https://zerojudge.tw/ShowProblem?problemid=a020&lt;/a&gt;&lt;/p&gt;
@@ -1261,9 +1277,9 @@ D
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Thu, 20 Mar 2025 19:41:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python競程相關模組-函數-方法等整理-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python競程相關模組-函數-方法等整理-part-1&#34;&gt;#&lt;/a&gt; 【Python】競程相關模組、函數、方法等整理 - part 1&lt;/h1&gt;
 &lt;p&gt;因為最近又要比賽了，所以趕緊做一篇整理複習一下，然後備註一下：這是個人筆記。&lt;/p&gt;
@@ -1617,10 +1633,10 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/15/competitive-programming/@d4c2ef9df33b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 15 Mar 2025 21:41:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記algorithm-習題練習&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記algorithm-習題練習&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（algorithm 習題練習）&lt;/h1&gt;
 &lt;p&gt;習題取自：&lt;a href=&#34;https://guide.ntucpc.org/BasicAlgorithm/algorithm_numeric/#%E7%BF%92%E9%A1%8C&#34;&gt;NTUCPC Guide&lt;/a&gt;&lt;/p&gt;
@@ -1658,10 +1674,10 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/10/competitive-programming/@4a93810f017d/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Mon, 10 Mar 2025 22:06:05 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記演算法函式庫&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記演算法函式庫&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（演算法函式庫）&lt;/h1&gt;
 &lt;h2 id=&#34;分析效率&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分析效率&#34;&gt;#&lt;/a&gt; 分析效率&lt;/h2&gt;
@@ -2009,8 +2025,8 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/08/programming/cpp/@589e06c631ad/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Sat, 08 Mar 2025 17:32:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記this-pointer-part-21&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記this-pointer-part-21&#34;&gt;#&lt;/a&gt; 【C++ 筆記】this pointer - part 21&lt;/h1&gt;
@@ -2087,8 +2103,8 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/07/programming/cpp/@30fbd82184d7/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Fri, 07 Mar 2025 22:21:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記內嵌函數inline-function-part-20&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記內嵌函數inline-function-part-20&#34;&gt;#&lt;/a&gt; 【C++ 筆記】內嵌函數（inline function） - part 20&lt;/h1&gt;
@@ -2185,8 +2201,8 @@ Perimeter: 16
             <link>https://luketsengtw.github.io/2025/02/28/programming/cpp/@881bb2003c7d/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Fri, 28 Feb 2025 20:49:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記friend-classes-functions-part-19&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記friend-classes-functions-part-19&#34;&gt;#&lt;/a&gt; 【C++ 筆記】Friend Classes &amp;amp; Functions - part 19&lt;/h1&gt;
@@ -2481,8 +2497,8 @@ abc
             <link>https://luketsengtw.github.io/2025/01/17/programming/cpp/@a6078d0735bf/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Fri, 17 Jan 2025 20:36:19 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記解構子destructors-part-185&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記解構子destructors-part-185&#34;&gt;#&lt;/a&gt; 【C++ 筆記】解構子（Destructors） - part 18.5&lt;/h1&gt;
@@ -2513,8 +2529,8 @@ Object is being deleted
             <link>https://luketsengtw.github.io/2025/01/05/programming/cpp/@0ff5f5a812a5/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Sun, 05 Jan 2025 21:21:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記建構子constructors-part-18&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記建構子constructors-part-18&#34;&gt;#&lt;/a&gt; 【C++ 筆記】建構子（Constructors） - part 18&lt;/h1&gt;
