@@ -10,8 +10,8 @@
         </author>
         <description>一個軟硬體都愛的資工人，也是個無名的程式熱愛者。</description>
         <language>zh-TW</language>
-        <pubDate>Sun, 06 Apr 2025 16:22:55 +0800</pubDate>
-        <lastBuildDate>Sun, 06 Apr 2025 16:22:55 +0800</lastBuildDate>
+        <pubDate>Mon, 07 Apr 2025 20:16:36 +0800</pubDate>
+        <lastBuildDate>Mon, 07 Apr 2025 20:16:36 +0800</lastBuildDate>
         <category term="電腦" />
         <category term=" 軟體" />
         <category term=" 工程師" />
@@ -29,15 +29,295 @@
         <category term=" 資訊科學" />
         <category term=" 電機" />
         <item>
+            <guid isPermalink="true">https://luketsengtw.github.io/2025/04/07/web-programming/html/@bcdb92bcf57a/index.html</guid>
+            <title>【HTML 筆記】從零開始的 HTML【part 1】</title>
+            <link>https://luketsengtw.github.io/2025/04/07/web-programming/html/@bcdb92bcf57a/index.html</link>
+            <category term="網頁程式設計" scheme="https://luketsengtw.github.io/categories/web-programming/" />
+            <category term="HTML" scheme="https://luketsengtw.github.io/categories/web-programming/html/" />
+            <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/" />
+            <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/" />
+            <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <pubDate>Mon, 07 Apr 2025 20:16:36 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;html-筆記從零開始的-htmlpart-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-筆記從零開始的-htmlpart-1&#34;&gt;#&lt;/a&gt; 【HTML 筆記】從零開始的 HTML【part 1】&lt;/h1&gt;
+&lt;p&gt;Hello Guys，我是 LukeTseng，自從大學放榜後，我就積極不間斷的學習資訊相關的東西，持續地茁壯自己，主要最大的成分還是興趣與熱愛這個學科來支撐的～總之，廢話不多說，本文主要透過網路上的各大免費平台自學，並且整理成一篇筆記以供自己閱讀的同時，也能促進個人的學習軌跡。&lt;/p&gt;
+&lt;h2 id=&#34;html-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-介紹&#34;&gt;#&lt;/a&gt; HTML 介紹&lt;/h2&gt;
+&lt;h3 id=&#34;html-是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-是什麼&#34;&gt;#&lt;/a&gt; HTML 是什麼？&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;HTML 的英文全名為 HyperText Markup Language，翻譯成中文就是「超文本標記語言」，簡稱 HTML。&lt;/p&gt;
+&lt;p&gt;HTML 是用來建構網頁內容與結構的標準語言。需要注意的是：它不是一種程式語言，而是一種標記語言（Markup Language），用來描述網頁上的文字、圖像、連結、表格、表單等內容的結構與意義。&lt;/p&gt;
+&lt;p&gt;根據 &lt;a href=&#34;https://www.w3schools.com/html/html_intro.asp&#34;&gt;W3Schools&lt;/a&gt;、&lt;a href=&#34;https://www.runoob.com/html/html-intro.html&#34;&gt;菜鳥教程&lt;/a&gt; 列出下列幾點：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML 代表超文本標記語言&lt;/li&gt;
+&lt;li&gt;HTML 是建立網頁的標準標記語言&lt;/li&gt;
+&lt;li&gt;標記語言是一套標記標籤 (markup tag)&lt;/li&gt;
+&lt;li&gt;HTML 描述網頁的結構&lt;/li&gt;
+&lt;li&gt;HTML 由一系列元素組成&lt;/li&gt;
+&lt;li&gt;HTML 元素告訴瀏覽器如何顯示內容&lt;/li&gt;
+&lt;li&gt;HTML 元素標記內容片段，例如「這是一個標題」、「這是一個段落」、「這是一個連結」等等。&lt;/li&gt;
+&lt;li&gt;HTML 文件包含了 HTML 標籤及文字內容&lt;/li&gt;
+&lt;li&gt;HTML 文檔也叫做 web 頁面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;環境建置environment-set-up&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#環境建置environment-set-up&#34;&gt;#&lt;/a&gt; 環境建置（Environment set up）&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;作者在此使用 VS Code 作為本系列文章的主要編輯器，具體安裝如下所示：&lt;/p&gt;
+&lt;p&gt;先去到這個網站：&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;之後點擊 Download for Windows（註：作者本人使用 Windows 作業系統）&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ryjVn1lRJe.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;好了之後打開安裝檔，點選同意，並按下一步。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/B1-F31e0kx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;其他選項就預設不動，那個建立桌面圖示我建議選一下比較好，比較方便。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJes31xAJg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;按下一步後，就可以開始安裝了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJf03yeRJg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;完成安裝後，在桌面上應該可以看到下面這個圖示：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkUWayg01g.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;打開程式後，其餘的個人化設定可自行設定，若看不懂英文的話可至圖下紅框框起來的地方，那個叫做 extensions，就是擴展插件的意思。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/B1pYTylCJl.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之後就在搜尋框中打 Chinese 就會出現對應的中文插件了。我個人是習慣使用英文介面。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkqi6yx0Jl.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;建立第一個-html-檔案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建立第一個-html-檔案&#34;&gt;#&lt;/a&gt; 建立第一個 html 檔案&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;先建立一個資料夾，然後像以下圖片這樣把資料夾拖曳到 VSCODE 介面上。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/BJiJbleAJe.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之後滑到左上角的 HTML_PROJECT，右邊有個小小的文件 icon，點一下即可新增文件。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/Hytm-glCye.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然後取名叫做 index.html。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/Sk2VZee0Je.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;點選 index.html 後，在空白處打上 html，即可看到以下圖片這樣的提示，點選  &lt;code&gt;html:5&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/r1_9ZeeAke.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;點完之後就出現這樣：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ryUpWgx0Jl.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然後可以在上面打上 h1 title、p 段落，如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ryQMMxg01e.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;主要是在兩個  &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;  之間打上兩行字：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Hello HTML!&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;我的第一個HTML專案!&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;寫好之後呢，回到檔案總管看你的 html 文件，然後把它拖到瀏覽器的分頁上：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SJ-jfggAyl.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之後就會出現如下圖的樣式了：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJMafgg01e.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;以上這些文字就是我們剛剛打的東西。&lt;/p&gt;
+&lt;p&gt;認識一下 HTML 的結構：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SJ1r7glRJg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;圖片來源：&lt;a href=&#34;https://www.runoob.com/html/html-intro.html&#34;&gt;https://www.runoob.com/html/html-intro.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;  宣告有助於瀏覽器正確顯示網頁，而他的宣告方式是不區分大小寫的，以下皆可（註：以下為 HTML 5 的宣告方式）：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token doctype&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;token doctype-tag&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&#34;token name&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token doctype&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;token doctype-tag&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&#34;token name&#34;&gt;HTML&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token doctype&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;token doctype-tag&#34;&gt;doctype&lt;/span&gt; &lt;span class=&#34;token name&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token doctype&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;token doctype-tag&#34;&gt;Doctype&lt;/span&gt; &lt;span class=&#34;token name&#34;&gt;Html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;HTML 中的  &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;  標籤是用來存放網頁的元資料（metadata），這些資料不會在瀏覽器中顯示，但對於網頁的運作和搜尋引擎的索引非常重要。&lt;/p&gt;
+&lt;p&gt;而裡面的 meta 元資料定義了網頁的編碼格式為 utf-8，那為什麼是 utf-8？因為最常用，根據維基百科的資料，他的使用比率到達 94.3%。原因是 utf-8 的相容性佳，出現亂碼的情形較少。&lt;/p&gt;
+&lt;p&gt;至於  &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;  的部分，其實就是瀏覽器分頁上會顯示的文字啦，如圖（就是那個【HTML 筆記】...）：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJLlPxx01x.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;  元素內包含的是網頁內可見的內容，像是上圖就包含了  &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;  和  &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;而  &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;  就是最大的標題， &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;  為 paragraph 也就是段落的意思。&lt;/p&gt;
+&lt;p&gt;可看到  &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt;  標籤前面有個斜線  &lt;code&gt;&#39;/&#39;&lt;/code&gt; ，這個表示已經到了結尾的意思。&lt;/p&gt;
+&lt;p&gt;以下是一個可視化的 html 頁面結構圖：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SkhXqgxCkx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Source：&lt;a href=&#34;https://www.w3schools.com/html/html_intro.asp&#34;&gt;https://www.w3schools.com/html/html_intro.asp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;註：只有白色區域才會被瀏覽器顯示，就是被  &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;  包含的結構。&lt;/p&gt;
+&lt;h3 id=&#34;f12-檢查-開啟-debug-模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#f12-檢查-開啟-debug-模式&#34;&gt;#&lt;/a&gt; F12 檢查、開啟 debug 模式&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;眾所周知，可能有些人也不知道，在網頁上按下 F12 就可以看到 HTML 的結構，我以 Youtube 做示範：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/S1GsdegCJx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;這個就是 debug 模式，HTML 結構都放置於 Elements 處。&lt;/p&gt;
+&lt;p&gt;若對網頁任意處按下右鍵，再選擇檢查，也可看到一樣的東西：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/Hk_1Kxx0yg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;html-術語解釋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-術語解釋&#34;&gt;#&lt;/a&gt; HTML 術語解釋&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;HTML 標記標籤統稱為 HTML 標籤（HTML tag）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一個 HTML 標籤由  &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;  兩個大於小於的括號括起來，如： &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;然後一個標籤必有起頭跟結尾，如： &lt;code&gt;&amp;lt;a&amp;gt;&amp;lt;\a&amp;gt;&lt;/code&gt; ，加上一個斜線  &lt;code&gt;&#39;\&#39;&lt;/code&gt;  代表結尾。&lt;/li&gt;
+&lt;li&gt;開始和結束標籤也被稱為開放標籤和閉合標籤&lt;/li&gt;
+&lt;li&gt;HTML 元素 = HTML 標籤，同樣意思。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;html-的歷史&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-的歷史&#34;&gt;#&lt;/a&gt; HTML 的歷史&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;年份&lt;/th&gt;
+&lt;th&gt;版本&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1989&lt;/td&gt;
+&lt;td&gt;提姆・柏內茲 - 李（Tim Berners-Lee）發明了 www（World Wide Web）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1991&lt;/td&gt;
+&lt;td&gt;提姆・柏內茲 - 李（Tim Berners-Lee）發明了 HTML（HyperText Markup Language）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1993&lt;/td&gt;
+&lt;td&gt;戴夫・拉格特 (Dave Raggett) 起草了 HTML+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1995&lt;/td&gt;
+&lt;td&gt;HTML 2.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1997&lt;/td&gt;
+&lt;td&gt;W3C 推薦標準（Recommendation）：HTML 3.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1999&lt;/td&gt;
+&lt;td&gt;W3C 推薦標準（Recommendation）：HTML 4.01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2000&lt;/td&gt;
+&lt;td&gt;W3C 推薦標準（Recommendation）：XHTML 1.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2008&lt;/td&gt;
+&lt;td&gt;WHATWG HTML 5 第一個公開草稿&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2012&lt;/td&gt;
+&lt;td&gt;WHATWG HTML 5 的現行標準&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2014&lt;/td&gt;
+&lt;td&gt;W3C 推薦標準（Recommendation）：HTML 5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2016&lt;/td&gt;
+&lt;td&gt;W3C 候選推薦標準：HTML 5.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;W3C 推薦標準（Recommendation）：HTML 5.1 第二版&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2017&lt;/td&gt;
+&lt;td&gt;W3C 推薦標準（Recommendation）：HTML 5.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;註：WHATWG（英文全名：Web Hypertext Application Technology Working Group、網頁超文字應用技術工作小組）&lt;/p&gt;
+&lt;p&gt;表格來源：&lt;a href=&#34;https://www.w3schools.com/html/html_intro.asp&#34;&gt;https://www.w3schools.com/html/html_intro.asp&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;html-基礎語法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-基礎語法&#34;&gt;#&lt;/a&gt; HTML 基礎語法&lt;/h2&gt;
+&lt;h3 id=&#34;html-標題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-標題&#34;&gt;#&lt;/a&gt; HTML 標題&lt;/h3&gt;
+&lt;p&gt;HTML 標題（Heading）有  &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;  到  &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; ，如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/By9X0xlRJl.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之後丟到瀏覽器上顯示：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/r1bBCgl0ye.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;html-段落&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-段落&#34;&gt;#&lt;/a&gt; HTML 段落&lt;/h3&gt;
+&lt;p&gt;HTML 段落的標籤為： &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; ，小小範例如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/B1WiAge01l.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJisAglRyg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;html-連結&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-連結&#34;&gt;#&lt;/a&gt; HTML 連結&lt;/h3&gt;
+&lt;p&gt;HTML 的連結由標籤  &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;  所定義，如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HkWV1blAyg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkPVkZlAJe.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;要注意開頭的標籤： &lt;code&gt;&amp;lt;a href=&amp;quot;https://www.example.com&amp;quot;&amp;gt;&lt;/code&gt; ，那個括號是包含連結的。&lt;/p&gt;
+&lt;p&gt;而 href（hypertext reference：超文本引用）為指定超連結目標的屬性，用來定義當用戶點擊該連結時將被導向的網址或資源。&lt;/p&gt;
+&lt;h3 id=&#34;html-圖片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#html-圖片&#34;&gt;#&lt;/a&gt; HTML 圖片&lt;/h3&gt;
+&lt;p&gt;標籤為  &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;  所定義，如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/B1jZvX-A1e.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;src=&amp;quot;&amp;quot;&lt;/code&gt;  引號裡面放的是圖片網址，至於怎麼擷取圖片網址呢？如下圖片所示：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HkRNwm-01g.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;就是對任意一張圖片按下右鍵，再按複製圖片網址，就可取得了。&lt;/p&gt;
+&lt;p&gt;之後將 HTML 放到瀏覽器的畫面就如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkZtDX-0kg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;至於 width、height 則為圖片的長寬，可自行調整。&lt;/p&gt;
+&lt;p&gt;圖片若與 html 檔案相同目錄，如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/H1yIuQWCkg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;那就可以在 html 內直接寫那個檔案的名稱：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkJYumbAke.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之後將 html 檔案放到瀏覽器就變這樣：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/Sy9c_7ZAkx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;那假設圖片放在 html_project 的資料夾內，但放的不是根目錄（最上層的目錄），而是在其他資料夾，如下：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJIj9VbAke.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;若要擷取這張圖片，可寫以下的 html：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ByeWjEbR1e.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;就是  &lt;code&gt;資料夾名稱/圖片.jpg&lt;/code&gt;  。&lt;/p&gt;
+&lt;p&gt;那如果圖片在 D 槽根目錄，就可以這樣寫：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ByKfWSWA1x.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;整理一下：&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;透過圖片網址擷取圖片（width、height 自定義）： &lt;code&gt;&amp;lt;img src=&amp;quot;輸入你的圖片網址&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot; /&amp;gt;&lt;/code&gt; &lt;br /&gt;
+ 透過路徑擷取圖片（若跟 html 檔案放同一個目錄）： &lt;code&gt;&amp;lt;img src=&amp;quot;天靈蓋.jpg&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot;/&amp;gt;&lt;/code&gt; &lt;br /&gt;
+ 透過路徑擷取圖片（若在放 html 的資料夾，但圖片放在別的資料夾）： &lt;code&gt;&amp;lt;img src=&amp;quot;鹿乃子乃子/天靈蓋.jpg&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot;/&amp;gt;&lt;/code&gt; &lt;br /&gt;
+ 透過路徑擷取圖片（若在 html 的資料夾裡，但圖片放在 D 槽）： &lt;code&gt;&amp;lt;img src=&amp;quot;鹿乃子乃子/天靈蓋.jpg&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;總結&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h1&gt;
+&lt;p&gt;HTML 簡介：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML（HyperText Markup Language）是一種標記語言（非程式語言），用來建構網頁的內容與結構。&lt;/li&gt;
+&lt;li&gt;HTML 文檔由一系列的標籤（tag） 所構成，這些標籤會告訴瀏覽器如何顯示各種內容（文字、圖片、連結等）。&lt;/li&gt;
+&lt;li&gt;HTML 檔案也被稱為網頁（web page）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如何建立第一個 HTML：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;建立 index.html 檔案後，在 VS Code 可透過 html:5 自動產生 HTML5 樣板。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然後在上下兩個  &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;  輸入：&lt;/p&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Hello HTML!&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;我的第一個HTML專案!&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;把 HTML 檔案拖曳至瀏覽器即可預覽。&lt;/p&gt;
+&lt;p&gt;HTML 結構解釋：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt; ：宣告 HTML5 文件類型，大小寫不拘。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; ：包含網頁的元資料（如字元編碼  &lt;code&gt;&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;&lt;/code&gt; 、網站標題  &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; ）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; ：網頁可見內容的主要區塊。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;  到  &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; ：標題等級。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; ：段落。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;URL&amp;quot;&amp;gt;&lt;/code&gt; ：超連結標籤，href 為目標網址。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;路徑&amp;quot; width=&amp;quot;寬度&amp;quot; height=&amp;quot;高度&amp;quot; /&amp;gt;&lt;/code&gt; ：插入圖片，可使用網址或本地路徑。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;圖片載入處理方式（width、height 自定義、自己加）：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;圖片位置&lt;/th&gt;
+&lt;th&gt;寫法&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;網址&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;圖片網址&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;同資料夾內&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;圖片檔名.jpg&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;子資料夾內&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;資料夾名稱/圖片檔名.jpg&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;指定磁碟&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;D:/資料夾名稱/圖片檔名.jpg&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;F12 開發者工具（Debug 模式）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在瀏覽器按下 F12 可查看 HTML 結構，位置在「Elements」分頁。&lt;/li&gt;
+&lt;li&gt;也可以右鍵點選網頁任一區塊，選擇「檢查」進入 debug 模式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;HTML 術語解釋：&lt;/p&gt;
+&lt;p&gt;HTML 標記標籤統稱為 HTML 標籤（HTML tag）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一個 HTML 標籤由  &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;  兩個大於小於的括號括起來，如： &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;然後一個標籤必有起頭跟結尾，如： &lt;code&gt;&amp;lt;a&amp;gt;&amp;lt;\a&amp;gt;&lt;/code&gt; ，加上一個斜線  &lt;code&gt;&#39;\&#39;&lt;/code&gt;  代表結尾。&lt;/li&gt;
+&lt;li&gt;開始和結束標籤也被稱為開放標籤和閉合標籤&lt;/li&gt;
+&lt;li&gt;HTML 元素 = HTML 標籤，同樣意思。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/WHATWG&#34;&gt;WHATWG - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/UTF-8&#34;&gt;UTF-8 - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/HTML&#34;&gt;HTML - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.w3schools.com/html/html_intro.asp&#34;&gt;Introduction to HTML | W3Schools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/html/html-intro.html&#34;&gt;HTML 简介 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://luketsengtw.github.io/2025/04/06/competitive-programming/@3b93d90c2286/index.html</guid>
             <title>【C++】競程筆記（貪心法則、貪婪演算法）</title>
             <link>https://luketsengtw.github.io/2025/04/06/competitive-programming/@3b93d90c2286/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sun, 06 Apr 2025 16:22:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記貪心法則-貪婪演算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記貪心法則-貪婪演算法&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（貪心法則、貪婪演算法）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -161,9 +441,9 @@
             <link>https://luketsengtw.github.io/2025/04/03/programming/cpp/@3908575c1066/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Thu, 03 Apr 2025 21:00:08 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記繼承inheritance-part-22&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記繼承inheritance-part-22&#34;&gt;#&lt;/a&gt; 【C++ 筆記】繼承（Inheritance） - part 22&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -524,11 +804,11 @@ Child method
             <title>【C++】競程筆記（數學&amp;程式設計）</title>
             <link>https://luketsengtw.github.io/2025/04/03/competitive-programming/@d5a84163844f/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Thu, 03 Apr 2025 16:25:43 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記數學程式設計&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記數學程式設計&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（數學 &amp;amp; 程式設計）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -646,11 +926,11 @@ c + 2d
             <title>【C++】競程筆記（搜尋演算法、習題練習）</title>
             <link>https://luketsengtw.github.io/2025/03/30/competitive-programming/@1ec27e7ff13a/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sun, 30 Mar 2025 21:44:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記搜尋演算法-習題練習&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記搜尋演算法-習題練習&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（搜尋演算法、習題練習）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -786,11 +1066,11 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <title>【C++】競程筆記（枚舉習題練習）</title>
             <link>https://luketsengtw.github.io/2025/03/29/competitive-programming/@47d7f1b36821/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 29 Mar 2025 20:34:52 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記枚舉習題練習&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記枚舉習題練習&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（枚舉習題練習）&lt;/h1&gt;
 &lt;ol&gt;
@@ -834,11 +1114,11 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <title>【C++】競程筆記（枚舉）</title>
             <link>https://luketsengtw.github.io/2025/03/28/competitive-programming/@3f737d19b289/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Fri, 28 Mar 2025 21:21:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記枚舉&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記枚舉&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（枚舉）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -965,11 +1245,11 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <title>【Python】競程相關模組、函數、方法等整理 - part 2</title>
             <link>https://luketsengtw.github.io/2025/03/23/competitive-programming/@6b79bbf0775b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
+            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
-            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <pubDate>Sun, 23 Mar 2025 13:30:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python競程相關模組-函數-方法等整理-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python競程相關模組-函數-方法等整理-part-2&#34;&gt;#&lt;/a&gt; 【Python】競程相關模組、函數、方法等整理 - part 2&lt;/h1&gt;
 &lt;p&gt;因為最近又要比賽了，所以趕緊做一篇整理複習一下，然後備註一下：這是個人筆記。&lt;/p&gt;
@@ -1234,11 +1514,11 @@ D
             <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 3</title>
             <link>https://luketsengtw.github.io/2025/03/22/competitive-programming/@1c7a05ad54c8/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 22 Mar 2025 19:10:57 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-3&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 3&lt;/h1&gt;
 &lt;p&gt;a020：&lt;a href=&#34;https://zerojudge.tw/ShowProblem?problemid=a020&#34;&gt;https://zerojudge.tw/ShowProblem?problemid=a020&lt;/a&gt;&lt;/p&gt;
@@ -1275,11 +1555,11 @@ D
             <title>【Python】競程相關模組、函數、方法等整理 - part 1</title>
             <link>https://luketsengtw.github.io/2025/03/20/competitive-programming/@5428748d192c/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
+            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
-            <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/" />
             <pubDate>Thu, 20 Mar 2025 19:41:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;python競程相關模組-函數-方法等整理-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python競程相關模組-函數-方法等整理-part-1&#34;&gt;#&lt;/a&gt; 【Python】競程相關模組、函數、方法等整理 - part 1&lt;/h1&gt;
 &lt;p&gt;因為最近又要比賽了，所以趕緊做一篇整理複習一下，然後備註一下：這是個人筆記。&lt;/p&gt;
@@ -1532,8 +1812,8 @@ print(a, b, c, d)
             <title>【Uva 題庫解題】C++ 個人解題筆記 - part1</title>
             <link>https://luketsengtw.github.io/2025/03/16/competitive-programming/@408b1213dd49/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Sun, 16 Mar 2025 12:28:09 +0800</pubDate>
@@ -1632,11 +1912,11 @@ print(a, b, c, d)
             <title>【C++】競程筆記（algorithm 習題練習）</title>
             <link>https://luketsengtw.github.io/2025/03/15/competitive-programming/@d4c2ef9df33b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 15 Mar 2025 21:41:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記algorithm-習題練習&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記algorithm-習題練習&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（algorithm 習題練習）&lt;/h1&gt;
 &lt;p&gt;習題取自：&lt;a href=&#34;https://guide.ntucpc.org/BasicAlgorithm/algorithm_numeric/#%E7%BF%92%E9%A1%8C&#34;&gt;NTUCPC Guide&lt;/a&gt;&lt;/p&gt;
@@ -1673,11 +1953,11 @@ print(a, b, c, d)
             <title>【C++】競程筆記（演算法函式庫）</title>
             <link>https://luketsengtw.github.io/2025/03/10/competitive-programming/@4a93810f017d/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Mon, 10 Mar 2025 22:06:05 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記演算法函式庫&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記演算法函式庫&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（演算法函式庫）&lt;/h1&gt;
 &lt;h2 id=&#34;分析效率&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分析效率&#34;&gt;#&lt;/a&gt; 分析效率&lt;/h2&gt;
@@ -1955,8 +2235,8 @@ print(a, b, c, d)
             <title>【C++】競程筆記（基礎題型）</title>
             <link>https://luketsengtw.github.io/2025/03/09/competitive-programming/@282cdf593620/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Sun, 09 Mar 2025 13:44:48 +0800</pubDate>
@@ -2025,9 +2305,9 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/08/programming/cpp/@589e06c631ad/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Sat, 08 Mar 2025 17:32:53 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記this-pointer-part-21&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記this-pointer-part-21&#34;&gt;#&lt;/a&gt; 【C++ 筆記】this pointer - part 21&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2103,9 +2383,9 @@ print(a, b, c, d)
             <link>https://luketsengtw.github.io/2025/03/07/programming/cpp/@30fbd82184d7/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Fri, 07 Mar 2025 22:21:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記內嵌函數inline-function-part-20&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記內嵌函數inline-function-part-20&#34;&gt;#&lt;/a&gt; 【C++ 筆記】內嵌函數（inline function） - part 20&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2201,9 +2481,9 @@ Perimeter: 16
             <link>https://luketsengtw.github.io/2025/02/28/programming/cpp/@881bb2003c7d/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Fri, 28 Feb 2025 20:49:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記friend-classes-functions-part-19&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記friend-classes-functions-part-19&#34;&gt;#&lt;/a&gt; 【C++ 筆記】Friend Classes &amp;amp; Functions - part 19&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2274,8 +2554,8 @@ Protected Variable: 99
             <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 2</title>
             <link>https://luketsengtw.github.io/2025/01/28/competitive-programming/@2ddadfd4cb97/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <pubDate>Tue, 28 Jan 2025 20:22:13 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-2&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 2&lt;/h1&gt;
@@ -2386,8 +2666,8 @@ Protected Variable: 99
             <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 1</title>
             <link>https://luketsengtw.github.io/2025/01/22/competitive-programming/@dc627061dd9e/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <pubDate>Wed, 22 Jan 2025 21:10:34 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;個人筆記c-zerojudge-基礎題庫解題純練習-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#個人筆記c-zerojudge-基礎題庫解題純練習-part-1&#34;&gt;#&lt;/a&gt; 【個人筆記】C++ ZeroJudge 基礎題庫解題 (純練習) - part 1&lt;/h1&gt;
@@ -2497,9 +2777,9 @@ abc
             <link>https://luketsengtw.github.io/2025/01/17/programming/cpp/@a6078d0735bf/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <pubDate>Fri, 17 Jan 2025 20:36:19 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記解構子destructors-part-185&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記解構子destructors-part-185&#34;&gt;#&lt;/a&gt; 【C++ 筆記】解構子（Destructors） - part 18.5&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
@@ -2521,129 +2801,6 @@ Object is being deleted
 &lt;h1 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/c-classes-and-objects/&#34;&gt;C++ Classes and Objects - GeeksforGeeks&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.runoob.com/cplusplus/cpp-constructor-destructor.html&#34;&gt;C++ 类构造函数 &amp;amp; 析构函数 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://luketsengtw.github.io/2025/01/05/programming/cpp/@0ff5f5a812a5/index.html</guid>
-            <title>【C++ 筆記】建構子（Constructors） - part 18</title>
-            <link>https://luketsengtw.github.io/2025/01/05/programming/cpp/@0ff5f5a812a5/index.html</link>
-            <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <pubDate>Sun, 05 Jan 2025 21:21:42 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;c-筆記建構子constructors-part-18&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記建構子constructors-part-18&#34;&gt;#&lt;/a&gt; 【C++ 筆記】建構子（Constructors） - part 18&lt;/h1&gt;
-&lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
-&lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
-&lt;h2 id=&#34;建構子constructors&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建構子constructors&#34;&gt;#&lt;/a&gt; 建構子（Constructors）&lt;/h2&gt;
-&lt;p&gt;建構子（Constructors），又稱建構函數、建構式，為一種特別的 class members，每次實例化該類別的物件時，編譯器都會呼叫建構子（表示每次建立物件都會用到此函數）。&lt;em&gt;&lt;strong&gt;建構子與 class 具有相同的名稱&lt;/strong&gt;&lt;/em&gt;，並且可以在 class 中進行內部定義或外部定義。&lt;/p&gt;
-&lt;p&gt;另外建構子也不會回傳任何型態，也不會回傳 void。&lt;/p&gt;
-&lt;div class=&#34;note success&#34;&gt;
-&lt;p&gt;可以想像建構子就是做初始化的動作。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;在 C++ 中，共有下列四種建構子：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;預設建構子（Default Constructors）&lt;/li&gt;
-&lt;li&gt;參數化建構子（Parameterized Constructors）&lt;/li&gt;
-&lt;li&gt;複製建構子（Copy Constructors）&lt;/li&gt;
-&lt;li&gt;移動建構子（Move Constructors） -&amp;gt; 此篇不談&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以下是一個練習範例（展示預設建構子），&lt;s&gt;新手適用的建構子教學&lt;/s&gt;：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;string&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 定義 class 叫 Person&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Person&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    string name&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; age&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 預設建構子（Default Constructors）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;Person&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        name &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Unknown&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        age &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;預設建構子被呼叫了&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 內建成員函數（方法）：顯示成員資訊&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;displayInfo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;姓名: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; name &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;, 年齡: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; age &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 建立物件時會自動呼叫預設建構子&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Person p1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 呼叫方法顯示資訊&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;displayInfo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;輸出結果：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;預設建構子被呼叫了
-姓名: Unknown, 年齡: 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr /&gt;
-&lt;h3 id=&#34;參數化建構子parameterized-constructors&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參數化建構子parameterized-constructors&#34;&gt;#&lt;/a&gt; 參數化建構子（Parameterized Constructors）&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;就是帶有參數的建構子，因為他本身還是個函數嘛，以下是個範例：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;string&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 定義 class Car&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Car&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    string brand&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    string model&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; year&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 參數化建構子&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;Car&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;string b&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; string m&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        brand &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        model &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        year &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 方法：顯示車輛資訊&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;displayInfo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;品牌: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; brand &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;             &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;, 車型: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; model &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;             &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;, 出廠年份: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; year &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 用參數化建構子建立物件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Car &lt;span class=&#34;token function&#34;&gt;car1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Toyota&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Corolla&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2020&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Car &lt;span class=&#34;token function&#34;&gt;car2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Tesla&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Model 3&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2022&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    car1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;displayInfo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    car2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;displayInfo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;輸出結果：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;品牌: Toyota, 車型: Corolla, 出廠年份: 2020
-品牌: Tesla, 車型: Model 3, 出廠年份: 2022
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr /&gt;
-&lt;h3 id=&#34;複製建構子copy-constructors&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#複製建構子copy-constructors&#34;&gt;#&lt;/a&gt; 複製建構子（Copy Constructors）&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;複製建構子（Copy Constructor）是一種特殊的建構子，用來建立一個新物件，並以同型態的另一個已存在的物件來初始化它。&lt;/p&gt;
-&lt;p&gt;格式：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;classname&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; classname &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;obj&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token comment&#34;&gt;// Body of Copy Constructor&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;ClassName&lt;/code&gt; ：類別名稱。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;const ClassName&amp;amp; obj&lt;/code&gt; ：以參考方式傳遞的另一個物件，通常使用 const 使源物件不被修改。&lt;/p&gt;
-&lt;p&gt;const 看你要不要加，但加它是為了讓程式設計師不會錯誤地修改  &lt;code&gt;obj&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;這個 obj 就是 object，物件的意思。&lt;/p&gt;
-&lt;p&gt;複製建構子用於以下三種情形：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;透過使用另一個同型態的物件來初始化新建立的物件。&lt;/li&gt;
-&lt;li&gt;複製物件把它當作參數傳遞給函數。&lt;/li&gt;
-&lt;li&gt;複製對象，並從函數回傳這個對象。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;若無明確定義複製建構子，編譯器會自動產生，該建構子會執行淺層複製（Shallow Copy）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;將 class 中的每個成員的值逐一複製。&lt;/li&gt;
-&lt;li&gt;若 class 中包含指標成員，預設複製建構子會直接複製指標的地址，導致兩物件共享記憶體區域。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;簡言之，淺複製只會複製指針，而不會複製他實際上的 &amp;quot;源頭&amp;quot;，若刪除原本的物件，就可能導致空指針（NULL Pointer）。&lt;/p&gt;
-&lt;p&gt;與淺複製相反的，就是深層複製（Deep Copy），要使用深層複製，就是直接將 Copy Constructor 明確定義出來。&lt;/p&gt;
-&lt;p&gt;另外 Deep Copy 會為新物件分配獨立的記憶體空間，並複製資料內容與指標。&lt;/p&gt;
-&lt;p&gt;以下是一個範例：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 建立一個測試 class&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Create a demo class&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; x&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 建立一個物件 a1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Creating an a1 object&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    A a1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    a1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;a1&#39;s x = &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; a1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 用 a1 建立另一個物件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Creating another object using a1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 正在呼叫複製建構子&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Copy Constructor Calling&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    A &lt;span class=&#34;token function&#34;&gt;a2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a1&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;a2&#39;s x = &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; a2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Source：&lt;a href=&#34;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&#34;&gt;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;輸出結果：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;a1&#39;s x = 10
-a2&#39;s x = 10
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;透過上述範例，可發現我們並未定義「建構子」，但卻能夠使用同一個類別現有的物件來建立一個物件。那此時 C++ 編譯器就會建立一個簡單的複製建構子，也稱隱式複製建構子（implicit copy constructor）。&lt;/p&gt;
-&lt;p&gt;以下是一個範例，當我們定義 Copy Constructor：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 建立一個測試 class&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Create a demo class&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;A&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; x&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;A&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 定義一個 Copy Constructor&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Copy Constructor definition&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;A&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;A&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; t&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; t&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Calling copy constructor&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 建立 a1 物件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Creating an a1 object&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    A a1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    a1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;a1&#39;s x = &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; a1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 用 a1 建立另一個物件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Creating another object using a1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 正在呼叫 Copy Constructor&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Copy Constructor Calling&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    A &lt;span class=&#34;token function&#34;&gt;a2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a1&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;a2&#39;s x = &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; a2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Source：&lt;a href=&#34;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&#34;&gt;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;輸出結果：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;a1&#39;s x = 10
-Calling copy constructor
-a2&#39;s x = 10
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以上程式碼第十行， &lt;code&gt;A()&amp;#123;&amp;#125;;&lt;/code&gt;  為定義一個預設建構子，但他是空的。那他有什麼屁用呢？&lt;/p&gt;
-&lt;p&gt;若刪掉此行，則會因為 class 中已定義了一個複製建構子  &lt;code&gt;A(A&amp;amp; t)&lt;/code&gt; ，編譯器將不再自動產生預設建構子。所以， &lt;code&gt;A a1;&lt;/code&gt;  物件會無法建立，編譯器直接報錯。&lt;/p&gt;
-&lt;p&gt;這是先後順序問題，你要先建立物件才能用 Copy Constructor，因此需要預設建構子為基礎。&lt;/p&gt;
-&lt;p&gt;以下是個範例，有關於深層複製（Deep Copy）：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;cstring&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; size&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; str &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token constant&#34;&gt;NULL&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;delete&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 複製建構子&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Copy constructor&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; String&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;change&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 成員函數及建構子的定義&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// Definitions of constructor and memeber functions&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token double-colon punctuation&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    size &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;strlen&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;size &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;strcpy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token double-colon punctuation&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; String&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; old_str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    size &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; old_str&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;size&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;size &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;strcpy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; old_str&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token double-colon punctuation&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;change&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;delete&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    size &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;strlen&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;size &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;strcpy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; str&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    String &lt;span class=&#34;token function&#34;&gt;str1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;GeeksQuiz&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 從 str1 建立 str2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// Create str2 from str1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    String str2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; str1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    str1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;//what is printed ? 印出了啥？&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    str2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    str2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;change&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;GeeksforGeeks&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 注意此行只有 change str2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    str1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;//what is printed now ? 現在他印出了啥？&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    str2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Source：&lt;a href=&#34;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&#34;&gt;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;輸出結果：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;GeeksQuiz
-GeeksQuiz
-GeeksQuiz
-GeeksforGeeks
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;此範例使用到了 new、delete 運算子，這兩個運算子的意義分別是「自行對記憶體配置」、「自行刪除掉記憶體」。&lt;/p&gt;
-&lt;p&gt;有關 new、delete 運算子的使用上，是要非常小心的，若一直用 new 一直給記憶體資源，而不用 delete 刪除的話，那麼記憶體會吃滿。&lt;/p&gt;
-&lt;p&gt;詳情可至此網站了解：&lt;a href=&#34;https://openhome.cc/Gossip/CppGossip/newDelete.html&#34;&gt;https://openhome.cc/Gossip/CppGossip/newDelete.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;第十二行中，用到了解構子的語法： &lt;code&gt;~String() &amp;#123; delete[] s; &amp;#125;&lt;/code&gt; 。&lt;/p&gt;
-&lt;div class=&#34;note success&#34;&gt;
-&lt;p&gt;解構子（Destructor），語法就是用一個波浪符號  &lt;code&gt;~&lt;/code&gt;  後面加上類別名稱，與建構子宣告方式類似。它不會回傳任何值，也不能帶有任何參數。解構子有助於在跳出程式（例如關閉檔案、釋放記憶體等）前釋放資源。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;那第十二行就是在說當離開作用域或程式結束時，會自動刪除掉 s 這個成員。&lt;/p&gt;
-&lt;h1 id=&#34;總結&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h1&gt;
-&lt;p&gt;建構子（Constructors） 是 C++ 類別中特別的成員函數，每次建立物件時都會自動被呼叫，用於初始化物件。&lt;/p&gt;
-&lt;div class=&#34;note success&#34;&gt;
-&lt;p&gt;建構子與類別名稱相同，沒有回傳值。 -&amp;gt; 非常重要&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;C++ 提供了四種建構子：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;預設建構子（Default Constructor）：不帶參數，將物件設定預設值。&lt;/li&gt;
-&lt;li&gt;參數化建構子（Parameterized Constructor）：允許在建立物件時傳入參數進行初始化。&lt;/li&gt;
-&lt;li&gt;複製建構子（Copy Constructor）：用於建立新物件，並以現有的同型態物件初始化它。若未定義，編譯器會使用淺層複製（Shallow Copy），但當類別包含動態記憶體分配時，應使用深層複製（Deep Copy）來避免記憶體錯誤。&lt;/li&gt;
-&lt;li&gt;移動建構子（Move Constructor）-&amp;gt; 本篇不談&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Copy Constructor Application：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;以現有物件初始化新物件。-&amp;gt; 如： &lt;code&gt;myClass a2 = a1&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;當物件作為參數傳遞給函數時。&lt;/li&gt;
-&lt;li&gt;當函數回傳物件時。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;若類別包含指標成員，應用深層複製確保每物件有獨立記憶體區域，避免記憶體共享導致的錯誤。&lt;/p&gt;
-&lt;h1 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://openhome.cc/Gossip/CppGossip/newDelete.html&#34;&gt;new 與 delete&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/copy-constructor-in-cpp/&#34;&gt;Copy Constructor in C++ - GeeksforGeeks&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/c-classes-and-objects/&#34;&gt;C++ Classes and Objects - GeeksforGeeks&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.w3schools.com/cpp/cpp_constructors.asp&#34;&gt;C++ Constructors | W3Schools&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/cplusplus/cpp-constructor-destructor.html&#34;&gt;C++ 类构造函数 &amp;amp; 析构函数 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/cplusplus/cpp-copy-constructor.html&#34;&gt;C++ 拷贝构造函数 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
