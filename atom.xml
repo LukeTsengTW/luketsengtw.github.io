@@ -8,7 +8,7 @@
     <author>
       <name>LukeTseng</name>
     </author>
-    <updated>2025-04-28T12:08:30.000Z</updated>
+    <updated>2025-04-29T13:55:48.000Z</updated>
     <category term="電腦" />
     <category term=" 軟體" />
     <category term=" 工程師" />
@@ -25,6 +25,47 @@
     <category term=" 資訊工程" />
     <category term=" 資訊科學" />
     <category term=" 電機" />
+    <entry>
+        <id>https://luketsengtw.github.io/2025/04/29/computer-talk/@e77be4af8734/index.html</id>
+        <title>【Win 11/10】電腦會卡？會Lag？推薦兩款軟體給你！</title>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/04/29/computer-talk/@e77be4af8734/index.html"/>
+        <content type="html">&lt;h1 id=&#34;win-1110電腦會卡會lag推薦兩款免費軟體給你&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#win-1110電腦會卡會lag推薦兩款免費軟體給你&#34;&gt;#&lt;/a&gt; 【Win 11/10】電腦會卡？會 Lag？推薦兩款免費軟體給你！&lt;/h1&gt;
+&lt;p&gt;各位好，我是 LukeTseng，今天為各位推薦兩款免費軟體，可自動幫你清理暫存檔，並且進一步為你的電腦進行優化！廢話不多說，馬上來介紹第一款軟體。&lt;/p&gt;
+&lt;h2 id=&#34;wise-disk-cleaner&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wise-disk-cleaner&#34;&gt;#&lt;/a&gt; Wise Disk Cleaner&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/Hy2yH8AJgx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;官方網站：&lt;a href=&#34;https://www.wisecleaner.com/wise-disk-cleaner.html&#34;&gt;https://www.wisecleaner.com/wise-disk-cleaner.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;免安裝包下載（非官方）：&lt;a href=&#34;https://www.azofreeware.com/p/wise-disk-cleaner.html&#34;&gt;https://www.azofreeware.com/p/wise-disk-cleaner.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;這款軟體真的非常好用，不用自己手動 win + R 開啟 Temp 資料夾，然後把暫存全刪掉。&lt;/p&gt;
+&lt;p&gt;軟體下載完後呈現以下的介面，我個人建議使用預設值就好，其他是否要勾選就看個人。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJOBSIAkgx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;至於有些人下載完後可能會顯示英文介面，以下就教你如何更改為中文：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJvzLL0Jxg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/r1OQLL0Jlx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;至於下面的 Appearance 就是外觀的意思，可以更改為 Light（淺色）、Dark（深色主題）。&lt;/p&gt;
+&lt;p&gt;另外這軟體還有其他功能，像是進階清理、系統瘦身、硬碟整理等，我覺得都蠻不錯用的，推薦給各位。&lt;/p&gt;
+&lt;p&gt;還有說一下，系統瘦身的部分：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SkQaUUCJee.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;建議選擇前面兩項就好，後面刪了就很難再找回來，建議不要刪掉。&lt;/p&gt;
+&lt;p&gt;最後說明一下，若很常使用瀏覽器的話，電腦每隔一周清理即可，不用過度清潔。&lt;/p&gt;
+&lt;h2 id=&#34;wise-registry-cleaner&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wise-registry-cleaner&#34;&gt;#&lt;/a&gt; Wise Registry Cleaner&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SyHQPL01le.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;官方網站：&lt;a href=&#34;https://www.wisecleaner.com/wise-registry-cleaner.html&#34;&gt;https://www.wisecleaner.com/wise-registry-cleaner.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;免安裝版下載（非官方）：&lt;a href=&#34;https://www.azofreeware.com/p/wise-registry-cleaner.html&#34;&gt;https://www.azofreeware.com/p/wise-registry-cleaner.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;那這款好處在哪呢？首先可以幫你清理一些沒用的登錄檔，優化電腦速度，還可以將你的系統最佳化。&lt;/p&gt;
+&lt;p&gt;開啟之後介面會長這樣：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/S1k1dU01xx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;點到第二個功能【系統最佳化】可以直接按下綠色按鈕，一鍵最佳化。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/B1Ze_ICyeg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;至於最後一個登錄檔重組，我個人是建議不用那麼頻繁去做，大致上一個月一次就夠了。&lt;/p&gt;
+&lt;p&gt;ok，那以上就是今天介紹給各位的內容，若本篇文章有誤，請各位稍微指點指點，謝謝。最後說一下，這些方法可能對老舊電腦有用，較為新型的電腦由於效能較佳、處理速度較快，所以系統冗餘的垃圾導致變慢的情形可能不是那麼顯著，總之，僅供參考 XD。&lt;/p&gt;
+</content>
+        <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/" />
+        <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/" />
+        <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/" />
+        <category term="軟體推薦" scheme="https://luketsengtw.github.io/tags/%E8%BB%9F%E9%AB%94%E6%8E%A8%E8%96%A6/" />
+        <category term="系統優化" scheme="https://luketsengtw.github.io/tags/%E7%B3%BB%E7%B5%B1%E5%84%AA%E5%8C%96/" />
+        <updated>2025-04-29T13:55:48.000Z</updated>
+    </entry>
     <entry>
         <id>https://luketsengtw.github.io/2025/04/28/competitive-programming/@0a44220e9cda/index.html</id>
         <title>【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 4</title>
@@ -3608,85 +3649,5 @@ D
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <updated>2025-03-09T05:44:48.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://luketsengtw.github.io/2025/03/08/programming/cpp/@589e06c631ad/index.html</id>
-        <title>【C++ 筆記】this pointer - part 21</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/03/08/programming/cpp/@589e06c631ad/index.html"/>
-        <content type="html">&lt;h1 id=&#34;c-筆記this-pointer-part-21&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記this-pointer-part-21&#34;&gt;#&lt;/a&gt; 【C++ 筆記】this pointer - part 21&lt;/h1&gt;
-&lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
-&lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
-&lt;h2 id=&#34;this-指針this-pointer&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#this-指針this-pointer&#34;&gt;#&lt;/a&gt; this 指針（this pointer）&lt;/h2&gt;
-&lt;p&gt;在 C++ OOP 中，每當呼叫非靜態成員函數時，編譯器會傳遞一種特殊的指標，稱為 &amp;quot;this&amp;quot; 指標。&lt;/p&gt;
-&lt;p&gt;它特殊的點就在於：它是隱形的。也就是說我們平常在設計 class 的時候，並不會看見 this pointer。&lt;/p&gt;
-&lt;div class=&#34;note success&#34;&gt;
-&lt;p&gt;this pointer 指向當前呼叫該函數的物件實例，讓程式可以在成員函數內部存取該物件的成員變數與其他成員函式。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note success&#34;&gt;
-&lt;p&gt;在 C++ 中，每個物件都能透過 this 指標來存取自己的位址。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;Friend Function 沒有 this pointer，因為 Friend 不是類的成員，只有成員函數才有 this 指針。&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;this-pointer-是拿來幹嘛的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#this-pointer-是拿來幹嘛的&#34;&gt;#&lt;/a&gt; this pointer 是拿來幹嘛的？&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;具以下三種用途：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;辨識當前的物件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;this pointer 代表正在執行函數的物件本身，使得在函數內部能明確區分物件成員與區域變數或參數。&lt;/p&gt;
-&lt;p&gt;如：在成員函數中若參數名稱與成員變數相同，利用  &lt;code&gt;this-&amp;gt;&lt;/code&gt;  可避免命名衝突。&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;鏈式呼叫（OOP 的一個專有名詞）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在運算子重載或方法設計中，常需回傳物件本身以實現鏈式運算（chaining）。透過  &lt;code&gt;return *this;&lt;/code&gt; ，可以讓呼叫者連續呼叫多個成員函式。&lt;/p&gt;
-&lt;p&gt;鏈式呼叫相關資訊：&lt;a href=&#34;https://zh.wikipedia.org/zh-tw/%E6%96%B9%E6%B3%95%E9%93%BE%E5%BC%8F%E8%B0%83%E7%94%A8&#34;&gt;https://zh.wikipedia.org/zh-tw/ 方法链式调用&lt;/a&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;防止自我指定&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在指定運算子等運算中，this pointer 可檢查是否為自我賦值（指定），避免不必要的運算跟潛在錯誤。&lt;/p&gt;
-&lt;h3 id=&#34;為了要理解-this-pointer我們必須要知道&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#為了要理解-this-pointer我們必須要知道&#34;&gt;#&lt;/a&gt; 為了要理解 this pointer，我們必須要知道...&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;每個物件都有自己的資料成員副本。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;每個物件都有自己的資料成員副本，所有物件共享一份成員函數的副本。&lt;/p&gt;
-&lt;p&gt;那麼現在的問題是，如果每個成員函數只有一份副本，並被多個物件使用，則如何正確存取和更新資料成員？&lt;/p&gt;
-&lt;p&gt;這就需要依靠 this pointer 的機制了。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this pointer 在靜態成員函數中不可用，因為靜態成員函數可以不使用任何物件（用類名）來呼叫。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;this-pointer-的使用說明書&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#this-pointer-的使用說明書&#34;&gt;#&lt;/a&gt; this pointer 的使用說明書&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;在每個非靜態成員函數中，this pointer 都是隱式存在的，其型態依照函數是否為常數成員而有所不同：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;非 const 成員函數：型態為  &lt;code&gt;ClassName*&lt;/code&gt; 。&lt;/li&gt;
-&lt;li&gt;const 成員函數：型態為  &lt;code&gt;const ClassName*&lt;/code&gt; 。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;使用 this pointer 時，可透過  &lt;code&gt;this-&amp;gt;&lt;/code&gt;  存取物件的成員，如下：&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;MyClass&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; value&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;MyClass&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 使用 this pointer 避免參數與成員名稱衝突&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;setValue&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&gt;&lt;/span&gt;value &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; value&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 回傳物件本身以支援鏈式呼叫&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    MyClass&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;increment&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&gt;&lt;/span&gt;value&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;setValue 函數使用 this-&amp;gt;value 來明確指定要修改的是物件的成員變數，而非函式參數。&lt;/li&gt;
-&lt;li&gt;increment 函數透過回傳 *this，使得可進行連續的呼叫，如  &lt;code&gt;obj.increment().increment();&lt;/code&gt; 。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;範例運算子重載鏈式呼叫&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#範例運算子重載鏈式呼叫&#34;&gt;#&lt;/a&gt; 範例：運算子重載（鏈式呼叫）&lt;/h2&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Counter&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; count&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;Counter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; c &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;c&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 賦值運算子重載：利用 this 檢查自我賦值，並回傳物件本身以支援鏈式賦值&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Counter&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;operator&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; Counter&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; other&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;other&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 防止自我賦值&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&gt;&lt;/span&gt;count &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; other&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;count&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 增加計數，並回傳物件本身&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Counter&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;increment&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&gt;&lt;/span&gt;count&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 顯示目前計數&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Count: &#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; count &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Counter &lt;span class=&#34;token function&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    b&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;increment&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;increment&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 鏈式呼叫：連續增加兩次&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 輸出：Count: 5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    b&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 輸出：Count: 7&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;第 31 行，用到了 this pointer 來比較物件位址，避免將自己賦值給自己（自我賦值）。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;increment&lt;/code&gt;  函數使用  &lt;code&gt;++(this-&amp;gt;count)&lt;/code&gt;  增加計數，並回傳  &lt;code&gt;*this&lt;/code&gt;  使得可以連續呼叫。&lt;/li&gt;
-&lt;li&gt;第 33 行，使用鏈式呼叫，將物件 b 的計數從 5 增加到 7。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/this-pointer-in-c/&#34;&gt;&#39;this&#39; pointer in C++ - GeeksforGeeks&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/cplusplus/cpp-this-pointer.html&#34;&gt;C++ 中的 this 指针 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yhtechnote.com/this-pointer/&#34;&gt;[C++] this 指標 – 科技讀蟲&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-tw/cpp/cpp/this-pointer?view=msvc-170&#34;&gt;this 指標 | Microsoft Learn&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-        <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-        <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
-        <category term="物件導向程式設計" scheme="https://luketsengtw.github.io/tags/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-        <category term="OOP" scheme="https://luketsengtw.github.io/tags/OOP/" />
-        <updated>2025-03-08T09:32:53.000Z</updated>
     </entry>
 </feed>
