@@ -37,8 +37,8 @@
             <title>【APCS】2023年6月實作題 C++ 解題筆記（前兩題）</title>
             <link>https://luketsengtw.github.io/2025/06/12/competitive-programming/@ab955fe21848/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
@@ -148,12 +148,12 @@
             <title>怎麼背 ASCII Code？（APCS 觀念題）</title>
             <link>https://luketsengtw.github.io/2025/06/12/competitive-programming/@2da6e00eef15/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
-            <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
-            <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/" />
             <category term="軟體推薦" scheme="https://luketsengtw.github.io/tags/%E8%BB%9F%E9%AB%94%E6%8E%A8%E8%96%A6/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+            <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
+            <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Thu, 12 Jun 2025 10:46:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;怎麼背-ascii-codeapcs-觀念題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#怎麼背-ascii-codeapcs-觀念題&#34;&gt;#&lt;/a&gt; 怎麼背 ASCII Code？（APCS 觀念題）&lt;/h1&gt;
 &lt;p&gt;以下是一個 ASCII Code 表。&lt;/p&gt;
@@ -212,12 +212,12 @@
             <title>【APCS】2023年10月實作題 C++ 解題筆記（第一題）</title>
             <link>https://luketsengtw.github.io/2025/06/11/competitive-programming/@ff9570a6ef2c/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-            <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
             <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
+            <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
             <pubDate>Wed, 11 Jun 2025 22:33:15 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;apcs2023年10月實作題-c-解題筆記第一題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#apcs2023年10月實作題-c-解題筆記第一題&#34;&gt;#&lt;/a&gt; 【APCS】2023 年 10 月實作題 C++ 解題筆記（第一題）&lt;/h1&gt;
 &lt;p&gt;此筆記僅供個人學習用途，內容僅供參考。&lt;/p&gt;
@@ -242,12 +242,12 @@
             <title>【C++】競程筆記（對答案二分搜）</title>
             <link>https://luketsengtw.github.io/2025/06/10/competitive-programming/@bdedb9dc0c3d/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="二分搜" scheme="https://luketsengtw.github.io/tags/%E4%BA%8C%E5%88%86%E6%90%9C/" />
             <pubDate>Tue, 10 Jun 2025 12:13:08 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記對答案二分搜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記對答案二分搜&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（對答案二分搜）&lt;/h1&gt;
@@ -305,8 +305,8 @@
             <title>【APCS】2024年1月實作題 C++ 解題筆記（前兩題）</title>
             <link>https://luketsengtw.github.io/2025/06/08/competitive-programming/@0e52c79e45e8/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
@@ -354,8 +354,8 @@
             <title>【APCS】2024年6月實作題 C++ 解題筆記（前兩題）</title>
             <link>https://luketsengtw.github.io/2025/06/08/competitive-programming/@843ade7f9c32/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Sun, 08 Jun 2025 13:29:48 +0800</pubDate>
@@ -411,8 +411,8 @@
             <title>【APCS】2024年10月實作題 C++ 解題筆記（前兩題）</title>
             <link>https://luketsengtw.github.io/2025/06/08/competitive-programming/@13fcc060ee8d/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <pubDate>Sun, 08 Jun 2025 12:35:08 +0800</pubDate>
@@ -479,11 +479,11 @@
             <title>【C++】競程筆記（雙指標）</title>
             <link>https://luketsengtw.github.io/2025/06/07/competitive-programming/@2777aef7161b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 07 Jun 2025 16:31:29 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記雙指標&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記雙指標&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（雙指標）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -573,11 +573,11 @@ squares = [16, 1, 0, 9, 100]
             <title>【C++】競程筆記（一維掃描線）</title>
             <link>https://luketsengtw.github.io/2025/06/06/competitive-programming/@a723191e53dc/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="前綴和" scheme="https://luketsengtw.github.io/tags/%E5%89%8D%E7%B6%B4%E5%92%8C/" />
             <category term="差分" scheme="https://luketsengtw.github.io/tags/%E5%B7%AE%E5%88%86/" />
             <pubDate>Fri, 06 Jun 2025 21:41:38 +0800</pubDate>
@@ -624,6 +624,7 @@ from NTUCPC Guide&lt;/p&gt;
 &lt;p&gt;精簡一下：&lt;/p&gt;
 &lt;p&gt;掃描線是一種想像自己是條線、從左到右（也可以由下往上）掃過整個序列或數線的解法。&lt;/p&gt;
 &lt;p&gt;它的核心概念是觀察「狀態」何時改變，並將這些變化視為「事件」。將所有事件依照發生時間（或座標）排序後，就能模擬整個掃描過程。若座標範圍不大，也可用長度為 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;C&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.07153em;&#34;&gt;C&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的陣列來記錄每個整數時間點的事件並逐一處理。&lt;/p&gt;
+&lt;p&gt;那至於啥是事件呢？像是線段的端點（起始點和終點）是事件的一種。&lt;/p&gt;
 &lt;h3 id=&#34;掃描的起點&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#掃描的起點&#34;&gt;#&lt;/a&gt; 掃描的起點&lt;/h3&gt;
 &lt;hr /&gt;
 &lt;p&gt;用掃描線要有起始狀態，如於線段覆蓋的程式中 lst = -1，假設起點為 -1，起點狀態包住目前的線段數為 0。通常只要挑所有端點左邊當作起點即可。&lt;/p&gt;
@@ -634,6 +635,20 @@ from NTUCPC Guide&lt;/p&gt;
 &lt;h3 id=&#34;邊界條件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#邊界條件&#34;&gt;#&lt;/a&gt; 邊界條件&lt;/h3&gt;
 &lt;hr /&gt;
 &lt;p&gt;在線段長度覆蓋的問題中，一線段的 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;[&lt;/mo&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;[l, r]&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的意思即為數線上 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34;&gt;[&lt;/mo&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;[l, r]&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的範圍，只關心到長度，而單一點的狀態不重要，只要在乎每個時間點之間的狀態。進入區間的時間是走過 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;l&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 以後，離開區間的時間是走過 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;r&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 以後。&lt;/p&gt;
+&lt;h3 id=&#34;同時發生的事件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#同時發生的事件&#34;&gt;#&lt;/a&gt; 同時發生的事件&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;當掃描線掃到某特定位置上，有不只一個事件要處理時，就會發生同時發生的事件。&lt;/p&gt;
+&lt;p&gt;假設有兩棟房子：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A：從 x=2 到 x=5，高度 10。&lt;/li&gt;
+&lt;li&gt;B：從 x=2 到 x=6，高度 15。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那通常處理優先順序會如下所示（這部分依據題目要求可自行調整）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;加入事件（start）先於移除事件（end）。&lt;/li&gt;
+&lt;li&gt;高度高的房子先處理（如：高度從高到低排序）。&lt;/li&gt;
+&lt;li&gt;起點 vs 起點：高的先；終點 vs 終點：低的先。&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;複雜的事件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#複雜的事件&#34;&gt;#&lt;/a&gt; 複雜的事件&lt;/h3&gt;
 &lt;hr /&gt;
 &lt;p&gt;複雜的事件就是「區間包含查詢」問題，如包含點的線段數問題。&lt;/p&gt;
@@ -675,8 +690,8 @@ from NTUCPC Guide&lt;/p&gt;
             <link>https://luketsengtw.github.io/2025/06/05/programming/cpp/@57a5b9fc8c95/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/" />
             <pubDate>Thu, 05 Jun 2025 12:37:15 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c-筆記c-與-c-style-string&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記c-與-c-style-string&#34;&gt;#&lt;/a&gt; 【C++ 筆記】C++ 與 C style string&lt;/h1&gt;
@@ -1144,8 +1159,8 @@ str1 與 &amp;quot;Hello World&amp;quot; 相同
             <link>https://luketsengtw.github.io/2025/06/03/programming/cpp/@e7c83808c058/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/" />
             <pubDate>Tue, 03 Jun 2025 22:07:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c筆記一些輸入函數-cin-getline-cinget-等&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c筆記一些輸入函數-cin-getline-cinget-等&#34;&gt;#&lt;/a&gt; 【C++ 筆記】一些輸入函數 cin, getline (), cin.get () 等&lt;/h1&gt;
@@ -1355,12 +1370,12 @@ str1 與 &amp;quot;Hello World&amp;quot; 相同
             <title>【Uva 題庫解題】C++ 個人解題筆記 - part2</title>
             <link>https://luketsengtw.github.io/2025/06/02/competitive-programming/@9008e0376818/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/" />
             <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" />
             <pubDate>Mon, 02 Jun 2025 20:30:10 +0800</pubDate>
@@ -1478,12 +1493,12 @@ str1 與 &amp;quot;Hello World&amp;quot; 相同
             <title>【C++】競程筆記（前綴和、差分 習題練習）</title>
             <link>https://luketsengtw.github.io/2025/06/01/competitive-programming/@3a29294c2e5b/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="前綴和" scheme="https://luketsengtw.github.io/tags/%E5%89%8D%E7%B6%B4%E5%92%8C/" />
             <category term="差分" scheme="https://luketsengtw.github.io/tags/%E5%B7%AE%E5%88%86/" />
             <pubDate>Sun, 01 Jun 2025 13:38:41 +0800</pubDate>
@@ -1568,12 +1583,12 @@ str1 與 &amp;quot;Hello World&amp;quot; 相同
             <title>【C++】競程筆記（前綴和、差分）</title>
             <link>https://luketsengtw.github.io/2025/05/31/competitive-programming/@39f067fb78ec/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="前綴和" scheme="https://luketsengtw.github.io/tags/%E5%89%8D%E7%B6%B4%E5%92%8C/" />
             <category term="差分" scheme="https://luketsengtw.github.io/tags/%E5%B7%AE%E5%88%86/" />
             <pubDate>Sat, 31 May 2025 11:49:13 +0800</pubDate>
@@ -1761,11 +1776,11 @@ $$A[i]=D[1]+D[2]+\cdots+D[i]
             <title>【C++】競程筆記（遞迴）</title>
             <link>https://luketsengtw.github.io/2025/05/28/competitive-programming/@1a4f2cd77ad3/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Wed, 28 May 2025 19:56:12 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記遞迴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記遞迴&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（遞迴）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -1808,10 +1823,10 @@ $$A[i]=D[1]+D[2]+\cdots+D[i]
             <title>【C++】競程筆記（實作技巧：Range-based for loop、Structured binding）</title>
             <link>https://luketsengtw.github.io/2025/05/24/competitive-programming/@dc75f349d856/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
+            <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
             <pubDate>Sat, 24 May 2025 15:41:16 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;c競程筆記實作技巧range-based-for-loop-structured-binding&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記實作技巧range-based-for-loop-structured-binding&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（實作技巧：Range-based for loop、Structured binding）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
@@ -1891,8 +1906,8 @@ from NTUCPC Guide&lt;/p&gt;
             <title>【APCS】2025年1月實作題 C++ 解題筆記（前兩題）</title>
             <link>https://luketsengtw.github.io/2025/05/23/competitive-programming/@435a7b1dce3d/index.html</link>
             <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
-            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+            <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
             <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
             <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
@@ -2152,9 +2167,9 @@ from NTUCPC Guide&lt;/p&gt;
             <link>https://luketsengtw.github.io/2025/05/16/programming/cpp/@798ed8596620/index.html</link>
             <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/" />
             <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/" />
+            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
-            <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
             <category term="物件導向程式設計" scheme="https://luketsengtw.github.io/tags/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
             <category term="OOP" scheme="https://luketsengtw.github.io/tags/OOP/" />
             <pubDate>Fri, 16 May 2025 20:13:16 +0800</pubDate>
