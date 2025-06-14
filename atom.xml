@@ -8,7 +8,7 @@
     <author>
       <name>LukeTseng</name>
     </author>
-    <updated>2025-06-13T05:23:07.000Z</updated>
+    <updated>2025-06-14T07:26:48.000Z</updated>
     <category term="ChatGPT" />
     <category term=" AI" />
     <category term=" 大語言模型" />
@@ -29,6 +29,93 @@
     <category term=" 資訊工程" />
     <category term=" 資訊科學" />
     <category term=" 電機" />
+    <entry>
+        <id>https://luketsengtw.github.io/2025/06/14/algorithm/@f82afab3206a/index.html</id>
+        <title>【C++ 筆記】基礎排序（氣泡、選擇、插入排序法）</title>
+        <link rel="alternate" href="https://luketsengtw.github.io/2025/06/14/algorithm/@f82afab3206a/index.html"/>
+        <content type="html">&lt;h1 id=&#34;c-筆記基礎排序氣泡-選擇-插入排序法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記基礎排序氣泡-選擇-插入排序法&#34;&gt;#&lt;/a&gt; 【C++ 筆記】基礎排序（氣泡、選擇、插入排序法）&lt;/h1&gt;
+&lt;p&gt;本筆記僅供個人學習用途，內容斟酌參考。&lt;/p&gt;
+&lt;h2 id=&#34;1bubble-sort&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1bubble-sort&#34;&gt;#&lt;/a&gt; 1.Bubble Sort&lt;/h2&gt;
+&lt;p&gt;原理：兩兩相鄰比較，大的往後推，重複進行多輪直到完成排序。&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;bubbleSort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 內層進行兩兩相鄰元素比較與交換&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token function&#34;&gt;swap&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;時間複雜度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最佳情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （若資料已排序，可加入 flag 判斷是否有交換，避免多餘比較）&lt;/li&gt;
+&lt;li&gt;平均情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （每個元素都要比較一次）&lt;/li&gt;
+&lt;li&gt;最壞情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （完全反序，每輪皆需交換到最後）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;空間複雜度： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;算是穩定的排序法，也最常用。&lt;/p&gt;
+&lt;h2 id=&#34;2selection-sort&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2selection-sort&#34;&gt;#&lt;/a&gt; 2.Selection Sort&lt;/h2&gt;
+&lt;p&gt;原理：每輪選出剩下的最小值，放到目前排序的位置。&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;selectionSort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 每次選擇最小值放到前面&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; minIndex &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 假設目前最小值位置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;minIndex&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                minIndex &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; j&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 將找到的最小值放到正確位置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;swap&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;minIndex&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;時間複雜度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最佳情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （無法透過資料特性提前結束，仍需全部比較）&lt;/li&gt;
+&lt;li&gt;平均情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （一共進行 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\frac{n(n-1)}{2}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.355em;vertical-align:-0.345em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.01em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.485em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 次比較）&lt;/li&gt;
+&lt;li&gt;最壞情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;空間複雜度： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;該排序法不是那麼穩，因為交換過程中有可能會打亂相同元素的順序。&lt;/p&gt;
+&lt;h2 id=&#34;3insertion-sort&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3insertion-sort&#34;&gt;#&lt;/a&gt; 3.Insertion Sort&lt;/h2&gt;
+&lt;p&gt;原理：從左至右逐一「插入」目前元素到左邊已排序好的序列中。&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;insertionSort&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;vector&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; key &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 待插入的元素&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 將比 key 大的元素往右移&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;j &lt;span class=&#34;token operator&#34;&gt;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; key&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            j&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 將 key 插入正確位置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; key&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;時間複雜度：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最佳情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （若原序列已排序，不需移動，只需一次比較）&lt;/li&gt;
+&lt;li&gt;平均情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （中間情況需要約一半元素移動）&lt;/li&gt;
+&lt;li&gt;最壞情況： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(n^2)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; （若為反序，則每插入一個元素都要移動全部前面的元素）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;空間複雜度： &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(1)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;與 Bubble Sort 一樣穩，原因是不會改變相同值的順序。&lt;/p&gt;
+&lt;h2 id=&#34;總結&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;排序法&lt;/th&gt;
+&lt;th&gt;最佳時間複雜度&lt;/th&gt;
+&lt;th&gt;平均時間複雜度&lt;/th&gt;
+&lt;th&gt;最壞時間複雜度&lt;/th&gt;
+&lt;th&gt;空間複雜度&lt;/th&gt;
+&lt;th&gt;穩定性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bubble Sort&lt;/td&gt;
+&lt;td&gt;O(n)&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;穩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Selection Sort&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;不穩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Insertion Sort&lt;/td&gt;
+&lt;td&gt;O(n)&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(n²)&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;穩&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@oturngo/study-note-01-%E6%B0%A3%E6%B3%A1%E6%8E%92%E5%BA%8F%E6%B3%95-bubble-sort-ee534b6f91eb&#34;&gt;[C++] 氣泡排序法 (Bubble sort). 簡單記錄一下自己的理解 | by Martin | Medium&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F%E6%B3%95%E5%85%A5%E9%96%80-%E9%81%B8%E6%93%87%E6%8E%92%E5%BA%8F%E8%88%87%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E6%B3%95-23d4bc7085ff&#34;&gt;初學者學演算法｜排序法入門：選擇排序與插入排序法。程式麻瓜的程式知識課（五） | by Cheng-Wei Hu | 胡程維 | Aiworks | Medium&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@ollieeryo/insertion-sort-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E6%B3%95-c215ae516a7ahttps://&#34;&gt;Insertion sort (插入排序法). Insertion sort… | by Oliver Liao | Medium&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="演算法" scheme="https://luketsengtw.github.io/categories/algorithm/" />
+        <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+        <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+        <updated>2025-06-14T07:26:48.000Z</updated>
+    </entry>
     <entry>
         <id>https://luketsengtw.github.io/2025/06/13/competitive-programming/@9f360542bae2/index.html</id>
         <title>【APCS】2023年1月實作題 C++ 解題筆記（前兩題）</title>
@@ -294,10 +381,10 @@ abcde
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
-        <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
         <updated>2025-06-11T14:33:15.000Z</updated>
     </entry>
     <entry>
@@ -356,10 +443,10 @@ abcde
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-        <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
-        <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
         <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+        <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
+        <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="二分搜" scheme="https://luketsengtw.github.io/tags/%E4%BA%8C%E5%88%86%E6%90%9C/" />
         <updated>2025-06-10T04:13:08.000Z</updated>
     </entry>
@@ -407,9 +494,9 @@ abcde
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
         <updated>2025-06-08T10:09:40.000Z</updated>
     </entry>
     <entry>
@@ -626,9 +713,9 @@ squares = [16, 1, 0, 9, 100]
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2025-06-07T08:31:29.000Z</updated>
     </entry>
     <entry>
@@ -740,9 +827,9 @@ from NTUCPC Guide&lt;/p&gt;
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="前綴和" scheme="https://luketsengtw.github.io/tags/%E5%89%8D%E7%B6%B4%E5%92%8C/" />
         <category term="差分" scheme="https://luketsengtw.github.io/tags/%E5%B7%AE%E5%88%86/" />
         <updated>2025-06-06T13:41:38.000Z</updated>
@@ -1543,10 +1630,10 @@ str1 與 &amp;quot;Hello World&amp;quot; 相同
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
-        <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
-        <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="排序" scheme="https://luketsengtw.github.io/tags/%E6%8E%92%E5%BA%8F/" />
         <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
+        <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
+        <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/" />
         <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" />
         <updated>2025-06-02T12:30:10.000Z</updated>
@@ -1633,10 +1720,10 @@ str1 與 &amp;quot;Hello World&amp;quot; 相同
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="前綴和" scheme="https://luketsengtw.github.io/tags/%E5%89%8D%E7%B6%B4%E5%92%8C/" />
         <category term="差分" scheme="https://luketsengtw.github.io/tags/%E5%B7%AE%E5%88%86/" />
         <updated>2025-06-01T05:38:41.000Z</updated>
@@ -1826,10 +1913,10 @@ $$A[i]=D[1]+D[2]+\cdots+D[i]
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
         <category term="APCS" scheme="https://luketsengtw.github.io/tags/APCS/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="前綴和" scheme="https://luketsengtw.github.io/tags/%E5%89%8D%E7%B6%B4%E5%92%8C/" />
         <category term="差分" scheme="https://luketsengtw.github.io/tags/%E5%B7%AE%E5%88%86/" />
         <updated>2025-05-31T03:49:13.000Z</updated>
@@ -1876,9 +1963,9 @@ $$A[i]=D[1]+D[2]+\cdots+D[i]
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
         <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2025-05-28T11:56:12.000Z</updated>
     </entry>
     <entry>
@@ -1959,9 +2046,9 @@ from NTUCPC Guide&lt;/p&gt;
 </content>
         <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/" />
         <category term="C++" scheme="https://luketsengtw.github.io/tags/C/" />
+        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/" />
         <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/" />
-        <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/" />
         <updated>2025-05-24T07:41:16.000Z</updated>
     </entry>
     <entry>
@@ -2154,74 +2241,5 @@ from NTUCPC Guide&lt;/p&gt;
         <category term="AI繪圖" scheme="https://luketsengtw.github.io/tags/AI%E7%B9%AA%E5%9C%96/" />
         <category term="免費生圖網站" scheme="https://luketsengtw.github.io/tags/%E5%85%8D%E8%B2%BB%E7%94%9F%E5%9C%96%E7%B6%B2%E7%AB%99/" />
         <updated>2025-05-18T09:01:15.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://luketsengtw.github.io/2025/05/17/ai-application/@6a0051587960/index.html</id>
-        <title>對 ChatGPT 生成的內容不滿意嗎？有可能是你下的提示詞太差了！超好用的提示詞優化網站推薦給您！</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/2025/05/17/ai-application/@6a0051587960/index.html"/>
-        <content type="html">&lt;h1 id=&#34;對-chatgpt-生成的內容不滿意嗎有可能是你下的提示詞太差了超好用的提示詞優化網站推薦給您&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#對-chatgpt-生成的內容不滿意嗎有可能是你下的提示詞太差了超好用的提示詞優化網站推薦給您&#34;&gt;#&lt;/a&gt; 對 ChatGPT 生成的內容不滿意嗎？有可能是你下的提示詞太差了！超好用的提示詞優化網站推薦給您！&lt;/h1&gt;
-&lt;p&gt;哈囉大家好，我是 LukeTseng，身為生成式 AI 的愛用者，經常對於怎麼下提示詞感到萬分困擾，今天就來推薦各位一個網站，能讓你丟給 ChatGPT 的提示詞更加優化，重點是他還是免費的！&lt;/p&gt;
-&lt;h2 id=&#34;promptperfect-網站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#promptperfect-網站&#34;&gt;#&lt;/a&gt; PromptPerfect 網站&lt;/h2&gt;
-&lt;p&gt;首先我們來到這個網站：&lt;a href=&#34;https://promptperfect.jina.ai/&#34;&gt;https://promptperfect.jina.ai/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJH30qSZee.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如果是第一次來的話，可按下上面欄位最右邊的紫色按鈕叫做 Try for free 進行註冊。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/S1611iSZeg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;來到這個頁面後，將 By continuing, you agree to the Terms and Conditions and Privacy Policy from Jina AI. 這個選項打勾，才能繼續註冊。&lt;/p&gt;
-&lt;p&gt;另外 Click to subscribe to our newsletter. 的部分就看個人要不要收他們公司的電子報了。&lt;/p&gt;
-&lt;p&gt;這邊就依照個人意願選擇何種方式註冊了。&lt;/p&gt;
-&lt;h3 id=&#34;如何將介面調整為中文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何將介面調整為中文&#34;&gt;#&lt;/a&gt; 如何將介面調整為中文&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;第一次來到這個介面後，你可能會看到一堆英文字：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SyOSxsrZee.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;不用擔心，點擊下圖左下角的頭像，並選擇 Setting：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJTOgjSbex.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;看到第一個欄位的 UI Language 就可以將介面改成中文的了。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/S1WsgoH-gx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;如何優化提示詞&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何優化提示詞&#34;&gt;#&lt;/a&gt; 如何優化提示詞&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;再次回到聊天這個介面，要優化提示詞主要用到右邊的「提示詞優化器」。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ByW2-jrWge.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;例如，我輸入：「詳細介紹 C++ 語言」，他就會產生一個比我輸入的提示詞還好的提示詞：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJTEfiBbxe.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我們只要看藍綠色這個框框的東西就好了，雖然他生成的提示詞是全英文，但餵給 ChatGPT 英文提示詞的準確率是高於用中文的，若想要中文內容，就先將原文的提示詞丟給 ChatGPT，再讓他翻成英文即可。&lt;/p&gt;
-&lt;h3 id=&#34;應用優化過的提示詞&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#應用優化過的提示詞&#34;&gt;#&lt;/a&gt; 應用優化過的提示詞&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;我們將優化過的提示詞丟給 ChatGPT：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJcTfiBbll.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT 生成完後長這樣：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkTM7oSZlg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我們可以打上這樣的提示詞（translate your output into traditional Chinese&lt;br /&gt;
-），讓他把內容翻譯成中文：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rJadXir-gl.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我個人覺得是不錯，接下來我們把最原始沒有優化過的提示詞丟給 ChatGPT，看會怎樣：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/ryQyVoSWex.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;我經過比較過後，確實經過 PromptPerfect 優化過的提示詞，所生成的內容品質是高的，而且內容較為詳盡。&lt;/p&gt;
-&lt;h3 id=&#34;其它功能一鍵優化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其它功能一鍵優化&#34;&gt;#&lt;/a&gt; 其它功能：一鍵優化&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;在左欄中，選取一鍵優化來到此介面：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/rkxsEjS-ll.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;一鍵優化可以選擇 LLM 來產生預覽資料，看看優化過與沒優化過的提示詞長怎樣。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HyvTNiS-xx.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在插件的部分，可以選擇要不要預覽。在多元化預覽的部分，就是可以讓這個 AI 幫你隨機優化多少個提示詞，然後讓你去觀察哪個比較好。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SyoZBirble.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;一樣，我們用那最原始的提示詞下去跑看看，我這邊選擇 GPT-4o 模型；插件部分，多元化優化為 2，表示會生成兩個不一樣的提示詞，設置優化提示詞語言為 Chinese (Traditional)，繁體中文。&lt;/p&gt;
-&lt;p&gt;輸入完提示詞送出後，長這樣：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/SJiJDoSWel.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;綠色的 + 號表示比原本提示詞增加了多少個字，紅色就是減少幾個字。而這是 AI 自動優化的第一個提示詞，以下是第二個提示詞：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/HJwEPiSZge.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;其它功能競技場&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其它功能競技場&#34;&gt;#&lt;/a&gt; 其它功能：競技場&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;這個功能就在一鍵優化的下方，點進來的介面如下：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/By4PwjSWeg.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;那這個功能在幹嘛呢？因為剛剛一鍵優化只能選擇一個 LLM，而這邊可以選擇多個去進行測試比較！&lt;/p&gt;
-&lt;p&gt;如果要顯示優化過的提示詞，記得把右邊那個打開：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://hackmd.io/_uploads/S140Djr-ee.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;而我在這邊就不再過多演示，其餘功能對於日常使用來說，並不常用。那麼本次的應用推薦就到此結束啦！感謝各位的觀看，喜歡的話麻煩按下愛心～&lt;/p&gt;
-</content>
-        <category term="AI應用" scheme="https://luketsengtw.github.io/categories/ai-application/" />
-        <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/" />
-        <category term="軟體推薦" scheme="https://luketsengtw.github.io/tags/%E8%BB%9F%E9%AB%94%E6%8E%A8%E8%96%A6/" />
-        <category term="ChatGPT" scheme="https://luketsengtw.github.io/tags/ChatGPT/" />
-        <updated>2025-05-17T06:17:13.000Z</updated>
     </entry>
 </feed>
