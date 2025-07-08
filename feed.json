@@ -16,10 +16,10 @@
                 "競程",
                 "解題",
                 "Uva",
-                "C++",
                 "程式設計",
-                "排序",
                 "演算法",
+                "C++",
+                "排序",
                 "競程",
                 "CP",
                 "資料結構",
@@ -36,10 +36,10 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
-                "演算法",
                 "程式語言",
+                "演算法",
+                "C++",
                 "競程",
                 "CP",
                 "BFS"
@@ -54,9 +54,9 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
                 "演算法",
+                "C++",
                 "競程",
                 "CP",
                 "DFS"
@@ -71,9 +71,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
                 "程式語言",
+                "C++",
                 "泛型程式設計"
             ]
         },
@@ -86,9 +86,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
                 "程式語言",
+                "C++",
                 "泛型程式設計"
             ]
         },
@@ -101,9 +101,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
-                "程式語言"
+                "程式語言",
+                "C++"
             ]
         },
         {
@@ -115,9 +115,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
-                "程式語言"
+                "程式語言",
+                "C++"
             ]
         },
         {
@@ -129,9 +129,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
-                "程式語言"
+                "程式語言",
+                "C++"
             ]
         },
         {
@@ -143,9 +143,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
-                "程式語言"
+                "程式語言",
+                "C++"
             ]
         },
         {
@@ -157,9 +157,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
-                "程式語言"
+                "程式語言",
+                "C++"
             ]
         },
         {
@@ -171,9 +171,9 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
                 "程式語言",
+                "C++",
                 "物件導向程式設計",
                 "OOP"
             ]
@@ -187,8 +187,8 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
+                "C++",
                 "物件導向程式設計",
                 "OOP"
             ]
@@ -203,9 +203,9 @@
                 "競程",
                 "解題",
                 "LeetCode",
-                "C++",
                 "程式設計",
                 "演算法",
+                "C++",
                 "競程",
                 "CP"
             ]
@@ -219,8 +219,8 @@
             "tags": [
                 "程式設計",
                 "C++",
-                "C++",
                 "程式設計",
+                "C++",
                 "資料結構"
             ]
         },
@@ -233,8 +233,8 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
+                "C++",
                 "競程",
                 "CP",
                 "資料結構"
@@ -249,8 +249,8 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
+                "C++",
                 "排序",
                 "競程",
                 "CP",
@@ -266,8 +266,8 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
+                "C++",
                 "排序",
                 "競程",
                 "CP",
@@ -283,8 +283,8 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
+                "C++",
                 "競程",
                 "CP",
                 "資料結構"
@@ -299,8 +299,8 @@
             "tags": [
                 "競程",
                 "競程筆記",
-                "C++",
                 "程式設計",
+                "C++",
                 "競程",
                 "資料結構"
             ]
@@ -313,10 +313,10 @@
             "content_html": "<h1 id=\"c-筆記基礎排序氣泡-選擇-插入排序法\"><a class=\"anchor\" href=\"#c-筆記基礎排序氣泡-選擇-插入排序法\">#</a> 【C++ 筆記】基礎排序（氣泡、選擇、插入排序法）</h1>\n<p>本筆記僅供個人學習用途，內容斟酌參考。</p>\n<h2 id=\"1bubble-sort\"><a class=\"anchor\" href=\"#1bubble-sort\">#</a> 1.Bubble Sort</h2>\n<p>原理：兩兩相鄰比較，大的往後推，重複進行多輪直到完成排序。</p>\n<figure class=\"highlight cpp\"><figcaption data-lang=\"C++\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">void</span> <span class=\"token function\">bubbleSort</span><span class=\"token punctuation\">(</span>vector<span class=\"token operator\">&lt;</span><span class=\"token keyword\">int</span><span class=\"token operator\">></span><span class=\"token operator\">&amp;</span> arr<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    <span class=\"token keyword\">int</span> n <span class=\"token operator\">=</span> arr<span class=\"token punctuation\">.</span><span class=\"token function\">size</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>    <span class=\"token keyword\">for</span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span> i <span class=\"token operator\">=</span> <span class=\"token number\">0</span><span class=\"token punctuation\">;</span> i <span class=\"token operator\">&lt;</span> n <span class=\"token operator\">-</span> <span class=\"token number\">1</span><span class=\"token punctuation\">;</span> <span class=\"token operator\">++</span>i<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>        <span class=\"token comment\">// 內層進行兩兩相鄰元素比較與交換</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>        <span class=\"token keyword\">for</span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span> j <span class=\"token operator\">=</span> <span class=\"token number\">0</span><span class=\"token punctuation\">;</span> j <span class=\"token operator\">&lt;</span> n <span class=\"token operator\">-</span> <span class=\"token number\">1</span> <span class=\"token operator\">-</span> i<span class=\"token punctuation\">;</span> <span class=\"token operator\">++</span>j<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>            <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>arr<span class=\"token punctuation\">[</span>j<span class=\"token punctuation\">]</span> <span class=\"token operator\">></span> arr<span class=\"token punctuation\">[</span>j <span class=\"token operator\">+</span> <span class=\"token number\">1</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>                <span class=\"token function\">swap</span><span class=\"token punctuation\">(</span>arr<span class=\"token punctuation\">[</span>j<span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span> arr<span class=\"token punctuation\">[</span>j <span class=\"token operator\">+</span> <span class=\"token number\">1</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>            <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"9\"></td><td><pre>        <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"11\"></td><td><pre><span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure><p>時間複雜度：</p>\n<ul>\n<li>最佳情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">n</span><span class=\"mclose\">)</span></span></span></span> （若資料已排序，可加入 flag 判斷是否有交換，避免多餘比較）</li>\n<li>平均情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> （每個元素都要比較一次）</li>\n<li>最壞情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> （完全反序，每輪皆需交換到最後）</li>\n</ul>\n<p>空間複雜度： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span></p>\n<p>算是穩定的排序法，也最常用。</p>\n<h2 id=\"2selection-sort\"><a class=\"anchor\" href=\"#2selection-sort\">#</a> 2.Selection Sort</h2>\n<p>原理：每輪選出剩下的最小值，放到目前排序的位置。</p>\n<figure class=\"highlight cpp\"><figcaption data-lang=\"C++\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">void</span> <span class=\"token function\">selectionSort</span><span class=\"token punctuation\">(</span>vector<span class=\"token operator\">&lt;</span><span class=\"token keyword\">int</span><span class=\"token operator\">></span><span class=\"token operator\">&amp;</span> arr<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    <span class=\"token keyword\">int</span> n <span class=\"token operator\">=</span> arr<span class=\"token punctuation\">.</span><span class=\"token function\">size</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>    <span class=\"token comment\">// 每次選擇最小值放到前面</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>    <span class=\"token keyword\">for</span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span> i <span class=\"token operator\">=</span> <span class=\"token number\">0</span><span class=\"token punctuation\">;</span> i <span class=\"token operator\">&lt;</span> n <span class=\"token operator\">-</span> <span class=\"token number\">1</span><span class=\"token punctuation\">;</span> <span class=\"token operator\">++</span>i<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>        <span class=\"token keyword\">int</span> minIndex <span class=\"token operator\">=</span> i<span class=\"token punctuation\">;</span> <span class=\"token comment\">// 假設目前最小值位置</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>        <span class=\"token keyword\">for</span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span> j <span class=\"token operator\">=</span> i <span class=\"token operator\">+</span> <span class=\"token number\">1</span><span class=\"token punctuation\">;</span> j <span class=\"token operator\">&lt;</span> n<span class=\"token punctuation\">;</span> <span class=\"token operator\">++</span>j<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>            <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>arr<span class=\"token punctuation\">[</span>j<span class=\"token punctuation\">]</span> <span class=\"token operator\">&lt;</span> arr<span class=\"token punctuation\">[</span>minIndex<span class=\"token punctuation\">]</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>                minIndex <span class=\"token operator\">=</span> j<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"9\"></td><td><pre>            <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre>        <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"11\"></td><td><pre>        <span class=\"token comment\">// 將找到的最小值放到正確位置</span></pre></td></tr><tr><td data-num=\"12\"></td><td><pre>        <span class=\"token function\">swap</span><span class=\"token punctuation\">(</span>arr<span class=\"token punctuation\">[</span>i<span class=\"token punctuation\">]</span><span class=\"token punctuation\">,</span> arr<span class=\"token punctuation\">[</span>minIndex<span class=\"token punctuation\">]</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"13\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"14\"></td><td><pre><span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure><p>時間複雜度：</p>\n<ul>\n<li>最佳情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> （無法透過資料特性提前結束，仍需全部比較）</li>\n<li>平均情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> （一共進行 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>n</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/x-tex\">\\frac{n(n-1)}{2}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.355em;vertical-align:-0.345em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.01em;\"><span style=\"top:-2.655em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">2</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.485em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">n</span><span class=\"mopen mtight\">(</span><span class=\"mord mathnormal mtight\">n</span><span class=\"mbin mtight\">−</span><span class=\"mord mtight\">1</span><span class=\"mclose mtight\">)</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span></span></span></span> 次比較）</li>\n<li>最壞情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span></li>\n</ul>\n<p>空間複雜度： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span></p>\n<p>該排序法不是那麼穩，因為交換過程中有可能會打亂相同元素的順序。</p>\n<h2 id=\"3insertion-sort\"><a class=\"anchor\" href=\"#3insertion-sort\">#</a> 3.Insertion Sort</h2>\n<p>原理：從左至右逐一「插入」目前元素到左邊已排序好的序列中。</p>\n<figure class=\"highlight cpp\"><figcaption data-lang=\"C++\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">void</span> <span class=\"token function\">insertionSort</span><span class=\"token punctuation\">(</span>vector<span class=\"token operator\">&lt;</span><span class=\"token keyword\">int</span><span class=\"token operator\">></span><span class=\"token operator\">&amp;</span> arr<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    <span class=\"token keyword\">int</span> n <span class=\"token operator\">=</span> arr<span class=\"token punctuation\">.</span><span class=\"token function\">size</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>    <span class=\"token keyword\">for</span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span> i <span class=\"token operator\">=</span> <span class=\"token number\">1</span><span class=\"token punctuation\">;</span> i <span class=\"token operator\">&lt;</span> n<span class=\"token punctuation\">;</span> <span class=\"token operator\">++</span>i<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>        <span class=\"token keyword\">int</span> key <span class=\"token operator\">=</span> arr<span class=\"token punctuation\">[</span>i<span class=\"token punctuation\">]</span><span class=\"token punctuation\">;</span> <span class=\"token comment\">// 待插入的元素</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>        <span class=\"token keyword\">int</span> j <span class=\"token operator\">=</span> i <span class=\"token operator\">-</span> <span class=\"token number\">1</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>        <span class=\"token comment\">// 將比 key 大的元素往右移</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>        <span class=\"token keyword\">while</span> <span class=\"token punctuation\">(</span>j <span class=\"token operator\">>=</span> <span class=\"token number\">0</span> <span class=\"token operator\">&amp;&amp;</span> arr<span class=\"token punctuation\">[</span>j<span class=\"token punctuation\">]</span> <span class=\"token operator\">></span> key<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>            arr<span class=\"token punctuation\">[</span>j <span class=\"token operator\">+</span> <span class=\"token number\">1</span><span class=\"token punctuation\">]</span> <span class=\"token operator\">=</span> arr<span class=\"token punctuation\">[</span>j<span class=\"token punctuation\">]</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"9\"></td><td><pre>            j<span class=\"token operator\">--</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre>        <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"11\"></td><td><pre>        <span class=\"token comment\">// 將 key 插入正確位置</span></pre></td></tr><tr><td data-num=\"12\"></td><td><pre>        arr<span class=\"token punctuation\">[</span>j <span class=\"token operator\">+</span> <span class=\"token number\">1</span><span class=\"token punctuation\">]</span> <span class=\"token operator\">=</span> key<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"13\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"14\"></td><td><pre><span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure><p>時間複雜度：</p>\n<ul>\n<li>最佳情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">n</span><span class=\"mclose\">)</span></span></span></span> （若原序列已排序，不需移動，只需一次比較）</li>\n<li>平均情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> （中間情況需要約一半元素移動）</li>\n<li>最壞情況： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(n^2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> （若為反序，則每插入一個元素都要移動全部前面的元素）</li>\n</ul>\n<p>空間複雜度： <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi><mo stretchy=\"false\">(</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">O(1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span></p>\n<p>與 Bubble Sort 一樣穩，原因是不會改變相同值的順序。</p>\n<h2 id=\"總結\"><a class=\"anchor\" href=\"#總結\">#</a> 總結</h2>\n<table>\n<thead>\n<tr>\n<th>排序法</th>\n<th>最佳時間複雜度</th>\n<th>平均時間複雜度</th>\n<th>最壞時間複雜度</th>\n<th>空間複雜度</th>\n<th>穩定性</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Bubble Sort</td>\n<td>O(n)</td>\n<td>O(n²)</td>\n<td>O(n²)</td>\n<td>O(1)</td>\n<td>穩</td>\n</tr>\n<tr>\n<td>Selection Sort</td>\n<td>O(n²)</td>\n<td>O(n²)</td>\n<td>O(n²)</td>\n<td>O(1)</td>\n<td>不穩</td>\n</tr>\n<tr>\n<td>Insertion Sort</td>\n<td>O(n)</td>\n<td>O(n²)</td>\n<td>O(n²)</td>\n<td>O(1)</td>\n<td>穩</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"參考資料\"><a class=\"anchor\" href=\"#參考資料\">#</a> 參考資料</h2>\n<p><a href=\"https://medium.com/@oturngo/study-note-01-%E6%B0%A3%E6%B3%A1%E6%8E%92%E5%BA%8F%E6%B3%95-bubble-sort-ee534b6f91eb\">[C++] 氣泡排序法 (Bubble sort). 簡單記錄一下自己的理解 | by Martin | Medium</a></p>\n<p><a href=\"https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F%E6%B3%95%E5%85%A5%E9%96%80-%E9%81%B8%E6%93%87%E6%8E%92%E5%BA%8F%E8%88%87%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E6%B3%95-23d4bc7085ff\">初學者學演算法｜排序法入門：選擇排序與插入排序法。程式麻瓜的程式知識課（五） | by Cheng-Wei Hu | 胡程維 | Aiworks | Medium</a></p>\n<p><a href=\"https://medium.com/@ollieeryo/insertion-sort-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E6%B3%95-c215ae516a7ahttps://\">Insertion sort (插入排序法). Insertion sort… | by Oliver Liao | Medium</a></p>\n",
             "tags": [
                 "演算法",
-                "C++",
                 "程式設計",
-                "排序",
-                "演算法"
+                "演算法",
+                "C++",
+                "排序"
             ]
         }
     ]
