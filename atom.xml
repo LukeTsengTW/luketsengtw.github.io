@@ -33,9 +33,9 @@
     <category term=" 電腦科學" />
     <category term=" 電機" />
     <entry>
-        <id>https://luketsengtw.github.io/uva-notes-cpp-one-series-of-one-star-part-02/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/CP-question/uva/uva-notes-cpp-one-series-of-one-star-part-02/</id>
         <title>【Uva 題庫解題】C++ 個人解題筆記（一顆星選集） - part 2</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/uva-notes-cpp-one-series-of-one-star-part-02/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/CP-question/uva/uva-notes-cpp-one-series-of-one-star-part-02/"/>
         <content type="html">&lt;h1 id=&#34;uva-題庫解題c-個人解題筆記一顆星選集-part-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uva-題庫解題c-個人解題筆記一顆星選集-part-2&#34;&gt;#&lt;/a&gt; 【Uva 題庫解題】C++ 個人解題筆記（一顆星選集） - part 2&lt;/h1&gt;
 &lt;p&gt;一篇十題讓你看到爽！&lt;/p&gt;
 &lt;p&gt;CPE 49 道必考題，資料來源：&lt;a href=&#34;https://cpe.mcu.edu.tw/environment.php&#34;&gt;https://cpe.mcu.edu.tw/environment.php&lt;/a&gt;&lt;/p&gt;
@@ -332,9 +332,9 @@ x - y = d&lt;br /&gt;
         <updated>2025-07-09T12:50:34.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/uva-notes-cpp-one-series-of-one-star-part-01/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/CP-question/uva/uva-notes-cpp-one-series-of-one-star-part-01/</id>
         <title>【Uva 題庫解題】C++ 個人解題筆記（一顆星選集） - part 1</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/uva-notes-cpp-one-series-of-one-star-part-01/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/CP-question/uva/uva-notes-cpp-one-series-of-one-star-part-01/"/>
         <content type="html">&lt;h1 id=&#34;uva-題庫解題c-個人解題筆記一顆星選集-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uva-題庫解題c-個人解題筆記一顆星選集-part-1&#34;&gt;#&lt;/a&gt; 【Uva 題庫解題】C++ 個人解題筆記（一顆星選集） - part 1&lt;/h1&gt;
 &lt;p&gt;一篇十題讓你看到爽！&lt;/p&gt;
 &lt;p&gt;CPE 49 道必考題，資料來源：&lt;a href=&#34;https://cpe.mcu.edu.tw/environment.php&#34;&gt;https://cpe.mcu.edu.tw/environment.php&lt;/a&gt;&lt;/p&gt;
@@ -647,9 +647,9 @@ z x c v b n m , . /
         <updated>2025-07-08T08:16:54.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-bfs/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-bfs/</id>
         <title>【C++】競程筆記（BFS：廣度優先搜尋）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-bfs/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-bfs/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記bfs廣度優先搜尋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記bfs廣度優先搜尋&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（BFS：廣度優先搜尋）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;流水問題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#流水問題&#34;&gt;#&lt;/a&gt; 流水問題&lt;/h2&gt;
@@ -814,9 +814,9 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
         <updated>2025-07-07T06:57:34.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-dfs/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-dfs/</id>
         <title>【C++】競程筆記（DFS：深度優先搜尋）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-dfs/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-dfs/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記dfs深度優先搜尋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記dfs深度優先搜尋&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（DFS：深度優先搜尋）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;dfs-的前菜八皇后問題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dfs-的前菜八皇后問題&#34;&gt;#&lt;/a&gt; DFS 的前菜：八皇后問題&lt;/h2&gt;
@@ -1125,9 +1125,9 @@ for i = index … k-1:
         <updated>2025-07-05T13:51:34.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-template-lower/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-template-lower/</id>
         <title>【C++ 筆記】模板（Templates）（下） - part 32</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-template-lower/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-template-lower/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記模板templates下-part-32&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記模板templates下-part-32&#34;&gt;#&lt;/a&gt; 【C++ 筆記】模板（Templates）（下） - part 32&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1301,9 +1301,9 @@ sum(10): 10
         <updated>2025-07-03T06:18:38.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-template-upper/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-template-upper/</id>
         <title>【C++ 筆記】模板（Templates）（上） - part 31</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-template-upper/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-template-upper/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記模板templates上-part-31&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記模板templates上-part-31&#34;&gt;#&lt;/a&gt; 【C++ 筆記】模板（Templates）（上） - part 31&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1428,9 +1428,9 @@ PI&amp;lt;double&amp;gt;: 3.141592653589793, area(2.0): 12.566370614359172
         <updated>2025-07-02T13:28:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-namespace/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-namespace/</id>
         <title>【C++ 筆記】命名空間（Namespace） - part 30</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-namespace/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-namespace/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記命名空間namespace-part-30&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記命名空間namespace-part-30&#34;&gt;#&lt;/a&gt; 【C++ 筆記】命名空間（Namespace） - part 30&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1590,9 +1590,9 @@ PI&amp;lt;double&amp;gt;: 3.141592653589793, area(2.0): 12.566370614359172
         <updated>2025-07-01T07:10:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-new-and-delete/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-new-and-delete/</id>
         <title>【C++ 筆記】動態記憶體（new / delete） - part 29</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-new-and-delete/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-new-and-delete/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記動態記憶體new-delete-part-29&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記動態記憶體new-delete-part-29&#34;&gt;#&lt;/a&gt; 【C++ 筆記】動態記憶體（new /delete） - part 29&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -1822,9 +1822,9 @@ PI&amp;lt;double&amp;gt;: 3.141592653589793, area(2.0): 12.566370614359172
         <updated>2025-06-30T15:01:11.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-exception-handling/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-exception-handling/</id>
         <title>【C++ 筆記】例外處理（Exception Handling） - part 28</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-exception-handling/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-exception-handling/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記例外處理exception-handling-part-28&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記例外處理exception-handling-part-28&#34;&gt;#&lt;/a&gt; 【C++ 筆記】例外處理（Exception Handling） - part 28&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2040,9 +2040,9 @@ Caught a string exception : Something wrong!
         <updated>2025-06-30T10:18:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-casting-operator/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-casting-operator/</id>
         <title>【C++ 筆記】型態轉換運算子（Casting Operator）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-casting-operator/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-casting-operator/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記型態轉換運算子casting-operator&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記型態轉換運算子casting-operator&#34;&gt;#&lt;/a&gt; 【C++ 筆記】型態轉換運算子（Casting Operator）&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2117,9 +2117,9 @@ reinterpret_cast 後，ptr 指向的 char 值為: A
         <updated>2025-06-29T11:43:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-file-handling/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-file-handling/</id>
         <title>【C++ 筆記】檔案處理 - part 27</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-file-handling/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-file-handling/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記檔案處理-part-27&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記檔案處理-part-27&#34;&gt;#&lt;/a&gt; 【C++ 筆記】檔案處理 - part 27&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2320,9 +2320,9 @@ reinterpret_cast 後，ptr 指向的 char 值為: A
         <updated>2025-06-28T09:06:31.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-ABC/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-ABC/</id>
         <title>【C++ 筆記】抽象類別（Abstract Class, ABC） - part 26</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-ABC/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-ABC/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記抽象類別abstract-class-abc-part-26&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記抽象類別abstract-class-abc-part-26&#34;&gt;#&lt;/a&gt; 【C++ 筆記】抽象類別（Abstract Class, ABC） - part 26&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2568,9 +2568,9 @@ From 菜鳥教程&lt;/p&gt;
         <updated>2025-06-27T07:44:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-abstraction-ADT/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-abstraction-ADT/</id>
         <title>【C++ 筆記】資料抽象與 ADT - part 25</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-abstraction-ADT/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-abstraction-ADT/"/>
         <content type="html">&lt;h1 id=&#34;c-筆記資料抽象與-adt-part-25&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c-筆記資料抽象與-adt-part-25&#34;&gt;#&lt;/a&gt; 【C++ 筆記】資料抽象與 ADT - part 25&lt;/h1&gt;
 &lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
 &lt;p&gt;你好，我並不是什麼 C++、程式語言的專家，所以本文若有些錯誤麻煩請各位鞭大力一點，我極需各位的指正及指導！！本系列文章的性質主要以詼諧的口吻，一派輕鬆的態度自學程式語言，如果你喜歡，麻煩留言說聲文章讚讚吧！&lt;/p&gt;
@@ -2696,9 +2696,9 @@ From GeeksForGeeks&lt;/p&gt;
         <updated>2025-06-26T05:12:22.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/leetcode-greedy-cpp/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/CP-question/leetcode/leetcode-greedy-cpp/</id>
         <title>【Leetcode C++ 解題筆記】Greedy - part 1</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/leetcode-greedy-cpp/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/CP-question/leetcode/leetcode-greedy-cpp/"/>
         <content type="html">&lt;h1 id=&#34;leetcode-c-解題筆記greedy-part-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#leetcode-c-解題筆記greedy-part-1&#34;&gt;#&lt;/a&gt; 【Leetcode C++ 解題筆記】Greedy - part 1&lt;/h1&gt;
 &lt;p&gt;本筆記僅供個人學習用途，內容斟酌參考。&lt;/p&gt;
 &lt;h2 id=&#34;409-longest-palindrome&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#409-longest-palindrome&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://leetcode.com/problems/longest-palindrome/?envType=problem-list-v2&amp;amp;envId=greedy&#34;&gt;409. Longest Palindrome&lt;/a&gt;&lt;/h2&gt;
@@ -2835,9 +2835,9 @@ From GeeksForGeeks&lt;/p&gt;
         <updated>2025-06-25T05:15:34.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-notes-iterator/</id>
+        <id>https://luketsengtw.github.io/programming/cpp/cpp-notes-iterator/</id>
         <title>【C++筆記】Iterator（迭代器）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-notes-iterator/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-iterator/"/>
         <content type="html">&lt;h1 id=&#34;c筆記iterator迭代器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c筆記iterator迭代器&#34;&gt;#&lt;/a&gt; 【C++ 筆記】Iterator（迭代器）&lt;/h1&gt;
 &lt;p&gt;該筆記僅供個人學習用途，部分用詞、解釋等若有誤方可指正，感謝您的觀看。&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡介&#34;&gt;#&lt;/a&gt; 簡介&lt;/h2&gt;
@@ -3068,9 +3068,9 @@ From GeeksForGeeks&lt;/p&gt;
         <updated>2025-06-23T07:45:51.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-data-structure-unordered-map-set/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-unordered-map-set/</id>
         <title>【C++】競程筆記（資料結構：Unordered set / map）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-data-structure-unordered-map-set/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-unordered-map-set/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記資料結構unordered-set-map&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記資料結構unordered-set-map&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（資料結構：Unordered set /map）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡介&#34;&gt;#&lt;/a&gt; 簡介&lt;/h2&gt;
@@ -3131,9 +3131,9 @@ From Wikipedia&lt;/p&gt;
         <updated>2025-06-22T09:43:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-data-structure-map/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-map/</id>
         <title>【C++】競程筆記（資料結構：map）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-data-structure-map/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-map/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記資料結構map&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記資料結構map&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（資料結構：map）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡介&#34;&gt;#&lt;/a&gt; 簡介&lt;/h2&gt;
@@ -3344,9 +3344,9 @@ orange : 2
         <updated>2025-06-21T09:09:36.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-data-structure-set/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-set/</id>
         <title>【C++】競程筆記（資料結構：set）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-data-structure-set/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-set/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記資料結構set&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記資料結構set&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（資料結構：set）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡介&#34;&gt;#&lt;/a&gt; 簡介&lt;/h2&gt;
@@ -3483,9 +3483,9 @@ third min : 4
         <updated>2025-06-20T16:26:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-data-structure-heap/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-heap/</id>
         <title>【C++】競程筆記（資料結構：Heap）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-data-structure-heap/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-heap/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記資料結構heap&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記資料結構heap&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（資料結構：Heap）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡介&#34;&gt;#&lt;/a&gt; 簡介&lt;/h2&gt;
@@ -3603,9 +3603,9 @@ third min : 4
         <updated>2025-06-20T08:41:52.000Z</updated>
     </entry>
     <entry>
-        <id>https://luketsengtw.github.io/cpp-cp-notes-data-structure-binary-tree/</id>
+        <id>https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-binary-tree/</id>
         <title>【C++】競程筆記（資料結構：Binary Tree）</title>
-        <link rel="alternate" href="https://luketsengtw.github.io/cpp-cp-notes-data-structure-binary-tree/"/>
+        <link rel="alternate" href="https://luketsengtw.github.io/competitive-programming/cp-learning/cpp-cp-notes-data-structure-binary-tree/"/>
         <content type="html">&lt;h1 id=&#34;c競程筆記資料結構binary-tree&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c競程筆記資料結構binary-tree&#34;&gt;#&lt;/a&gt; 【C++】競程筆記（資料結構：Binary Tree）&lt;/h1&gt;
 &lt;p&gt;程式碼範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
 &lt;h2 id=&#34;簡介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡介&#34;&gt;#&lt;/a&gt; 簡介&lt;/h2&gt;
