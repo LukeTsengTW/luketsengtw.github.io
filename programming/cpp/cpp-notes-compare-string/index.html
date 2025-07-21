@@ -1,0 +1,493 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><meta name="google-site-verification" content="S50ZW5JR-4iAagicR6omYnAz8LUv5ZcouskPpuBaFBs"><link rel="alternate" href="/rss.xml" title="Yaoの程式小窩" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="Yaoの程式小窩" type="application/atom+xml"><link rel="alternate" type="application/json" title="Yaoの程式小窩" href="https://luketsengtw.github.io/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="preconnect" href="https://luketsengtw.github.io/"><link rel="preconnect" href="https://luke.anakin.tw/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/nyx-player-7Z7YM6LO.js"><link rel="modulepreload" href="/js/copy-tex-QR7SVGLW.js"><link rel="modulepreload" href="/js/post-CCSL2JZT.js"><link rel="modulepreload" href="/js/chunk-AYGDRIIY.js"><link rel="modulepreload" href="/js/waline-LWZ2JMPT.js"><link rel="modulepreload" href="/js/comments-BHHTCABZ.js"><link rel="modulepreload" href="/js/chunk-YAFU6N2J.js"><link rel="modulepreload" href="/js/search-2R3SEHQR.js"><link rel="modulepreload" href="/js/chunk-WC7AB523.js"><link rel="modulepreload" href="/js/chunk-GGXZBESZ.js"><link rel="modulepreload" href="/js/index.esm-IHUXDMO7.js"><link rel="modulepreload" href="/js/chunk-6TWHTMPW.js"><link rel="modulepreload" href="/js/chunk-WNDTZCWM.js"><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/waline-IDNZKML2.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/comments-F4ZGS7LD.css" media="none" onload="this.media='all'"><link rel="preload" href="https://picsum.photos/1600/900?249083" as="image" fetchpriority="high"><link rel="preload" href="https://picsum.photos/1600/900?945924" as="image" fetchpriority="high"><link rel="preload" href="https://picsum.photos/1600/900?271131" as="image" fetchpriority="high"><link rel="preload" href="https://picsum.photos/1600/900?13212" as="image" fetchpriority="high"><link rel="preload" href="https://picsum.photos/1600/900?304503" as="image" fetchpriority="high"><link rel="preload" href="https://picsum.photos/1600/900?996053" as="image" fetchpriority="high"><meta name="keywords" content="程式設計,字串處理"><meta name="description" content="一個軟硬體都愛的資訊人，也是個無名的程式熱愛者。目前仍主要活躍於 Hackmd 平台上，基本上本站與此同步更新。"><link rel="canonical" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-compare-string/"><link rel="stylesheet" href="/css/post.css?v=0.5.0"><link rel="stylesheet" href="/css/mermaid.css?v=0.5.0"><!-- 临时处理--><link rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css"><title>【C++ 筆記】C++ 與 C style string</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">【C++ 筆記】C++ 與 C style string</h1><div class="meta"><span class="item" title="創建時間：2025-06-05 12:37:15"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">發表於</span><time itemprop="dateCreated datePublished" datetime="2025-06-05T12:37:15+08:00">2025-06-05</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span class="text">文章字數</span><span>12k</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span class="text">所需閱讀時間</span><span>11 分鐘</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Coding Paradise</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://picsum.photos/1600/900?249083&quot;);"></li><li class="item" style="background-image: url(&quot;https://picsum.photos/1600/900?945924&quot;);"></li><li class="item" style="background-image: url(&quot;https://picsum.photos/1600/900?271131&quot;);"></li><li class="item" style="background-image: url(&quot;https://picsum.photos/1600/900?13212&quot;);"></li><li class="item" style="background-image: url(&quot;https://picsum.photos/1600/900?304503&quot;);"></li><li class="item" style="background-image: url(&quot;https://picsum.photos/1600/900?996053&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首頁</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/programming/" itemprop="item" rel="index" title="分類於程式設計"><span itemprop="name">程式設計<meta itemprop="position" content="0"></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/programming/cpp/" itemprop="item" rel="index" title="分類於C++"><span itemprop="name">C++<meta itemprop="position" content="1"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-TW"><link itemprop="mainEntityOfPage" href="https://luketsengtw.github.io/programming/cpp/cpp-notes-compare-string/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="LukeTseng"><meta itemprop="description" content="只想好好學程式, 一個軟硬體都愛的資訊人，也是個無名的程式熱愛者。目前仍主要活躍於 Hackmd 平台上，基本上本站與此同步更新。"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="Yaoの程式小窩"></span><div class="body md" itemprop="articleBody"><h1 id="c-筆記c-與-c-style-string"><a class="anchor" href="#c-筆記c-與-c-style-string">#</a> 【C++ 筆記】C++ 與 C style string</h1>
+<h2 id="c-style-string"><a class="anchor" href="#c-style-string">#</a> C-style string</h2>
+<p>先從老祖宗 C 語言講起好了。</p>
+<p>C-style string 就是字元陣列所組成的，最後結尾用  <code>null</code> （ <code>\0</code> ）表示字串結束。</p>
+<p>如：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token keyword">char</span> a<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"Hello"</span><span class="token punctuation">;</span> <span class="token comment">// 等於 char a [] = {'H', 'e', 'l', 'l', 'o', '\0'};</span></pre></td></tr></tbody></table></figure><p>這種字元陣列需要搭配  <code>&lt;cstring&gt;</code>  標頭檔引入 C 語言版本的字串函式庫。</p>
+<p>裡面常見的操作如下：</p>
+<table>
+<thead>
+<tr>
+<th>函式名</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>strlen(s)</code></td>
+<td>回傳字串長度（不含  <code>\0</code> ）</td>
+</tr>
+<tr>
+<td><code>strcpy(dst, src)</code></td>
+<td>字串複製</td>
+</tr>
+<tr>
+<td><code>strcmp(s1, s2)</code></td>
+<td>字串比較（回傳 0 相同，非 0 不同）</td>
+</tr>
+<tr>
+<td><code>strcat(dst, src)</code></td>
+<td>字串串接</td>
+</tr>
+</tbody>
+</table>
+<p>dst 就是 destination，意為目的地；src 就是 source，意為來源。</p>
+<p><code>strcpy(dst, src)</code>  就是將 src 複製到 dst。</p>
+<p><code>strcat(dst, src)</code>  就是將 src 串接於 dst 上。</p>
+<p>範例：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;cstring&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token keyword">char</span> str1<span class="token punctuation">[</span><span class="token number">50</span><span class="token punctuation">]</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token keyword">char</span> str2<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"World"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token comment">// 1. strcpy () 複製字串</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token function">strcpy</span><span class="token punctuation">(</span>str1<span class="token punctuation">,</span> <span class="token string">"Hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"str1 after strcpy: "</span> <span class="token operator">&lt;&lt;</span> str1 <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token comment">// 2. strcat () 串接字串</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token function">strcat</span><span class="token punctuation">(</span>str1<span class="token punctuation">,</span> <span class="token string">" "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// 加空格</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token function">strcat</span><span class="token punctuation">(</span>str1<span class="token punctuation">,</span> str2<span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// 將 str2 加到 str1 後面</span></pre></td></tr><tr><td data-num="17"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"str1 after strcat: "</span> <span class="token operator">&lt;&lt;</span> str1 <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="18"></td><td><pre></pre></td></tr><tr><td data-num="19"></td><td><pre>    <span class="token comment">// 3. strlen () 測量字串長度（不含 \0）</span></pre></td></tr><tr><td data-num="20"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Length of str1: "</span> <span class="token operator">&lt;&lt;</span> <span class="token function">strlen</span><span class="token punctuation">(</span>str1<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="21"></td><td><pre></pre></td></tr><tr><td data-num="22"></td><td><pre>    <span class="token comment">// 4. strcmp () 比較兩個字串</span></pre></td></tr><tr><td data-num="23"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">strcmp</span><span class="token punctuation">(</span>str1<span class="token punctuation">,</span> <span class="token string">"Hello World"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="24"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"str1 與 \"Hello World\" 相同"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="25"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="26"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"str1 與 \"Hello World\" 不相同"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="27"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="28"></td><td><pre></pre></td></tr><tr><td data-num="29"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="30"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>str1 after strcpy: Hello
+str1 after strcat: Hello World
+Length of str1: 11
+str1 與 "Hello World" 相同
+</code></pre>
+<h3 id="strength-and-weakness"><a class="anchor" href="#strength-and-weakness">#</a> Strength and weakness</h3>
+<hr>
+<p>優點：</p>
+<ul>
+<li>效能高，無額外抽象（Abstract）。</li>
+<li>與低階記憶體操作無縫整合。</li>
+<li>在嵌入式系統、C 接口中常見。</li>
+</ul>
+<p>缺點：</p>
+<ul>
+<li>安全性低，常因未妥善管理記憶體導致緩衝區溢位（buffer overflow）。</li>
+<li>很麻煩，沒有 C++ style string 來的方便。</li>
+<li>無法支援動態擴充長度，一個字串一旦寫好就固定長度了。</li>
+</ul>
+<h2 id="c-style-string-2"><a class="anchor" href="#c-style-string-2">#</a> C++ style string</h2>
+<p>C++ style string 是由類別所構成的，使用前須引入標頭檔  <code>&lt;string&gt;</code> 。</p>
+<p>要建立一個字串，如下：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>string name <span class="token operator">=</span> <span class="token string">"LukeTseng"</span><span class="token punctuation">;</span></pre></td></tr></tbody></table></figure><p>可以用中括號存取某個字元，索引（位置）起始值一樣從 0 開始，如上範例的  <code>name[0]</code>  就會取得  <code>'L'</code>  字元。</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    string name <span class="token operator">=</span> <span class="token string">"LukeTseng"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> name<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>L
+</code></pre>
+<p>另外 C++ style string 是可以更新字串的，不像 C-style string 那麼死板：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    string name <span class="token operator">=</span> <span class="token string">"LukeTseng"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    name <span class="token operator">=</span> <span class="token string">"王奕翔醜男"</span><span class="token punctuation">;</span> <span class="token comment">// 這絕對不是在說誰</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> name<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>王奕翔醜男
+</code></pre>
+<p>也可以更改特定字元：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    string name <span class="token operator">=</span> <span class="token string">"LukeTseng"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    name<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token char">'i'</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> name<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>LikeTseng
+</code></pre>
+<h3 id="相關函式"><a class="anchor" href="#相關函式">#</a> 相關函式</h3>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>length()</code></td>
+<td>回傳字串長度。</td>
+</tr>
+<tr>
+<td><code>swap(a, b)</code></td>
+<td>交換兩個字串。</td>
+</tr>
+<tr>
+<td><code>size()</code></td>
+<td>查找字串的大小。</td>
+</tr>
+<tr>
+<td><code>resize()</code></td>
+<td>將字串長度調整為給定的字元數。</td>
+</tr>
+<tr>
+<td><code>find()</code></td>
+<td>尋找傳入參數的字串。</td>
+</tr>
+<tr>
+<td><code>push_back(c)</code></td>
+<td>把字元 c 推送到字串的結尾。</td>
+</tr>
+<tr>
+<td><code>pop_back(c)</code></td>
+<td>移除字串中最後一個字元 c。</td>
+</tr>
+<tr>
+<td><code>clear()</code></td>
+<td>清空字串。</td>
+</tr>
+<tr>
+<td><code>strncmp(const char *str1, const char *str2, size_t count)</code></td>
+<td>最多比較兩個字串的前 num 個位元組。</td>
+</tr>
+<tr>
+<td><code>strncpy(char *dest, const char *src, size_t n)</code></td>
+<td>該函式與  <code>strcpy()</code>  函式類似，不同之處在於最多複製 src 的 n 個位元組。</td>
+</tr>
+<tr>
+<td><code>strrchr(char* str, int chr)</code></td>
+<td>定位字串中某個字元的最後出現的位置。</td>
+</tr>
+<tr>
+<td><code>strcat(dest, src)</code></td>
+<td>把來源字串 src 的副本附加到目標字串 dest 的結尾。</td>
+</tr>
+<tr>
+<td><code>replace()</code></td>
+<td>把區間  <code>[first,last)</code>  中每個等於舊值的元素替換為新值。</td>
+</tr>
+<tr>
+<td><code>substr()</code></td>
+<td>從給定字串中建立子字串。</td>
+</tr>
+<tr>
+<td><code>compare()</code></td>
+<td>比較兩字串並以整數形式回傳結果。</td>
+</tr>
+<tr>
+<td><code>erase()</code></td>
+<td>刪除字串的某個部分。</td>
+</tr>
+<tr>
+<td><code>rfind()</code></td>
+<td>查找字串最後一次出現的位置。</td>
+</tr>
+</tbody>
+</table>
+<p>表格來源：<a target="_blank" rel="noopener" href="https://www.geeksforgeeks.org/strings-in-cpp/">https://www.geeksforgeeks.org/strings-in-cpp/</a></p>
+<p>find () 有多種語法：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre>s<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>sub<span class="token punctuation">,</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">// For substring 用於子字串</span></pre></td></tr><tr><td data-num="2"></td><td><pre>s<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>sub<span class="token punctuation">,</span> pos<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// For n character of sub 用於字串的 n 個字元</span></pre></td></tr><tr><td data-num="3"></td><td><pre>s<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>c<span class="token punctuation">,</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>                 <span class="token comment">// For character 用於字元</span></pre></td></tr></tbody></table></figure><p>以上的第二種語法僅適用於 C-style string。</p>
+<p><code>find()</code>  範例：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    string str <span class="token operator">=</span> <span class="token string">"The quick brown fox jumps over the lazy dog."</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token comment">// 尋找子字串 "fox"</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    size_t pos <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">"fox"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="11"></td><td><pre></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>pos <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="13"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"\"fox\" found at position: "</span> <span class="token operator">&lt;&lt;</span> pos <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="15"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"\"fox\" not found."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="17"></td><td><pre></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token comment">// 尋找字元 'z'</span></pre></td></tr><tr><td data-num="19"></td><td><pre>    pos <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token char">'z'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="20"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>pos <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="21"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"'z' found at position: "</span> <span class="token operator">&lt;&lt;</span> pos <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="22"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="23"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"'z' not found."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="24"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="25"></td><td><pre></pre></td></tr><tr><td data-num="26"></td><td><pre>    <span class="token comment">// 尋找不存在的子字串</span></pre></td></tr><tr><td data-num="27"></td><td><pre>    pos <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">"cat"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="28"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>pos <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="29"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"\"cat\" found at position: "</span> <span class="token operator">&lt;&lt;</span> pos <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="30"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="31"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"\"cat\" not found."</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="32"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="33"></td><td><pre></pre></td></tr><tr><td data-num="34"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="35"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>"fox" found at position: 16
+'z' found at position: 37
+"cat" not found.
+</code></pre>
+<p><code>string::npos</code>  代表找不到字串，回傳值的型態為  <code>size_t</code> ，通常為其型態的最大值  <code>4294967295</code> 。</p>
+<p>接下來是有關  <code>strncmp()</code> ,  <code>strncpy()</code> ,  <code>strrchr()</code> ,  <code>strcat()</code>  的範例：</p>
+<ol>
+<li><code>strncmp()</code></li>
+</ol>
+<p><code>strncmp()</code>  回傳值： <code>0</code> （相等）、 <code>&lt;0</code> （str1 &lt; str2）、 <code>&gt;0</code> （str1 &gt; str2）</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;cstring&gt;</span> <span class="token comment">// strncmp()</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> str1 <span class="token operator">=</span> <span class="token string">"abcdef"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> str2 <span class="token operator">=</span> <span class="token string">"abcxyz"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token comment">// 比較前 3 個字元</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token keyword">int</span> result <span class="token operator">=</span> <span class="token function">strncmp</span><span class="token punctuation">(</span>str1<span class="token punctuation">,</span> str2<span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="11"></td><td><pre></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>result <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="13"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"前 3 個字元相同"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>result <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="15"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"str1 小於 str2"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="17"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"str1 大於 str2"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="19"></td><td><pre></pre></td></tr><tr><td data-num="20"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="21"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>前 3 個字元相同
+</code></pre>
+<ol start="2">
+<li><code>strncpy(dest, src, n)</code></li>
+</ol>
+<p>若  <code>src</code>  長度小於  <code>n</code> ， <code>dest</code>  會補上  <code>\0</code> 。</p>
+<p>若  <code>src</code>  長度大於或等於  <code>n</code> ，可能不會自動補  <code>\0</code> ，需手動處理。</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;cstring&gt;</span>  <span class="token comment">// strncpy()</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> src <span class="token operator">=</span> <span class="token string">"Hello"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token keyword">char</span> dest<span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token comment">// 複製前 5 個字元到 dest，後面不足的會補 \0</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token function">strncpy</span><span class="token punctuation">(</span>dest<span class="token punctuation">,</span> src<span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="11"></td><td><pre></pre></td></tr><tr><td data-num="12"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"複製後的 dest: "</span> <span class="token operator">&lt;&lt;</span> dest <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>複製後的 dest: Hello
+</code></pre>
+<ol start="3">
+<li><code>strrchr(str, ch)</code></li>
+</ol>
+<ul>
+<li><code>strrchr(str, ch)</code>  回傳指向  <code>ch</code>  最後一次出現位置的指標，找不到回傳  <code>nullptr</code> 。</li>
+<li>可用指標運算計算該位置。</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;cstring&gt;</span>  <span class="token comment">// strrchr()</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> str <span class="token operator">=</span> <span class="token string">"This is a sample sentence."</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token comment">// 找出字元's' 最後一次出現的位置</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> result <span class="token operator">=</span> <span class="token function">strrchr</span><span class="token punctuation">(</span>str<span class="token punctuation">,</span> <span class="token char">'s'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>result <span class="token operator">!=</span> <span class="token keyword">nullptr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"最後一個 's' 出現在位置: "</span> <span class="token operator">&lt;&lt;</span> <span class="token punctuation">(</span>result <span class="token operator">-</span> str<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"從該位置開始的字串為: "</span> <span class="token operator">&lt;&lt;</span> result <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="14"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="15"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"找不到字元 's'"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="16"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="17"></td><td><pre></pre></td></tr><tr><td data-num="18"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>最後一個 's' 出現在位置: 17
+從該位置開始的字串為: sentence.
+</code></pre>
+<ol start="4">
+<li><code>strcat(dest, src)</code></li>
+</ol>
+<ul>
+<li><code>strcat(dest, src)</code> ：將  <code>src</code>  字串加到  <code>dest</code>  字串尾端。</li>
+<li><code>dest</code>  必須有足夠的空間存放合併後的結果，否則會產生記憶體區段（Segmentation fault）錯誤。</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;cstring&gt;</span>  <span class="token comment">// strcat()</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token keyword">char</span> dest<span class="token punctuation">[</span><span class="token number">50</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"Hello, "</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> src <span class="token operator">=</span> <span class="token string">"world!"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token function">strcat</span><span class="token punctuation">(</span>dest<span class="token punctuation">,</span> src<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"連接後的字串: "</span> <span class="token operator">&lt;&lt;</span> dest <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>連接後的字串: Hello, world!
+</code></pre>
+<p>以下是有關函式  <code>replace()</code> ,  <code>substr()</code> ,  <code>compare()</code> ,  <code>erase()</code> ,  <code>rfind()</code>  的範例：</p>
+<ol>
+<li><code>replace(pos, len, new_str)</code></li>
+</ol>
+<ul>
+<li><code>str.replace(pos, len, new_str)</code> ：從位置  <code>pos</code>  開始，取代長度為  <code>len</code>  的部分為  <code>new_str</code> 。</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span> <span class="token comment">// 注意為 &lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    string str <span class="token operator">=</span> <span class="token string">"I love apples"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    </pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token comment">// 從位置 7 開始，替換 6 個字元為 "oranges"</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    str<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token string">"oranges"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="11"></td><td><pre></pre></td></tr><tr><td data-num="12"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"替換後字串: "</span> <span class="token operator">&lt;&lt;</span> str <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>替換後字串: I love oranges
+</code></pre>
+<ol start="2">
+<li><code>substr(pos, len)</code></li>
+</ol>
+<ul>
+<li><code>substr(pos, len)</code> ：從  <code>pos</code>  開始擷取長度為  <code>len</code>  的子字串。</li>
+<li>若省略  <code>len</code> ，則取到字串尾端。</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    string str <span class="token operator">=</span> <span class="token string">"Hello, world!"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token comment">// 從位置 7 開始擷取 5 個字元</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    string sub <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">substr</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"擷取的子字串: "</span> <span class="token operator">&lt;&lt;</span> sub <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>擷取的子字串: world
+</code></pre>
+<ol start="3">
+<li><code>a.compare(b)</code></li>
+</ol>
+<ul>
+<li>
+<p><code>a.compare(b)</code> ：</p>
+<ul>
+<li>回傳 0：a 與 b 相同</li>
+<li>回傳 &lt;0：a 小於 b（字典序）</li>
+<li>回傳 &gt;0：a 大於 b。</li>
+</ul>
+</li>
+<li>
+<p>可用來實作排序（自訂排序）或搜尋。</p>
+</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    string a <span class="token operator">=</span> <span class="token string">"apple"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    string b <span class="token operator">=</span> <span class="token string">"banana"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token keyword">int</span> result <span class="token operator">=</span> a<span class="token punctuation">.</span><span class="token function">compare</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>result <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"字串相同"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>result <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="14"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"a &lt; b"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="16"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"a &gt; b"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="18"></td><td><pre></pre></td></tr><tr><td data-num="19"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="20"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>a &lt; b
+</code></pre>
+<ol start="4">
+<li><code>erase(pos, len)</code></li>
+</ol>
+<ul>
+<li><code>erase(pos, len)</code> ：從  <code>pos</code>  開始，刪除  <code>len</code>  個字元。</li>
+<li>也可用  <code>erase(iterator)</code>  或  <code>erase(iterator_first, iterator_last)</code> 。</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    string str <span class="token operator">=</span> <span class="token string">"0123456789"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token comment">// 從位置 3 開始，刪除 4 個字元</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    str<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre>    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"刪除後字串: "</span> <span class="token operator">&lt;&lt;</span> str <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>刪除後字串: 012789
+</code></pre>
+<ol start="5">
+<li><code>rfind(substring)</code></li>
+</ol>
+<ul>
+<li>rfind (substring)：回傳子字串最後一次出現的位置。</li>
+<li>若找不到，則回傳  <code>string::npos</code> 。</li>
+</ul>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    string str <span class="token operator">=</span> <span class="token string">"one two three two one"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token comment">// 搜尋 "two" 最後一次出現的位置</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    size_t pos <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">rfind</span><span class="token punctuation">(</span><span class="token string">"two"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token keyword">if</span> <span class="token punctuation">(</span>pos <span class="token operator">!=</span> string<span class="token double-colon punctuation">::</span>npos<span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"\"two\" 最後一次出現於位置: "</span> <span class="token operator">&lt;&lt;</span> pos <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="14"></td><td><pre>        cout <span class="token operator">&lt;&lt;</span> <span class="token string">"找不到子字串"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="15"></td><td><pre>    <span class="token punctuation">}</span></pre></td></tr><tr><td data-num="16"></td><td><pre></pre></td></tr><tr><td data-num="17"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="18"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><p>Output：</p>
+<pre><code>"two" 最後一次出現於位置: 14
+</code></pre>
+<h2 id="總結"><a class="anchor" href="#總結">#</a> 總結</h2>
+<h3 id="c-style-string-3"><a class="anchor" href="#c-style-string-3">#</a> C-style string</h3>
+<p>C-style string 是由 C 語言時期所沿用至今的字串表示方式，形式為字元陣列，並以特殊終止字元  <code>'\0'</code> （null character）表示字串結尾。</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token keyword">char</span> a<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"Hello"</span><span class="token punctuation">;</span>  <span class="token comment">// 等價於 {'H', 'e', 'l', 'l', 'o', '\0'}</span></pre></td></tr></tbody></table></figure><h4 id="常見的函式"><a class="anchor" href="#常見的函式">#</a> 常見的函式</h4>
+<p>在 C++ 使用時用  <code>&lt;cstring&gt;</code>  標頭檔引入。</p>
+<table>
+<thead>
+<tr>
+<th>函式</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>strlen(s)</code></td>
+<td>傳回字串長度（不包含  <code>\0</code> ）</td>
+</tr>
+<tr>
+<td><code>strcpy(dst, src)</code></td>
+<td>將 src 字串複製到 dst</td>
+</tr>
+<tr>
+<td><code>strcmp(s1, s2)</code></td>
+<td>比較兩個字串（相同回傳 0）</td>
+</tr>
+<tr>
+<td><code>strcat(dst, src)</code></td>
+<td>將 src 串接於 dst 之後</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>dst（destination）：目標字串（目的地）。</li>
+<li>src（source）：來源字串。</li>
+</ul>
+<h4 id="優點"><a class="anchor" href="#優點">#</a> 優點：</h4>
+<ul>
+<li>效能高，無額外抽象（Abstract）。</li>
+<li>與低階記憶體操作無縫整合。</li>
+<li>在嵌入式系統、C 接口中常見。</li>
+</ul>
+<h4 id="缺點"><a class="anchor" href="#缺點">#</a> 缺點：</h4>
+<ul>
+<li>安全性低，常因未妥善管理記憶體導致緩衝區溢位（buffer overflow）。</li>
+<li>很麻煩，沒有 C++ style string 來的方便。</li>
+<li>無法支援動態擴充長度，一個字串一旦寫好就固定長度了。</li>
+</ul>
+<hr>
+<h3 id="c-style-string-4"><a class="anchor" href="#c-style-string-4">#</a> C++ style string</h3>
+<p>C++ style string 是以  <code>std::string</code>  類別為核心的字串型態，需引入  <code>&lt;string&gt;</code>  標頭檔。</p>
+<p>用起來比 C-style string 更方便，也更符合現代化。</p>
+<p>範例：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre>string name <span class="token operator">=</span> <span class="token string">"LukeTseng"</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>cout <span class="token operator">&lt;&lt;</span> name<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// Output : L</span></pre></td></tr></tbody></table></figure><p>也可以更新字串： <code>name = "abc";</code> 。</p>
+<p>也能更新特定字元： <code>name[1] = 'i';</code> 。</p>
+<h4 id="常見函式表"><a class="anchor" href="#常見函式表">#</a> 常見函式表</h4>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>length()</code></td>
+<td>回傳字串長度。</td>
+</tr>
+<tr>
+<td><code>swap(a, b)</code></td>
+<td>交換兩個字串。</td>
+</tr>
+<tr>
+<td><code>size()</code></td>
+<td>查找字串的大小。</td>
+</tr>
+<tr>
+<td><code>resize()</code></td>
+<td>將字串長度調整為給定的字元數。</td>
+</tr>
+<tr>
+<td><code>find()</code></td>
+<td>尋找傳入參數的字串。</td>
+</tr>
+<tr>
+<td><code>push_back(c)</code></td>
+<td>把字元 c 推送到字串的結尾。</td>
+</tr>
+<tr>
+<td><code>pop_back(c)</code></td>
+<td>移除字串中最後一個字元 c。</td>
+</tr>
+<tr>
+<td><code>clear()</code></td>
+<td>清空字串。</td>
+</tr>
+<tr>
+<td><code>strncmp(const char *str1, const char *str2, size_t count)</code></td>
+<td>最多比較兩個字串的前 num 個位元組。</td>
+</tr>
+<tr>
+<td><code>strncpy(char *dest, const char *src, size_t n)</code></td>
+<td>該函式與  <code>strcpy()</code>  函式類似，不同之處在於最多複製 src 的 n 個位元組。</td>
+</tr>
+<tr>
+<td><code>strrchr(char* str, int chr)</code></td>
+<td>定位字串中某個字元的最後出現的位置。</td>
+</tr>
+<tr>
+<td><code>strcat(dest, src)</code></td>
+<td>把來源字串 src 的副本附加到目標字串 dest 的結尾。</td>
+</tr>
+<tr>
+<td><code>replace()</code></td>
+<td>把區間  <code>[first,last)</code>  中每個等於舊值的元素替換為新值。</td>
+</tr>
+<tr>
+<td><code>substr()</code></td>
+<td>從給定字串中建立子字串。</td>
+</tr>
+<tr>
+<td><code>compare()</code></td>
+<td>比較兩字串並以整數形式回傳結果。</td>
+</tr>
+<tr>
+<td><code>erase()</code></td>
+<td>刪除字串的某個部分。</td>
+</tr>
+<tr>
+<td><code>rfind()</code></td>
+<td>查找字串最後一次出現的位置。</td>
+</tr>
+</tbody>
+</table>
+<p>表格來源：<a target="_blank" rel="noopener" href="https://www.geeksforgeeks.org/strings-in-cpp/">https://www.geeksforgeeks.org/strings-in-cpp/</a></p>
+<p>find () 有多種語法：</p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre>s<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>sub<span class="token punctuation">,</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">// For substring 用於子字串</span></pre></td></tr><tr><td data-num="2"></td><td><pre>s<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>sub<span class="token punctuation">,</span> pos<span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// For n character of sub 用於字串的 n 個字元</span></pre></td></tr><tr><td data-num="3"></td><td><pre>s<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span>c<span class="token punctuation">,</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>                 <span class="token comment">// For character 用於字元</span></pre></td></tr></tbody></table></figure><p>以上的第二種語法僅適用於 C-style string。</p>
+<h4 id="strncmp-strncpy-strrchr-strcat-總表"><a class="anchor" href="#strncmp-strncpy-strrchr-strcat-總表">#</a>  <code>strncmp()</code> ,  <code>strncpy()</code> ,  <code>strrchr()</code> ,  <code>strcat()</code>  總表</h4>
+<table>
+<thead>
+<tr>
+<th>函式名稱</th>
+<th>功能說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>strncmp()</code></td>
+<td>比較兩字串前 n 個字元</td>
+</tr>
+<tr>
+<td><code>strncpy()</code></td>
+<td>複製字串前 n 個字元到另一字串</td>
+</tr>
+<tr>
+<td><code>strrchr()</code></td>
+<td>找到某字元最後一次出現位置</td>
+</tr>
+<tr>
+<td><code>strcat()</code></td>
+<td>將一字串接到另一字串之後</td>
+</tr>
+</tbody>
+</table>
+<h4 id="replace-substr-compare-erase-rfind-總表"><a class="anchor" href="#replace-substr-compare-erase-rfind-總表">#</a>  <code>replace()</code> ,  <code>substr()</code> ,  <code>compare()</code> ,  <code>erase()</code> ,  <code>rfind()</code>  總表</h4>
+<table>
+<thead>
+<tr>
+<th>函式</th>
+<th>功能說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>replace()</code></td>
+<td>替換字串中的某段子字串</td>
+</tr>
+<tr>
+<td><code>substr()</code></td>
+<td>擷取子字串</td>
+</tr>
+<tr>
+<td><code>compare()</code></td>
+<td>比較兩字串字典順序</td>
+</tr>
+<tr>
+<td><code>erase()</code></td>
+<td>刪除某段字串</td>
+</tr>
+<tr>
+<td><code>rfind()</code></td>
+<td>搜尋某子字串最後一次出現的位置</td>
+</tr>
+</tbody>
+</table>
+<h2 id="參考資料"><a class="anchor" href="#參考資料">#</a> 參考資料</h2>
+<p><a target="_blank" rel="noopener" href="https://www.geeksforgeeks.org/strings-in-cpp/">Strings in C++ | GeeksforGeeks</a></p>
+<p><a target="_blank" rel="noopener" href="https://hackmd.io/@HsuChiChen/c-style-string">C-style string 的處理 - HackMD</a></p>
+<p><a target="_blank" rel="noopener" href="https://openhome.cc/Gossip/CppGossip/string2.html">使用 string</a></p>
+<p><a target="_blank" rel="noopener" href="https://tigercosmos.xyz/post/2023/06/c++/std-string-beginner/">Neutrino's Blog: 入門看完這一篇就夠了，讓你融會貫通使用 C++ 的 std::string 初級篇！</a></p>
+<div class="tags"><a href="/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/" rel="tag"><i class="ic i-tag"></i>程式設計</a><a href="/tags/C/" rel="tag"><i class="ic i-tag"></i>C++</a><a href="/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/" rel="tag"><i class="ic i-tag"></i>字串處理</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新於 </span><time title="修改時間：2025-06-05 12:38:49" itemprop="dateModified" datetime="2025-06-05T12:38:49+08:00">2025-06-05</time></span></div><div id="copyright"><ul><li class="author"><strong>作者：</strong>LukeTseng<i class="ic i-at"><em>@</em></i>Yaoの程式小窩</li><li class="link"><strong>文章連結：</strong><a href="https://luketsengtw.github.io/programming/cpp/cpp-notes-compare-string/" title="【C++ 筆記】C++ 與 C style string">https://luketsengtw.github.io/programming/cpp/cpp-notes-compare-string/</a></li><li class="license"><strong>版權聲明：</strong>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 許可協議。轉載請註明出處！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/programming/cpp/cpp-notes-input-function/" rel="prev" itemprop="url" data-background-image="https://picsum.photos/1600/900?294537" title="【C++筆記】一些輸入函數 cin, getline(), cin.get() 等"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>C++</span><h3>【C++筆記】一些輸入函數 cin, getline(), cin.get() 等</h3></a></div><div class="item right"><a href="/competitive-programming/cp-learning/cpp-cp-notes-algorithm-sweep-line/" rel="next" itemprop="url" data-background-image="https://picsum.photos/1600/900?453385" title="【C++】競程筆記（一維掃描線）"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>競程筆記</span><h3>【C++】競程筆記（一維掃描線）</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#c-%E7%AD%86%E8%A8%98c-%E8%88%87-c-style-string"><span class="toc-number">1.</span> <span class="toc-text"> 【C++ 筆記】C++ 與 C style string</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#c-style-string"><span class="toc-number">1.1.</span> <span class="toc-text"> C-style string</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#strength-and-weakness"><span class="toc-number">1.1.1.</span> <span class="toc-text"> Strength and weakness</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#c-style-string-2"><span class="toc-number">1.2.</span> <span class="toc-text"> C++ style string</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E9%97%9C%E5%87%BD%E5%BC%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 相關函式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B8%BD%E7%B5%90"><span class="toc-number">1.3.</span> <span class="toc-text"> 總結</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#c-style-string-3"><span class="toc-number">1.3.1.</span> <span class="toc-text"> C-style string</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A6%8B%E7%9A%84%E5%87%BD%E5%BC%8F"><span class="toc-number">1.3.1.1.</span> <span class="toc-text"> 常見的函式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%84%AA%E9%BB%9E"><span class="toc-number">1.3.1.2.</span> <span class="toc-text"> 優點：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%BA%E9%BB%9E"><span class="toc-number">1.3.1.3.</span> <span class="toc-text"> 缺點：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#c-style-string-4"><span class="toc-number">1.3.2.</span> <span class="toc-text"> C++ style string</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A6%8B%E5%87%BD%E5%BC%8F%E8%A1%A8"><span class="toc-number">1.3.2.1.</span> <span class="toc-text"> 常見函式表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#strncmp-strncpy-strrchr-strcat-%E7%B8%BD%E8%A1%A8"><span class="toc-number">1.3.2.2.</span> <span class="toc-text">  strncmp() ,  strncpy() ,  strrchr() ,  strcat()  總表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#replace-substr-compare-erase-rfind-%E7%B8%BD%E8%A1%A8"><span class="toc-number">1.3.2.3.</span> <span class="toc-text">  replace() ,  substr() ,  compare() ,  erase() ,  rfind()  總表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="toc-number">1.4.</span> <span class="toc-text"> 參考資料</span></a></li></ol></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/programming/cpp/cpp-notes-introduction/" rel="bookmark" title="【C++ 筆記】簡介 / 環境安裝 / 基本語法 - part 1">【C++ 筆記】簡介 / 環境安裝 / 基本語法 - part 1</a></li><li><a href="/programming/cpp/cpp-notes-data-type-variable/" rel="bookmark" title="【C++ 筆記】資料型態 / 變數 - part 2">【C++ 筆記】資料型態 / 變數 - part 2</a></li><li><a href="/programming/cpp/cpp-notes-const-and-operator/" rel="bookmark" title="【C++ 筆記】常數 / 運算子（上） - part 3">【C++ 筆記】常數 / 運算子（上） - part 3</a></li><li><a href="/programming/cpp/cpp-notes-if-else/" rel="bookmark" title="【C++ 筆記】條件判斷 - part 4">【C++ 筆記】條件判斷 - part 4</a></li><li><a href="/programming/cpp/cpp-notes-operator-lower/" rel="bookmark" title="【C++ 筆記】運算子（下） - part 5">【C++ 筆記】運算子（下） - part 5</a></li><li><a href="/programming/cpp/cpp-notes-loop/" rel="bookmark" title="【C++ 筆記】迴圈（loop） - part 6">【C++ 筆記】迴圈（loop） - part 6</a></li><li><a href="/programming/cpp/cpp-notes-function-upper/" rel="bookmark" title="【C++ 筆記】函數（Function）（上） - part 7">【C++ 筆記】函數（Function）（上） - part 7</a></li><li><a href="/programming/cpp/cpp-notes-cmath-headerfile/" rel="bookmark" title="【C++ 筆記】數學函式庫（cmath library） - part 7.5">【C++ 筆記】數學函式庫（cmath library） - part 7.5</a></li><li><a href="/programming/cpp/cpp-notes-array/" rel="bookmark" title="【C++ 筆記】陣列（Array） - part 8">【C++ 筆記】陣列（Array） - part 8</a></li><li><a href="/programming/cpp/cpp-notes-string/" rel="bookmark" title="【C++ 筆記】字串（String） - part 9">【C++ 筆記】字串（String） - part 9</a></li><li><a href="/programming/cpp/cpp-notes-pointer-upper/" rel="bookmark" title="【C++ 筆記】指標（Pointer）（上） - part 10">【C++ 筆記】指標（Pointer）（上） - part 10</a></li><li><a href="/programming/cpp/cpp-notes-function-lower/" rel="bookmark" title="【C++ 筆記】函數（Function）（下） - part 11">【C++ 筆記】函數（Function）（下） - part 11</a></li><li><a href="/programming/cpp/cpp-notes-storage-classes/" rel="bookmark" title="【C++ 筆記】儲存類別（Storage classes） - part 12">【C++ 筆記】儲存類別（Storage classes） - part 12</a></li><li><a href="/programming/cpp/cpp-notes-pointer-lower/" rel="bookmark" title="【C++ 筆記】指標（Pointer）（下） - part 13">【C++ 筆記】指標（Pointer）（下） - part 13</a></li><li><a href="/programming/cpp/cpp-notes-reference/" rel="bookmark" title="【C++ 筆記】參考（Reference） - part 14">【C++ 筆記】參考（Reference） - part 14</a></li><li><a href="/programming/cpp/cpp-notes-struct/" rel="bookmark" title="【C++ 筆記】結構（Struct） - part 15">【C++ 筆記】結構（Struct） - part 15</a></li><li><a href="/programming/cpp/cpp-notes-vector/" rel="bookmark" title="【C++ 筆記】vector - part 16">【C++ 筆記】vector - part 16</a></li><li><a href="/programming/cpp/cpp-notes-class-basic/" rel="bookmark" title="【C++ 筆記】類別（Class）的基礎概念 - part 17">【C++ 筆記】類別（Class）的基礎概念 - part 17</a></li><li><a href="/programming/cpp/cpp-notes-constructor/" rel="bookmark" title="【C++ 筆記】建構子（Constructors） - part 18">【C++ 筆記】建構子（Constructors） - part 18</a></li><li><a href="/programming/cpp/cpp-notes-destructor/" rel="bookmark" title="【C++ 筆記】解構子（Destructors） - part 18.5">【C++ 筆記】解構子（Destructors） - part 18.5</a></li><li><a href="/programming/cpp/cpp-notes-friend-class/" rel="bookmark" title="【C++ 筆記】Friend Classes &amp; Functions - part 19">【C++ 筆記】Friend Classes &amp; Functions - part 19</a></li><li><a href="/programming/cpp/cpp-notes-inline-function/" rel="bookmark" title="【C++ 筆記】內嵌函數（inline function） - part 20">【C++ 筆記】內嵌函數（inline function） - part 20</a></li><li><a href="/programming/cpp/cpp-notes-this-pointer/" rel="bookmark" title="【C++ 筆記】this pointer - part 21">【C++ 筆記】this pointer - part 21</a></li><li><a href="/programming/cpp/cpp-notes-inheritance/" rel="bookmark" title="【C++ 筆記】繼承（Inheritance） - part 22">【C++ 筆記】繼承（Inheritance） - part 22</a></li><li><a href="/programming/cpp/cpp-notes-polymorphism/" rel="bookmark" title="【C++ 筆記】多型（Polymorphism） - part 23">【C++ 筆記】多型（Polymorphism） - part 23</a></li><li><a href="/programming/cpp/cpp-notes-overloading/" rel="bookmark" title="【C++ 筆記】函數多載 / 運算子多載 - part 24">【C++ 筆記】函數多載 / 運算子多載 - part 24</a></li><li><a href="/programming/cpp/cpp-notes-input-function/" rel="bookmark" title="【C++筆記】一些輸入函數 cin, getline(), cin.get() 等">【C++筆記】一些輸入函數 cin, getline(), cin.get() 等</a></li><li class="active"><a href="/programming/cpp/cpp-notes-compare-string/" rel="bookmark" title="【C++ 筆記】C++ 與 C style string">【C++ 筆記】C++ 與 C style string</a></li><li><a href="/programming/cpp/cpp-notes-iterator/" rel="bookmark" title="【C++筆記】Iterator（迭代器）">【C++筆記】Iterator（迭代器）</a></li><li><a href="/programming/cpp/cpp-notes-abstraction-ADT/" rel="bookmark" title="【C++ 筆記】資料抽象與 ADT - part 25">【C++ 筆記】資料抽象與 ADT - part 25</a></li><li><a href="/programming/cpp/cpp-notes-ABC/" rel="bookmark" title="【C++ 筆記】抽象類別（Abstract Class, ABC） - part 26">【C++ 筆記】抽象類別（Abstract Class, ABC） - part 26</a></li><li><a href="/programming/cpp/cpp-notes-file-handling/" rel="bookmark" title="【C++ 筆記】檔案處理 - part 27">【C++ 筆記】檔案處理 - part 27</a></li><li><a href="/programming/cpp/cpp-notes-casting-operator/" rel="bookmark" title="【C++ 筆記】型態轉換運算子（Casting Operator）">【C++ 筆記】型態轉換運算子（Casting Operator）</a></li><li><a href="/programming/cpp/cpp-notes-exception-handling/" rel="bookmark" title="【C++ 筆記】例外處理（Exception Handling） - part 28">【C++ 筆記】例外處理（Exception Handling） - part 28</a></li><li><a href="/programming/cpp/cpp-notes-new-and-delete/" rel="bookmark" title="【C++ 筆記】動態記憶體（new / delete） - part 29">【C++ 筆記】動態記憶體（new / delete） - part 29</a></li><li><a href="/programming/cpp/cpp-notes-namespace/" rel="bookmark" title="【C++ 筆記】命名空間（Namespace） - part 30">【C++ 筆記】命名空間（Namespace） - part 30</a></li><li><a href="/programming/cpp/cpp-notes-template-upper/" rel="bookmark" title="【C++ 筆記】模板（Templates）（上） - part 31">【C++ 筆記】模板（Templates）（上） - part 31</a></li><li><a href="/programming/cpp/cpp-notes-template-lower/" rel="bookmark" title="【C++ 筆記】模板（Templates）（下） - part 32">【C++ 筆記】模板（Templates）（下） - part 32</a></li></ul></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="LukeTseng" src="/assets/avatar.avif"><p class="name" itemprop="name">LukeTseng</p><div class="description" itemprop="description">一個軟硬體都愛的資訊人，也是個無名的程式熱愛者。目前仍主要活躍於 Hackmd 平台上，基本上本站與此同步更新。</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">124</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">16</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">33</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/LukeTsengTW" class="item github" title="https://github.com/LukeTsengTW"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://hackmd.io/@LukeTseng" class="item hackmd" title="https://hackmd.io/@LukeTseng"><i class="ic i-file"></i></a><a target="_blank" rel="noopener" href="https://www.instagram.com/moonouo_/" class="item instagram" title="https://www.instagram.com/moonouo_/"><i class="ic i-instagram"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about" rel="section"><i class="ic i-user"></i>關於</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>歸檔</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分類</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>標籤</a></li></ul></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/competitive-programming/cp-learning/cpp-cp-notes-algorithm-sweep-line/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/programming/cpp/cpp-notes-input-function/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div><div id="player"></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>隨機文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/competitive-programming/" title="分類於競程">競程</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/cp-learning/" title="分類於競程筆記">競程筆記</a></div><span><a href="/competitive-programming/cp-learning/cpp-cp-notes-algorithm-prefix-diff/">【C++】競程筆記（前綴和、差分）</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/competitive-programming/" title="分類於競程">競程</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/cp-learning/" title="分類於競程筆記">競程筆記</a></div><span><a href="/competitive-programming/cp-learning/cpp-cp-notes-algorithm-recursion/">【C++】競程筆記（遞迴）</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/competitive-programming/" title="分類於競程">競程</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/cp-learning/" title="分類於競程筆記">競程筆記</a></div><span><a href="/competitive-programming/cp-learning/cpp-cp-notes-data-structure-map/">【C++】競程筆記（資料結構：map）</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/programming/" title="分類於程式設計">程式設計</a><i class="ic i-angle-right"></i><a href="/categories/programming/cpp/" title="分類於C++">C++</a></div><span><a href="/programming/cpp/cpp-notes-reference/">【C++ 筆記】參考（Reference） - part 14</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/algorithm/" title="分類於演算法">演算法</a></div><span><a href="/algorithm/cpp-note-basic-sorting/">【C++ 筆記】基礎排序（氣泡、選擇、插入排序法）</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/programming/" title="分類於程式設計">程式設計</a><i class="ic i-angle-right"></i><a href="/categories/programming/cpp/" title="分類於C++">C++</a></div><span><a href="/programming/cpp/cpp-notes-inline-function/">【C++ 筆記】內嵌函數（inline function） - part 20</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/competitive-programming/" title="分類於競程">競程</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/cp-learning/" title="分類於競程筆記">競程筆記</a></div><span><a href="/competitive-programming/cp-learning/cpp-cp-notes-algorithm/">【C++】競程筆記（algorithm標頭檔）</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/programming/" title="分類於程式設計">程式設計</a><i class="ic i-angle-right"></i><a href="/categories/programming/cpp/" title="分類於C++">C++</a></div><span><a href="/programming/cpp/cpp-notes-inheritance/">【C++ 筆記】繼承（Inheritance） - part 22</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/competitive-programming/" title="分類於競程">競程</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/CP-question/" title="分類於解題">解題</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/CP-question/zerojudge/" title="分類於Zerojudge">Zerojudge</a></div><span><a href="/competitive-programming/CP-question/zerojudge/zerojudge-notes-cpp-part-01/">【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 1</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/competitive-programming/" title="分類於競程">競程</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/CP-question/" title="分類於解題">解題</a><i class="ic i-angle-right"></i><a href="/categories/competitive-programming/CP-question/zerojudge/" title="分類於Zerojudge">Zerojudge</a></div><span><a href="/competitive-programming/CP-question/zerojudge/zerojudge-notes-cpp-part-03/">【個人筆記】C++ ZeroJudge 基礎題庫解題(純練習) - part 3</a></span></li></ul></div><div class="rpost pjax"><h2>最新評論</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">© 2024 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">LukeTseng @ Coding Paradise</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">901k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">13:39</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `programming/cpp/cpp-notes-compare-string/`,
+    favicon: {
+        show: `（●´3｀●）復活成功`,
+        hide: `(´Д｀)瀏覽器崩潰啦`
+    },
+    search: {
+        placeholder: "文章搜尋",
+        empty: "關於 「 ${query} 」 ，什麼也沒搜到",
+        stats: "${time} ms 內找到 ${hits} 條結果"
+    },
+    nocopy: "false",
+    copyright: `複製成功，轉載請遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 協議。`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章時效性提示</span><br>這是一篇發佈於 {{publish}} 天前，最後一次更新在 {{updated}} 天前的文章，部分信息可能已經發生改變，請注意甄別。</p></div>`,
+    quiz: {
+        choice: `單選題`,
+        multiple: `多選題`,
+        true_false: `判斷題`,
+        essay: `問答題`,
+        gap_fill: `填空題`,
+        mistake: `錯題備註`
+    }
+};
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-7EES35MTFS"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-7EES35MTFS');</script><script src="/js/siteInit.js?v=0.5.0" type="module" fetchpriority="high" defer=""></script></body></html>
