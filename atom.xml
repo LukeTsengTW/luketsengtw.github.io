@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-10-01T08:29:36.365Z</updated>
+  <updated>2025-10-05T13:07:05.450Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,11 +17,54 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【Uva 題庫解題】C++ 個人解題筆記 - part4</title>
+    <link href="https://luketsengtw.github.io/posts/8712bb37"/>
+    <id>https://luketsengtw.github.io/posts/8712bb37</id>
+    <published>2025-10-05T13:03:04.000Z</published>
+    <updated>2025-10-05T13:07:05.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【Uva-題庫解題】C-個人解題筆記-part4&quot;&gt;&lt;a href=&quot;#【Uva-題庫解題】C-個人解題筆記-part4&quot; class=&quot;headerlink&quot; title=&quot;【Uva 題庫解題】C++ 個人解題筆記 - part4&quot;&gt;&lt;/a&gt;【Uva</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="解題" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/"/>
+    
+    <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
+    
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
+    
+    <category term="CPE" scheme="https://luketsengtw.github.io/tags/CPE/"/>
+    
+    <category term="Uva" scheme="https://luketsengtw.github.io/tags/Uva/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【VSCode &amp; Ubuntu】超詳細教學！如何在 VSCode 遠端控制 VMWare Terminal</title>
     <link href="https://luketsengtw.github.io/posts/b4e9bcb2"/>
     <id>https://luketsengtw.github.io/posts/b4e9bcb2</id>
     <published>2025-10-01T08:29:16.000Z</published>
-    <updated>2025-10-01T08:29:36.365Z</updated>
+    <updated>2025-10-01T08:29:56.582Z</updated>
     
     
       
@@ -676,47 +719,6 @@
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
     <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Uva 題庫解題】C++ 個人解題筆記（一顆星選集） - part 2</title>
-    <link href="https://luketsengtw.github.io/posts/cd850332"/>
-    <id>https://luketsengtw.github.io/posts/cd850332</id>
-    <published>2025-07-09T12:50:34.000Z</published>
-    <updated>2025-08-07T15:41:54.733Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【Uva-題庫解題】C-個人解題筆記（一顆星選集）-part-2&quot;&gt;&lt;a href=&quot;#【Uva-題庫解題】C-個人解題筆記（一顆星選集）-part-2&quot; class=&quot;headerlink&quot; title=&quot;【Uva 題庫解題】C++ 個人解題筆記（一顆星選集）</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="解題" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/"/>
-    
-    <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
     
   </entry>
   
