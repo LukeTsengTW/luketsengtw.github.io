@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-10-19T09:30:44.985Z</updated>
+  <updated>2025-10-19T09:31:21.911Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://luketsengtw.github.io/posts/68629f2d"/>
     <id>https://luketsengtw.github.io/posts/68629f2d</id>
     <published>2025-10-19T09:29:29.000Z</published>
-    <updated>2025-10-19T09:30:44.985Z</updated>
+    <updated>2025-10-19T09:31:21.911Z</updated>
     
     
       
@@ -101,21 +101,21 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
-    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
-    
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
     <category term="爬蟲" scheme="https://luketsengtw.github.io/tags/%E7%88%AC%E8%9F%B2/"/>
     
     <category term="web crawler" scheme="https://luketsengtw.github.io/tags/web-crawler/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
   </entry>
   
@@ -144,9 +144,9 @@
     <category term="LeetCode" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/leetcode/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -181,9 +181,9 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -220,9 +220,9 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -239,7 +239,7 @@
     <link href="https://luketsengtw.github.io/posts/d93c9963"/>
     <id>https://luketsengtw.github.io/posts/d93c9963</id>
     <published>2025-10-15T12:51:12.000Z</published>
-    <updated>2025-10-18T13:49:06.521Z</updated>
+    <updated>2025-10-19T11:14:29.240Z</updated>
     
     
       
@@ -317,9 +317,9 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -410,9 +410,9 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
@@ -503,21 +503,21 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
     <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
     
+    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
+    
     <category term="CPE" scheme="https://luketsengtw.github.io/tags/CPE/"/>
     
     <category term="Uva" scheme="https://luketsengtw.github.io/tags/Uva/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
   </entry>
   
@@ -573,19 +573,19 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
-    
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="爬蟲" scheme="https://luketsengtw.github.io/tags/%E7%88%AC%E8%9F%B2/"/>
     
     <category term="web crawler" scheme="https://luketsengtw.github.io/tags/web-crawler/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
   </entry>
   
@@ -641,23 +641,23 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="爬蟲" scheme="https://luketsengtw.github.io/tags/%E7%88%AC%E8%9F%B2/"/>
     
-    <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
+    <category term="web crawler" scheme="https://luketsengtw.github.io/tags/web-crawler/"/>
     
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="爬蟲" scheme="https://luketsengtw.github.io/tags/%E7%88%AC%E8%9F%B2/"/>
+    <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="web crawler" scheme="https://luketsengtw.github.io/tags/web-crawler/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
   </entry>
   
