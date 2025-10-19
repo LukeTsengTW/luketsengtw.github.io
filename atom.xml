@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-10-18T13:51:15.385Z</updated>
+  <updated>2025-10-19T09:30:44.985Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>那些你不能不會的 Linux 基礎指令！（下）</title>
+    <link href="https://luketsengtw.github.io/posts/68629f2d"/>
+    <id>https://luketsengtw.github.io/posts/68629f2d</id>
+    <published>2025-10-19T09:29:29.000Z</published>
+    <updated>2025-10-19T09:30:44.985Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;那些你不能不會的-Linux-基礎指令！（下）&quot;&gt;&lt;a href=&quot;#那些你不能不會的-Linux-基礎指令！（下）&quot; class=&quot;headerlink&quot; title=&quot;那些你不能不會的 Linux 基礎指令！（下）&quot;&gt;&lt;/a&gt;那些你不能不會的 Linux</summary>
+        
+      
+    
+    
+    
+    <category term="linux" scheme="https://luketsengtw.github.io/categories/linux/"/>
+    
+    
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>那些你不能不會的 Linux 基礎指令！（上）</title>
     <link href="https://luketsengtw.github.io/posts/d0def848"/>
     <id>https://luketsengtw.github.io/posts/d0def848</id>
     <published>2025-10-18T13:45:43.000Z</published>
-    <updated>2025-10-18T13:51:15.385Z</updated>
+    <updated>2025-10-18T13:51:42.759Z</updated>
     
     
       
@@ -37,13 +68,13 @@
     <category term="linux" scheme="https://luketsengtw.github.io/categories/linux/"/>
     
     
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -70,13 +101,13 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
@@ -224,11 +255,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -253,11 +284,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -319,11 +350,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -348,11 +379,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -379,13 +410,13 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
   </entry>
   
@@ -410,11 +441,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -439,11 +470,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -472,21 +503,21 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
     <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
     <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
     
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
     <category term="CPE" scheme="https://luketsengtw.github.io/tags/CPE/"/>
     
     <category term="Uva" scheme="https://luketsengtw.github.io/tags/Uva/"/>
+    
+    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
   </entry>
   
@@ -511,11 +542,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
     <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -542,11 +573,11 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
@@ -579,11 +610,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
     <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -610,11 +641,11 @@
     <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
     
     
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
@@ -651,11 +682,11 @@
     <category term="資安" scheme="https://luketsengtw.github.io/categories/cybersecurity/"/>
     
     
+    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
     <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
     <category term="Ubuntu" scheme="https://luketsengtw.github.io/tags/Ubuntu/"/>
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
@@ -666,33 +697,6 @@
     <category term="CyberSecurity" scheme="https://luketsengtw.github.io/tags/CyberSecurity/"/>
     
     <category term="CTF" scheme="https://luketsengtw.github.io/tags/CTF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>儲存整數的方法，在電腦裡負數是如何表示的</title>
-    <link href="https://luketsengtw.github.io/posts/f0fc3532"/>
-    <id>https://luketsengtw.github.io/posts/f0fc3532</id>
-    <published>2025-09-17T14:49:09.000Z</published>
-    <updated>2025-09-17T14:51:25.635Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;儲存整數的方法，在電腦裡負數是如何表示的&quot;&gt;&lt;a href=&quot;#儲存整數的方法，在電腦裡負數是如何表示的&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
   </entry>
   
