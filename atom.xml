@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-10-24T04:21:42.632Z</updated>
+  <updated>2025-10-30T15:50:41.290Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,11 +17,85 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【C++】競程筆記（DP：動態規劃）</title>
+    <link href="https://luketsengtw.github.io/posts/c973156d"/>
+    <id>https://luketsengtw.github.io/posts/c973156d</id>
+    <published>2025-10-30T15:49:08.000Z</published>
+    <updated>2025-10-30T15:50:41.290Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【C-】競程筆記（DP：動態規劃）&quot;&gt;&lt;a href=&quot;#【C-】競程筆記（DP：動態規劃）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
+    
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
+    
+    <category term="動態規劃" scheme="https://luketsengtw.github.io/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python 筆記】Matplotlib Pyplot 套件應用（下）</title>
+    <link href="https://luketsengtw.github.io/posts/328006c2"/>
+    <id>https://luketsengtw.github.io/posts/328006c2</id>
+    <published>2025-10-25T05:25:09.000Z</published>
+    <updated>2025-10-25T05:30:04.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【Python-筆記】Matplotlib-Pyplot-套件應用（下）&quot;&gt;&lt;a href=&quot;#【Python-筆記】Matplotlib-Pyplot-套件應用（下）&quot; class=&quot;headerlink&quot; title=&quot;【Python</summary>
+        
+      
+    
+    
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/"/>
+    
+    <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
+    
+    
+    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
+    
+    <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Python 筆記】Matplotlib Pyplot 套件應用（中）</title>
     <link href="https://luketsengtw.github.io/posts/b7d9f620"/>
     <id>https://luketsengtw.github.io/posts/b7d9f620</id>
     <published>2025-10-24T04:19:33.000Z</published>
-    <updated>2025-10-24T04:21:42.632Z</updated>
+    <updated>2025-10-24T04:22:08.473Z</updated>
     
     
       
@@ -85,41 +159,6 @@
   </entry>
   
   <entry>
-    <title>【Python 筆記】csv 套件使用</title>
-    <link href="https://luketsengtw.github.io/posts/487c91d7"/>
-    <id>https://luketsengtw.github.io/posts/487c91d7</id>
-    <published>2025-10-22T09:42:57.000Z</published>
-    <updated>2025-10-22T09:45:15.328Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【Python-筆記】csv-套件使用&quot;&gt;&lt;a href=&quot;#【Python-筆記】csv-套件使用&quot; class=&quot;headerlink&quot; title=&quot;【Python 筆記】csv 套件使用&quot;&gt;&lt;/a&gt;【Python 筆記】csv</summary>
-        
-      
-    
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/"/>
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
-    
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
-    
-    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【Python 筆記】JSON 格式讀寫</title>
     <link href="https://luketsengtw.github.io/posts/dd461795"/>
     <id>https://luketsengtw.github.io/posts/dd461795</id>
@@ -148,9 +187,44 @@
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
+    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
+    
     <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
     
+  </entry>
+  
+  <entry>
+    <title>【Python 筆記】csv 套件使用</title>
+    <link href="https://luketsengtw.github.io/posts/487c91d7"/>
+    <id>https://luketsengtw.github.io/posts/487c91d7</id>
+    <published>2025-10-22T09:42:57.000Z</published>
+    <updated>2025-10-22T09:45:15.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【Python-筆記】csv-套件使用&quot;&gt;&lt;a href=&quot;#【Python-筆記】csv-套件使用&quot; class=&quot;headerlink&quot; title=&quot;【Python 筆記】csv 套件使用&quot;&gt;&lt;/a&gt;【Python 筆記】csv</summary>
+        
+      
+    
+    
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/"/>
+    
+    <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
+    
+    
+    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
+    
     <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
+    
+    <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
@@ -249,13 +323,13 @@
     <category term="linux" scheme="https://luketsengtw.github.io/categories/linux/"/>
     
     
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -280,13 +354,13 @@
     <category term="linux" scheme="https://luketsengtw.github.io/categories/linux/"/>
     
     
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -311,13 +385,13 @@
     <category term="linux" scheme="https://luketsengtw.github.io/categories/linux/"/>
     
     
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -498,11 +572,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -527,11 +601,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -593,11 +667,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -622,73 +696,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Python 筆記】正規運算式（Regular Expression）</title>
-    <link href="https://luketsengtw.github.io/posts/3e674b2a"/>
-    <id>https://luketsengtw.github.io/posts/3e674b2a</id>
-    <published>2025-10-12T05:23:04.000Z</published>
-    <updated>2025-10-12T05:24:54.050Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【Python-筆記】正規運算式（Regular-Expression）&quot;&gt;&lt;a href=&quot;#【Python-筆記】正規運算式（Regular-Expression）&quot; class=&quot;headerlink&quot; title=&quot;【Python</summary>
-        
-      
-    
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/"/>
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/categories/programming/python/"/>
-    
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什麼是奇偶校驗？（Parity Bit）</title>
-    <link href="https://luketsengtw.github.io/posts/98e754e8"/>
-    <id>https://luketsengtw.github.io/posts/98e754e8</id>
-    <published>2025-10-11T10:45:27.000Z</published>
-    <updated>2025-10-11T10:47:20.358Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;什麼是奇偶校驗？（Parity-Bit）&quot;&gt;&lt;a href=&quot;#什麼是奇偶校驗？（Parity-Bit）&quot; class=&quot;headerlink&quot; title=&quot;什麼是奇偶校驗？（Parity Bit）&quot;&gt;&lt;/a&gt;什麼是奇偶校驗？（Parity</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
     <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
   </entry>
   
