@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-11-01T14:48:24.446Z</updated>
+  <updated>2025-11-14T05:16:42.163Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,11 +17,87 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【C++】競程筆記（DP：Top Down &amp; Bottom up）</title>
+    <link href="https://luketsengtw.github.io/posts/eb6151f4"/>
+    <id>https://luketsengtw.github.io/posts/eb6151f4</id>
+    <published>2025-11-14T05:13:48.000Z</published>
+    <updated>2025-11-14T05:16:42.163Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【C-】競程筆記（DP：Top-Down-amp-Bottom-up）&quot;&gt;&lt;a href=&quot;#【C-】競程筆記（DP：Top-Down-amp-Bottom-up）&quot; class=&quot;headerlink&quot; title=&quot;【C++】競程筆記（DP：Top Down</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
+    
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
+    
+    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Pytorch 深度學習筆記】神經網路的基礎知識與建立神經網路</title>
+    <link href="https://luketsengtw.github.io/posts/b82368d7"/>
+    <id>https://luketsengtw.github.io/posts/b82368d7</id>
+    <published>2025-11-02T14:12:02.000Z</published>
+    <updated>2025-11-02T14:14:00.925Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【Pytorch-深度學習筆記】神經網路的基礎知識與建立神經網路&quot;&gt;&lt;a href=&quot;#【Pytorch-深度學習筆記】神經網路的基礎知識與建立神經網路&quot; class=&quot;headerlink&quot; title=&quot;【Pytorch</summary>
+        
+      
+    
+    
+    
+    <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
+    
+    
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
+    
+    <category term="深度學習" scheme="https://luketsengtw.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
+    
+    <category term="DL" scheme="https://luketsengtw.github.io/tags/DL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Pytorch 深度學習筆記】搞懂什麼是深度學習以及 Pytorch 的基礎</title>
     <link href="https://luketsengtw.github.io/posts/cd49aa0b"/>
     <id>https://luketsengtw.github.io/posts/cd49aa0b</id>
     <published>2025-11-01T14:45:56.000Z</published>
-    <updated>2025-11-01T14:48:24.446Z</updated>
+    <updated>2025-11-01T14:48:48.640Z</updated>
     
     
       
@@ -37,9 +113,9 @@
     <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
     
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
     <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
@@ -196,18 +272,18 @@
   </entry>
   
   <entry>
-    <title>【Python 筆記】JSON 格式讀寫</title>
-    <link href="https://luketsengtw.github.io/posts/dd461795"/>
-    <id>https://luketsengtw.github.io/posts/dd461795</id>
+    <title>【Python 筆記】csv 套件使用</title>
+    <link href="https://luketsengtw.github.io/posts/487c91d7"/>
+    <id>https://luketsengtw.github.io/posts/487c91d7</id>
     <published>2025-10-22T09:42:57.000Z</published>
-    <updated>2025-10-23T09:36:31.197Z</updated>
+    <updated>2025-10-22T09:45:15.328Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;【Python-筆記】JSON-格式讀寫&quot;&gt;&lt;a href=&quot;#【Python-筆記】JSON-格式讀寫&quot; class=&quot;headerlink&quot; title=&quot;【Python 筆記】JSON 格式讀寫&quot;&gt;&lt;/a&gt;【Python 筆記】JSON</summary>
+    <summary type="html">&lt;h1 id=&quot;【Python-筆記】csv-套件使用&quot;&gt;&lt;a href=&quot;#【Python-筆記】csv-套件使用&quot; class=&quot;headerlink&quot; title=&quot;【Python 筆記】csv 套件使用&quot;&gt;&lt;/a&gt;【Python 筆記】csv</summary>
         
       
     
@@ -231,18 +307,18 @@
   </entry>
   
   <entry>
-    <title>【Python 筆記】csv 套件使用</title>
-    <link href="https://luketsengtw.github.io/posts/487c91d7"/>
-    <id>https://luketsengtw.github.io/posts/487c91d7</id>
+    <title>【Python 筆記】JSON 格式讀寫</title>
+    <link href="https://luketsengtw.github.io/posts/dd461795"/>
+    <id>https://luketsengtw.github.io/posts/dd461795</id>
     <published>2025-10-22T09:42:57.000Z</published>
-    <updated>2025-10-22T09:45:15.328Z</updated>
+    <updated>2025-10-23T09:36:31.197Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;【Python-筆記】csv-套件使用&quot;&gt;&lt;a href=&quot;#【Python-筆記】csv-套件使用&quot; class=&quot;headerlink&quot; title=&quot;【Python 筆記】csv 套件使用&quot;&gt;&lt;/a&gt;【Python 筆記】csv</summary>
+    <summary type="html">&lt;h1 id=&quot;【Python-筆記】JSON-格式讀寫&quot;&gt;&lt;a href=&quot;#【Python-筆記】JSON-格式讀寫&quot; class=&quot;headerlink&quot; title=&quot;【Python 筆記】JSON 格式讀寫&quot;&gt;&lt;/a&gt;【Python 筆記】JSON</summary>
         
       
     
@@ -463,13 +539,13 @@
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
-    <category term="爬蟲" scheme="https://luketsengtw.github.io/tags/%E7%88%AC%E8%9F%B2/"/>
-    
-    <category term="web crawler" scheme="https://luketsengtw.github.io/tags/web-crawler/"/>
-    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="爬蟲" scheme="https://luketsengtw.github.io/tags/%E7%88%AC%E8%9F%B2/"/>
+    
+    <category term="web crawler" scheme="https://luketsengtw.github.io/tags/web-crawler/"/>
     
   </entry>
   
@@ -630,72 +706,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;什麼是-CRC（Cyclic-Redundancy-Check）檢測？&quot;&gt;&lt;a href=&quot;#什麼是-CRC（Cyclic-Redundancy-Check）檢測？&quot; class=&quot;headerlink&quot; title=&quot;什麼是 CRC（Cyclic</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Uva 解題筆記】494 - Kindergarten Counting Game</title>
-    <link href="https://luketsengtw.github.io/posts/9e65ff83"/>
-    <id>https://luketsengtw.github.io/posts/9e65ff83</id>
-    <published>2025-10-14T13:15:58.000Z</published>
-    <updated>2025-10-14T13:17:15.546Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【Uva-解題筆記】494-Kindergarten-Counting-Game&quot;&gt;&lt;a href=&quot;#【Uva-解題筆記】494-Kindergarten-Counting-Game&quot; class=&quot;headerlink&quot; title=&quot;【Uva</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="解題" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/"/>
-    
-    <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="Uva" scheme="https://luketsengtw.github.io/tags/Uva/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基礎邏輯電路（下）</title>
-    <link href="https://luketsengtw.github.io/posts/e8808083"/>
-    <id>https://luketsengtw.github.io/posts/e8808083</id>
-    <published>2025-10-13T13:15:09.000Z</published>
-    <updated>2025-10-13T13:16:16.514Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;基礎邏輯電路（下）&quot;&gt;&lt;a href=&quot;#基礎邏輯電路（下）&quot; class=&quot;headerlink&quot;</summary>
         
       
     
