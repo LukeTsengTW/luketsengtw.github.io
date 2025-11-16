@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-11-14T05:16:42.163Z</updated>
+  <updated>2025-11-16T09:18:58.637Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,11 +17,71 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>什麼是梯度（Gradient）</title>
+    <link href="https://luketsengtw.github.io/posts/62d9a675"/>
+    <id>https://luketsengtw.github.io/posts/62d9a675</id>
+    <published>2025-11-16T09:13:57.000Z</published>
+    <updated>2025-11-16T09:18:58.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什麼是梯度（Gradient）&quot;&gt;&lt;a href=&quot;#什麼是梯度（Gradient）&quot; class=&quot;headerlink&quot; title=&quot;什麼是梯度（Gradient）&quot;&gt;&lt;/a&gt;什麼是梯度（Gradient）&lt;/h1&gt;&lt;p&gt;大家好我是</summary>
+        
+      
+    
+    
+    
+    <category term="機器學習" scheme="https://luketsengtw.github.io/categories/machine-learning/"/>
+    
+    
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    
+    <category term="機器學習" scheme="https://luketsengtw.github.io/tags/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/"/>
+    
+    <category term="深度學習" scheme="https://luketsengtw.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
+    
+    <category term="DL" scheme="https://luketsengtw.github.io/tags/DL/"/>
+    
+    <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows PC 電腦 / 筆電在打字時滑鼠鼠標不見？調整 1 功能解決！</title>
+    <link href="https://luketsengtw.github.io/posts/fe0eac2d"/>
+    <id>https://luketsengtw.github.io/posts/fe0eac2d</id>
+    <published>2025-11-15T07:36:08.000Z</published>
+    <updated>2025-11-16T09:15:02.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Windows-PC-電腦-筆電在打字時滑鼠鼠標不見？調整-1-功能解決！&quot;&gt;&lt;a href=&quot;#Windows-PC-電腦-筆電在打字時滑鼠鼠標不見？調整-1-功能解決！&quot; class=&quot;headerlink&quot; title=&quot;Windows PC 電腦 /</summary>
+        
+      
+    
+    
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
+    
+    
+    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
+    
+    <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【C++】競程筆記（DP：Top Down &amp; Bottom up）</title>
     <link href="https://luketsengtw.github.io/posts/eb6151f4"/>
     <id>https://luketsengtw.github.io/posts/eb6151f4</id>
     <published>2025-11-14T05:13:48.000Z</published>
-    <updated>2025-11-14T05:16:42.163Z</updated>
+    <updated>2025-11-14T05:17:03.182Z</updated>
     
     
       
@@ -60,7 +120,7 @@
     <link href="https://luketsengtw.github.io/posts/b82368d7"/>
     <id>https://luketsengtw.github.io/posts/b82368d7</id>
     <published>2025-11-02T14:12:02.000Z</published>
-    <updated>2025-11-02T14:14:00.925Z</updated>
+    <updated>2025-11-14T05:17:03.180Z</updated>
     
     
       
@@ -300,9 +360,9 @@
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
-    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
-    
     <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
+    
+    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
     
   </entry>
   
@@ -335,9 +395,9 @@
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
-    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
-    
     <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
+    
+    <category term="字串處理" scheme="https://luketsengtw.github.io/tags/%E5%AD%97%E4%B8%B2%E8%99%95%E7%90%86/"/>
     
   </entry>
   
@@ -401,9 +461,9 @@
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
     <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -661,64 +721,6 @@
     <category term="CPE" scheme="https://luketsengtw.github.io/tags/CPE/"/>
     
     <category term="Uva" scheme="https://luketsengtw.github.io/tags/Uva/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什麼是 Hamming Code（漢明碼）？</title>
-    <link href="https://luketsengtw.github.io/posts/d93c9963"/>
-    <id>https://luketsengtw.github.io/posts/d93c9963</id>
-    <published>2025-10-15T12:51:12.000Z</published>
-    <updated>2025-10-19T11:14:29.240Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;什麼是-Hamming-Code（漢明碼）？&quot;&gt;&lt;a href=&quot;#什麼是-Hamming-Code（漢明碼）？&quot; class=&quot;headerlink&quot; title=&quot;什麼是 Hamming Code（漢明碼）？&quot;&gt;&lt;/a&gt;什麼是 Hamming</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什麼是 CRC（Cyclic Redundancy Check）檢測？</title>
-    <link href="https://luketsengtw.github.io/posts/5aa01347"/>
-    <id>https://luketsengtw.github.io/posts/5aa01347</id>
-    <published>2025-10-15T10:38:38.000Z</published>
-    <updated>2025-10-18T13:49:01.351Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;什麼是-CRC（Cyclic-Redundancy-Check）檢測？&quot;&gt;&lt;a href=&quot;#什麼是-CRC（Cyclic-Redundancy-Check）檢測？&quot; class=&quot;headerlink&quot; title=&quot;什麼是 CRC（Cyclic</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
   </entry>
   
