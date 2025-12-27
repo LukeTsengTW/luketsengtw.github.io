@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2025-12-27T05:17:26.235Z</updated>
+  <updated>2025-12-27T14:50:37.402Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,18 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【C++】競程筆記（多維 DP、LCS 最長共同子序列）</title>
+    <link href="https://luketsengtw.github.io/posts/a6f0427e"/>
+    <id>https://luketsengtw.github.io/posts/a6f0427e</id>
+    <published>2025-12-27T14:49:33.000Z</published>
+    <updated>2025-12-27T14:50:37.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;【C++】競程筆記（多維 DP、LCS 最長共同子序列）&lt;/h1&gt;
+&lt;p&gt;題目範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
+&lt;h2 id=&quot;什麼是多維的-DP&quot;&gt;什麼是多維的 DP?&lt;/h2&gt;
+&lt;p&gt;一開始入門 DP 所寫的全都是一維的</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
+    
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
+    
+    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Pytorch 深度學習筆記】模型驗證與過擬合以及 Autograd 的細節</title>
     <link href="https://luketsengtw.github.io/posts/47f5dbc7"/>
     <id>https://luketsengtw.github.io/posts/47f5dbc7</id>
     <published>2025-12-25T04:47:48.000Z</published>
-    <updated>2025-12-27T05:17:26.235Z</updated>
+    <updated>2025-12-27T05:17:50.344Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;pytorch-深度學習筆記模型驗證與過擬合以及-autograd-的細節&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#pytorch-深度學習筆記模型驗證與過擬合以及-autograd-的細節&quot;&gt;&lt;/a&gt; 【Pytorch</summary>
+    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】模型驗證與過擬合以及 Autograd 的細節&lt;/h1&gt;
+&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
         
       
     
@@ -37,13 +82,13 @@
     <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
     
     
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
@@ -58,14 +103,15 @@
     <link href="https://luketsengtw.github.io/posts/61308e64"/>
     <id>https://luketsengtw.github.io/posts/61308e64</id>
     <published>2025-12-24T08:02:06.000Z</published>
-    <updated>2025-12-27T05:16:18.586Z</updated>
+    <updated>2025-12-27T05:17:50.346Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;pytorch-深度學習筆記autograd-自動微分機制與-optimizers-優化器&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】Autograd 自動微分機制與 Optimizers 優化器&lt;/h1&gt;
+&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
         
       
     
@@ -74,13 +120,13 @@
     <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
     
     
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
@@ -95,15 +141,15 @@
     <link href="https://luketsengtw.github.io/posts/bdf727d5"/>
     <id>https://luketsengtw.github.io/posts/bdf727d5</id>
     <published>2025-12-23T06:27:30.000Z</published>
-    <updated>2025-12-27T05:14:56.465Z</updated>
+    <updated>2025-12-27T05:17:50.347Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;pytorch-深度學習筆記機器如何學習&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#pytorch-深度學習筆記機器如何學習&quot;&gt;&lt;/a&gt; 【Pytorch 深度學習筆記】機器如何學習&lt;/h1&gt;
-&lt;p&gt;哈囉大家好我是</summary>
+    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】機器如何學習&lt;/h1&gt;
+&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
         
       
     
@@ -112,13 +158,13 @@
     <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
     
     
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
@@ -140,7 +186,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;c-筆記列舉enumeration-part-34&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c-筆記列舉enumeration-part-34&quot;&gt;&lt;/a&gt; 【C++ 筆記】列舉（Enumeration） - part</summary>
+    <summary type="html">&lt;h1&gt;【C++ 筆記】列舉（Enumeration） - part 34&lt;/h1&gt;
+&lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
+&lt;p&gt;你好，我並不是什麼</summary>
         
       
     
@@ -151,11 +199,11 @@
     <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
   </entry>
   
@@ -171,8 +219,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;c競程筆記dp狀態跟轉移&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記dp狀態跟轉移&quot;&gt;&lt;/a&gt; 【C++】競程筆記（DP：狀態跟轉移）&lt;/h1&gt;
-&lt;p&gt;題目範例參考：NTUCPC</summary>
+    <summary type="html">&lt;h1&gt;【C++】競程筆記（DP：狀態跟轉移）&lt;/h1&gt;
+&lt;p&gt;題目範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
+&lt;h2 id=&quot;非線性遞迴題型&quot;&gt;非線性遞迴題型&lt;/h2&gt;
+&lt;p&gt;481 . [Tutorial] 別離太遠</summary>
         
       
     
@@ -183,13 +233,13 @@
     <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -213,7 +263,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;c競程筆記字串處理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記字串處理&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1&gt;【C++】競程筆記：字串處理&lt;/h1&gt;
+&lt;p&gt;本筆記僅個人學習用途，斟酌參考。&lt;/p&gt;
+&lt;p&gt;額…我發現我的字串處理實在是太爛了，所以做這篇來挽救一下我的字串題目。&lt;/p&gt;
+&lt;h2 id=&quot;String-宣告方式&quot;&gt;String</summary>
         
       
     
@@ -224,11 +277,11 @@
     <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -248,7 +301,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;自動機理論dfa&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#自動機理論dfa&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1&gt;自動機理論（DFA）&lt;/h1&gt;
+&lt;p&gt;歡迎你點進本篇文章～本篇主要針對計概上課內容做筆記，若你對文章感興趣的話，不妨按下愛心或追蹤我！感謝你的觀看～&lt;/p&gt;
+&lt;h2 id=&quot;什麼是-DFA&quot;&gt;什麼是</summary>
         
       
     
@@ -257,9 +312,9 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
     <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -275,7 +330,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;uva-題庫解題c-個人解題筆記-part5&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#uva-題庫解題c-個人解題筆記-part5&quot;&gt;&lt;/a&gt; 【Uva 題庫解題】C++ 個人解題筆記 -</summary>
+    <summary type="html">&lt;h1&gt;【Uva 題庫解題】C++ 個人解題筆記 - part5&lt;/h1&gt;
+&lt;p&gt;本次題庫擷取自 CPE 2025/12/09 歷屆考題。&lt;/p&gt;
+&lt;h2 id=&quot;1-Uva-10079-Pizza-Cutting&quot;&gt;1. Uva 10079 - Pizza</summary>
         
       
     
@@ -288,11 +345,11 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -316,8 +373,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;隨機存取協議pure-aloha-csma&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#隨機存取協議pure-aloha-csma&quot;&gt;&lt;/a&gt; 隨機存取協議：Pure ALOHA、CSMA&lt;/h1&gt;
-&lt;p&gt;Hello Guys,</summary>
+    <summary type="html">&lt;h1&gt;隨機存取協議：Pure ALOHA、CSMA&lt;/h1&gt;
+&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹什麼是 Pure ALOHA、CSMA、CSMA/CD 等等，這些都是運作在 Data link layer</summary>
         
       
     
@@ -326,11 +383,11 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
@@ -352,7 +409,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;switching交換技術&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#switching交換技術&quot;&gt;&lt;/a&gt; Switching（交換技術）&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;Switching（交換技術）&lt;/h1&gt;
 &lt;p&gt;Hello Guys, I’m LukeTseng.</summary>
         
       
@@ -362,13 +419,13 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
@@ -390,8 +447,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;路由器是啥路由器在幹嘛一篇文章講清楚&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#路由器是啥路由器在幹嘛一篇文章講清楚&quot;&gt;&lt;/a&gt; 路由器是啥？路由器在幹嘛？一篇文章講清楚！&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m</summary>
+    <summary type="html">&lt;h1&gt;路由器是啥？路由器在幹嘛？一篇文章講清楚！&lt;/h1&gt;
+&lt;p&gt;Hello Guys, I’m LukeTseng.</summary>
         
       
     
@@ -400,13 +457,13 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
@@ -428,8 +485,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;一些常見的網路操作指令&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一些常見的網路操作指令&quot;&gt;&lt;/a&gt; 一些常見的網路操作指令&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng.</summary>
+    <summary type="html">&lt;h1&gt;一些常見的網路操作指令&lt;/h1&gt;
+&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹一些常見的網路操作指令，如 ping、nslookup</summary>
         
       
     
@@ -438,13 +495,13 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
@@ -466,8 +523,11 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;c競程筆記stack-考題總整理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記stack-考題總整理&quot;&gt;&lt;/a&gt; 【C++】競程筆記：Stack 考題總整理&lt;/h1&gt;
-&lt;p&gt;Stack in</summary>
+    <summary type="html">&lt;h1&gt;【C++】競程筆記：Stack 考題總整理&lt;/h1&gt;
+&lt;p&gt;Stack in STL：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先引入標頭檔 &lt;code&gt;&amp;lt;stack&amp;gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;建立一個堆疊：&lt;code&gt;stack &amp;lt;T&amp;gt;</summary>
         
       
     
@@ -500,8 +560,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;簡單理解-tcpip-模型&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#簡單理解-tcpip-模型&quot;&gt;&lt;/a&gt; 簡單理解 TCP/IP 模型&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹</summary>
+    <summary type="html">&lt;h1&gt;簡單理解 TCP/IP 模型&lt;/h1&gt;
+&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹 TCP/IP</summary>
         
       
     
@@ -510,13 +570,13 @@
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
@@ -538,8 +598,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;c競程筆記二分搜考題總整理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記二分搜考題總整理&quot;&gt;&lt;/a&gt; 【C++】競程筆記：二分搜考題總整理&lt;/h1&gt;
-&lt;h2 id=&quot;二分搜寫法模板&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1&gt;【C++】競程筆記：二分搜考題總整理&lt;/h1&gt;
+&lt;h2 id=&quot;二分搜寫法模板&quot;&gt;二分搜寫法模板&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;模板一（找精確值）： &lt;code&gt;while (left &amp;lt;= right)&lt;/code&gt;，迴圈結束後 &lt;code&gt;left &amp;gt;</summary>
         
       
     
@@ -550,9 +612,9 @@
     <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
     
     
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
     <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -574,7 +636,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;pytorch-深度學習筆記用-tensors-表示現實世界的資訊&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#pytorch-深度學習筆記用-tensors-表示現實世界的資訊&quot;&gt;&lt;/a&gt; 【Pytorch 深度學習筆記】用</summary>
+    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】用 Tensors 表示現實世界的資訊&lt;/h1&gt;
+&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
         
       
     
@@ -583,13 +646,13 @@
     <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
     
     
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
     
     <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
     
@@ -611,8 +674,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;網路常見軟體-協定ftp-telnet-等&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#網路常見軟體-協定ftp-telnet-等&quot;&gt;&lt;/a&gt; 網路常見軟體、協定（FTP、TELNET 等）&lt;/h1&gt;
-&lt;p&gt;Hello Guys,</summary>
+    <summary type="html">&lt;h1&gt;網路常見軟體、協定（FTP、TELNET 等）&lt;/h1&gt;
+&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹 ip-address 跟 mac-address</summary>
         
       
     
@@ -623,21 +686,21 @@
     
     <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
     <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/"/>
     
   </entry>
   
@@ -653,7 +716,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;ip-address-mac-address-的原理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ip-address-mac-address-的原理&quot;&gt;&lt;/a&gt; ip address、mac address</summary>
+    <summary type="html">&lt;h1&gt;ip address、mac address 的原理&lt;/h1&gt;
+&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹 ip-address 跟 mac-address</summary>
         
       
     
@@ -664,21 +728,21 @@
     
     <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
     
     <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
     
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
     <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
     
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
+    <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/"/>
     
     <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/"/>
     
   </entry>
   
@@ -694,7 +758,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;什麼是梯度gradient&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#什麼是梯度gradient&quot;&gt;&lt;/a&gt; 什麼是梯度（Gradient）&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;什麼是梯度（Gradient）&lt;/h1&gt;
 &lt;p&gt;大家好我是</summary>
         
       
@@ -713,33 +777,6 @@
     <category term="機器學習" scheme="https://luketsengtw.github.io/tags/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/"/>
     
     <category term="數據分析" scheme="https://luketsengtw.github.io/tags/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows PC 電腦 / 筆電在打字時滑鼠鼠標不見？調整 1 功能解決！</title>
-    <link href="https://luketsengtw.github.io/posts/fe0eac2d"/>
-    <id>https://luketsengtw.github.io/posts/fe0eac2d</id>
-    <published>2025-11-15T07:36:08.000Z</published>
-    <updated>2025-11-16T09:19:18.817Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;windows-pc-電腦-筆電在打字時滑鼠鼠標不見調整-1-功能解決&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#windows-pc-電腦-筆電在打字時滑鼠鼠標不見調整-1-功能解決&quot;&gt;&lt;/a&gt; Windows PC 電腦 /</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
-    
-    <category term="Windows" scheme="https://luketsengtw.github.io/tags/Windows/"/>
     
   </entry>
   
