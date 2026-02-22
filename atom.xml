@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2026-01-19T05:02:56.502Z</updated>
+  <updated>2026-02-22T08:18:02.979Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,22 +17,694 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【計算機網路筆記】3.3 Connectionless Transport: UDP</title>
+    <link href="https://luketsengtw.github.io/posts/f873b648"/>
+    <id>https://luketsengtw.github.io/posts/f873b648</id>
+    <published>2026-02-20T07:37:17.000Z</published>
+    <updated>2026-02-22T08:18:02.979Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記33-connectionless-transport-udp&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記33-connectionless-transport-udp&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】3.2 Multiplexing and Demultiplexing</title>
+    <link href="https://luketsengtw.github.io/posts/f22075d"/>
+    <id>https://luketsengtw.github.io/posts/f22075d</id>
+    <published>2026-02-19T06:01:58.000Z</published>
+    <updated>2026-02-22T08:17:17.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記32-multiplexing-and-demultiplexing&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記32-multiplexing-and-demultiplexing&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】3.1 Introduction and Transport-Layer Services</title>
+    <link href="https://luketsengtw.github.io/posts/9de58aa9"/>
+    <id>https://luketsengtw.github.io/posts/9de58aa9</id>
+    <published>2026-02-17T06:46:24.000Z</published>
+    <updated>2026-02-22T08:17:17.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記31-introduction-and-transport-layer-services&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.7 Socket Programming: Creating Network Applications</title>
+    <link href="https://luketsengtw.github.io/posts/338e972c"/>
+    <id>https://luketsengtw.github.io/posts/338e972c</id>
+    <published>2026-02-16T08:40:05.000Z</published>
+    <updated>2026-02-22T08:17:56.612Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記27-socket-programming-creating-network-applications&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.6 Video Streaming and Content Distribution Networks</title>
+    <link href="https://luketsengtw.github.io/posts/3546d36d"/>
+    <id>https://luketsengtw.github.io/posts/3546d36d</id>
+    <published>2026-02-15T09:36:23.000Z</published>
+    <updated>2026-02-22T08:17:17.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記26-video-streaming-and-content-distribution-networks&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.5 Peer-to-Peer File Distribution</title>
+    <link href="https://luketsengtw.github.io/posts/b4228ba"/>
+    <id>https://luketsengtw.github.io/posts/b4228ba</id>
+    <published>2026-02-15T01:21:09.000Z</published>
+    <updated>2026-02-22T08:17:17.978Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記25-peer-to-peer-file-distribution&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記25-peer-to-peer-file-distribution&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.4 DNS—The Internet’s Directory Service</title>
+    <link href="https://luketsengtw.github.io/posts/8db278a0"/>
+    <id>https://luketsengtw.github.io/posts/8db278a0</id>
+    <published>2026-02-13T16:08:09.000Z</published>
+    <updated>2026-02-22T08:17:17.973Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記24-dnsthe-internets-directory-service&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.3 Electronic Mail in the Internet</title>
+    <link href="https://luketsengtw.github.io/posts/d23e6404"/>
+    <id>https://luketsengtw.github.io/posts/d23e6404</id>
+    <published>2026-02-13T12:52:45.000Z</published>
+    <updated>2026-02-22T08:17:17.975Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記23-electronic-mail-in-the-internet&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記23-electronic-mail-in-the-internet&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.2 The Web and HTTP</title>
+    <link href="https://luketsengtw.github.io/posts/73f21d63"/>
+    <id>https://luketsengtw.github.io/posts/73f21d63</id>
+    <published>2026-02-12T11:44:35.000Z</published>
+    <updated>2026-02-22T08:17:17.972Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記22-the-web-and-http&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記22-the-web-and-http&quot;&gt;&lt;/a&gt; 【計算機網路筆記】2.2 The Web and</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】2.1 Principles of Network Applications</title>
+    <link href="https://luketsengtw.github.io/posts/9c3036d5"/>
+    <id>https://luketsengtw.github.io/posts/9c3036d5</id>
+    <published>2026-02-10T08:49:45.000Z</published>
+    <updated>2026-02-22T08:17:17.970Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記21-principles-of-network-applications&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】1.5 Protocol Layers and Their Service Models</title>
+    <link href="https://luketsengtw.github.io/posts/64f8f902"/>
+    <id>https://luketsengtw.github.io/posts/64f8f902</id>
+    <published>2026-02-08T10:02:52.000Z</published>
+    <updated>2026-02-22T08:17:17.971Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記15-protocol-layers-and-their-service-models&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】1.4 Delay, Loss, and Throughput in Packet-Switched Networks</title>
+    <link href="https://luketsengtw.github.io/posts/9caca349"/>
+    <id>https://luketsengtw.github.io/posts/9caca349</id>
+    <published>2026-02-08T09:02:52.000Z</published>
+    <updated>2026-02-22T08:17:17.968Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記14-delay-loss-and-throughput-in-packet-switched-networks&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】1.3 The Network Core</title>
+    <link href="https://luketsengtw.github.io/posts/b0cb701f"/>
+    <id>https://luketsengtw.github.io/posts/b0cb701f</id>
+    <published>2026-02-05T08:56:03.000Z</published>
+    <updated>2026-02-22T08:17:17.973Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記13-the-network-core&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記13-the-network-core&quot;&gt;&lt;/a&gt; 【計算機網路筆記】1.3 The Network</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】1.2 The Network Edge</title>
+    <link href="https://luketsengtw.github.io/posts/411290d7"/>
+    <id>https://luketsengtw.github.io/posts/411290d7</id>
+    <published>2026-01-31T09:31:12.000Z</published>
+    <updated>2026-02-22T08:17:17.967Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記12-the-network-edge&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記12-the-network-edge&quot;&gt;&lt;/a&gt; 【計算機網路筆記】1.2 The Network</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【計算機網路筆記】1.1 What Is the Internet?</title>
+    <link href="https://luketsengtw.github.io/posts/bbee6d74"/>
+    <id>https://luketsengtw.github.io/posts/bbee6d74</id>
+    <published>2026-01-30T12:38:40.000Z</published>
+    <updated>2026-02-22T08:17:17.969Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記11-what-is-the-internet&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#計算機網路筆記11-what-is-the-internet&quot;&gt;&lt;/a&gt; 【計算機網路筆記】1.1 What Is the</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Uva 題庫解題】CPE 二顆星選集 - part1</title>
+    <link href="https://luketsengtw.github.io/posts/bc451b2f"/>
+    <id>https://luketsengtw.github.io/posts/bc451b2f</id>
+    <published>2026-01-27T11:57:32.000Z</published>
+    <updated>2026-02-22T08:17:17.981Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;uva-題庫解題cpe-二顆星選集-part1&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#uva-題庫解題cpe-二顆星選集-part1&quot;&gt;&lt;/a&gt; 【Uva 題庫解題】CPE 二顆星選集 -</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="解題" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/"/>
+    
+    <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
+    
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【C++】競程筆記（約瑟夫問題）</title>
+    <link href="https://luketsengtw.github.io/posts/29e9df1f"/>
+    <id>https://luketsengtw.github.io/posts/29e9df1f</id>
+    <published>2026-01-24T16:12:02.000Z</published>
+    <updated>2026-02-22T08:17:17.980Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;c競程筆記約瑟夫問題&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記約瑟夫問題&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
+    
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
+    
+    <category term="遞迴" scheme="https://luketsengtw.github.io/tags/%E9%81%9E%E8%BF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【C++】競程筆記（背包問題 習題練習）</title>
+    <link href="https://luketsengtw.github.io/posts/1e28e909"/>
+    <id>https://luketsengtw.github.io/posts/1e28e909</id>
+    <published>2026-01-23T07:46:12.000Z</published>
+    <updated>2026-02-22T08:17:17.979Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;c競程筆記背包問題-習題練習&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記背包問題-習題練習&quot;&gt;&lt;/a&gt; 【C++】競程筆記（背包問題 習題練習）&lt;/h1&gt;
+&lt;p&gt;練習題目參考自：NTUCPC</summary>
+        
+      
+    
+    
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
+    
+    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
+    
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
+    
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    
+    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
+    
+    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
+    
+    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【C++】競程筆記（背包問題）</title>
     <link href="https://luketsengtw.github.io/posts/2945dd9b"/>
     <id>https://luketsengtw.github.io/posts/2945dd9b</id>
     <published>2026-01-14T08:37:24.000Z</published>
-    <updated>2026-01-19T05:02:56.502Z</updated>
+    <updated>2026-01-19T05:04:05.401Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1&gt;【C++】競程筆記（背包問題）&lt;/h1&gt;
-&lt;p&gt;題目範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
-&lt;p&gt;最後更新時間：&lt;/p&gt;
-&lt;h2 id=&quot;什麼是背包問題&quot;&gt;什麼是背包問題&lt;/h2&gt;
-&lt;p&gt;背包問題（Knapsack</summary>
+    <summary type="html">&lt;h1 id=&quot;c競程筆記背包問題&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c競程筆記背包問題&quot;&gt;&lt;/a&gt; 【C++】競程筆記（背包問題）&lt;/h1&gt;
+&lt;p&gt;題目範例參考：NTUCPC</summary>
         
       
     
@@ -64,46 +736,14 @@
     <link href="https://luketsengtw.github.io/posts/ed071748"/>
     <id>https://luketsengtw.github.io/posts/ed071748</id>
     <published>2026-01-08T13:01:07.000Z</published>
-    <updated>2026-01-19T05:01:35.237Z</updated>
+    <updated>2026-01-19T05:04:05.395Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1&gt;【考試向】資料結構筆記（鏈結串列）&lt;/h1&gt;
-&lt;p&gt;歡迎你點入本篇文章！我是 LukeTseng，本系列文章主要整理自學資料結構的一些知識，如果你喜歡我的文章，麻煩您不吝嗇的在文章底下按下一顆愛心，或是追蹤我唷～&lt;/p&gt;
-&lt;p&gt;最後更新日期：&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【考試向】資料結構筆記（堆疊、佇列、環狀佇列、後序表示式）</title>
-    <link href="https://luketsengtw.github.io/posts/9b68f650"/>
-    <id>https://luketsengtw.github.io/posts/9b68f650</id>
-    <published>2026-01-04T15:29:01.000Z</published>
-    <updated>2026-01-19T05:00:37.437Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【考試向】資料結構筆記（堆疊、佇列、環狀佇列、後序表示式）&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;考試向資料結構筆記鏈結串列&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#考試向資料結構筆記鏈結串列&quot;&gt;&lt;/a&gt; 【考試向】資料結構筆記（鏈結串列）&lt;/h1&gt;
 &lt;p&gt;歡迎你點入本篇文章！我是</summary>
         
       
@@ -118,658 +758,6 @@
     <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++】競程筆記（多維 DP、LCS 最長共同子序列 習題練習）</title>
-    <link href="https://luketsengtw.github.io/posts/8a073873"/>
-    <id>https://luketsengtw.github.io/posts/8a073873</id>
-    <published>2026-01-01T13:20:18.000Z</published>
-    <updated>2026-01-19T04:57:13.002Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++】競程筆記（多維 DP、LCS 最長共同子序列 習題練習）&lt;/h1&gt;
-&lt;p&gt;練習題目參考自：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
-&lt;h2 id=&quot;823-RGB&quot;&gt;823 . RGB&lt;/h2&gt;
-&lt;p&gt;Problem Source：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++】競程筆記（多維 DP、LCS 最長共同子序列）</title>
-    <link href="https://luketsengtw.github.io/posts/a6f0427e"/>
-    <id>https://luketsengtw.github.io/posts/a6f0427e</id>
-    <published>2025-12-27T14:49:33.000Z</published>
-    <updated>2025-12-27T14:51:18.554Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++】競程筆記（多維 DP、LCS 最長共同子序列）&lt;/h1&gt;
-&lt;p&gt;題目範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
-&lt;h2 id=&quot;什麼是多維的-DP&quot;&gt;什麼是多維的 DP?&lt;/h2&gt;
-&lt;p&gt;一開始入門 DP 所寫的全都是一維的</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Pytorch 深度學習筆記】模型驗證與過擬合以及 Autograd 的細節</title>
-    <link href="https://luketsengtw.github.io/posts/47f5dbc7"/>
-    <id>https://luketsengtw.github.io/posts/47f5dbc7</id>
-    <published>2025-12-25T04:47:48.000Z</published>
-    <updated>2025-12-27T05:17:50.344Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】模型驗證與過擬合以及 Autograd 的細節&lt;/h1&gt;
-&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
-        
-      
-    
-    
-    
-    <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="深度學習" scheme="https://luketsengtw.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
-    
-    <category term="DL" scheme="https://luketsengtw.github.io/tags/DL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Pytorch 深度學習筆記】Autograd 自動微分機制與 Optimizers 優化器</title>
-    <link href="https://luketsengtw.github.io/posts/61308e64"/>
-    <id>https://luketsengtw.github.io/posts/61308e64</id>
-    <published>2025-12-24T08:02:06.000Z</published>
-    <updated>2025-12-27T05:17:50.346Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】Autograd 自動微分機制與 Optimizers 優化器&lt;/h1&gt;
-&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
-        
-      
-    
-    
-    
-    <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="深度學習" scheme="https://luketsengtw.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
-    
-    <category term="DL" scheme="https://luketsengtw.github.io/tags/DL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Pytorch 深度學習筆記】機器如何學習</title>
-    <link href="https://luketsengtw.github.io/posts/bdf727d5"/>
-    <id>https://luketsengtw.github.io/posts/bdf727d5</id>
-    <published>2025-12-23T06:27:30.000Z</published>
-    <updated>2025-12-27T05:17:50.347Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【Pytorch 深度學習筆記】機器如何學習&lt;/h1&gt;
-&lt;p&gt;哈囉大家好我是 LukeTseng，感謝您點進本篇筆記，該篇筆記主要配合讀本 《Deep Learning with pytorch》</summary>
-        
-      
-    
-    
-    
-    <category term="深度學習" scheme="https://luketsengtw.github.io/categories/deep-learning/"/>
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
-    
-    <category term="Python" scheme="https://luketsengtw.github.io/tags/Python/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="python" scheme="https://luketsengtw.github.io/tags/python/"/>
-    
-    <category term="深度學習" scheme="https://luketsengtw.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
-    
-    <category term="DL" scheme="https://luketsengtw.github.io/tags/DL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++ 筆記】列舉（Enumeration） - part 34</title>
-    <link href="https://luketsengtw.github.io/posts/1f2aa7b2"/>
-    <id>https://luketsengtw.github.io/posts/1f2aa7b2</id>
-    <published>2025-12-21T12:16:42.000Z</published>
-    <updated>2025-12-21T12:18:12.306Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++ 筆記】列舉（Enumeration） - part 34&lt;/h1&gt;
-&lt;p&gt;很感謝你點進來這篇文章。&lt;/p&gt;
-&lt;p&gt;你好，我並不是什麼</summary>
-        
-      
-    
-    
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/categories/programming/"/>
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++】競程筆記（DP：狀態跟轉移）</title>
-    <link href="https://luketsengtw.github.io/posts/9557eed6"/>
-    <id>https://luketsengtw.github.io/posts/9557eed6</id>
-    <published>2025-12-21T07:05:10.000Z</published>
-    <updated>2025-12-21T07:06:02.265Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++】競程筆記（DP：狀態跟轉移）&lt;/h1&gt;
-&lt;p&gt;題目範例參考：NTUCPC Guide，此筆記僅為個人學習用途。&lt;/p&gt;
-&lt;h2 id=&quot;非線性遞迴題型&quot;&gt;非線性遞迴題型&lt;/h2&gt;
-&lt;p&gt;481 . [Tutorial] 別離太遠</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++】競程筆記：字串處理</title>
-    <link href="https://luketsengtw.github.io/posts/be2c51aa"/>
-    <id>https://luketsengtw.github.io/posts/be2c51aa</id>
-    <published>2025-12-18T15:16:40.000Z</published>
-    <updated>2025-12-18T15:18:47.323Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++】競程筆記：字串處理&lt;/h1&gt;
-&lt;p&gt;本筆記僅個人學習用途，斟酌參考。&lt;/p&gt;
-&lt;p&gt;額…我發現我的字串處理實在是太爛了，所以做這篇來挽救一下我的字串題目。&lt;/p&gt;
-&lt;h2 id=&quot;String-宣告方式&quot;&gt;String</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自動機理論（DFA）</title>
-    <link href="https://luketsengtw.github.io/posts/9e74903a"/>
-    <id>https://luketsengtw.github.io/posts/9e74903a</id>
-    <published>2025-12-12T14:45:01.000Z</published>
-    <updated>2025-12-12T14:47:01.303Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;自動機理論（DFA）&lt;/h1&gt;
-&lt;p&gt;歡迎你點進本篇文章～本篇主要針對計概上課內容做筆記，若你對文章感興趣的話，不妨按下愛心或追蹤我！感謝你的觀看～&lt;/p&gt;
-&lt;h2 id=&quot;什麼是-DFA&quot;&gt;什麼是</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Uva 題庫解題】C++ 個人解題筆記 - part5</title>
-    <link href="https://luketsengtw.github.io/posts/f0158ba1"/>
-    <id>https://luketsengtw.github.io/posts/f0158ba1</id>
-    <published>2025-12-10T08:27:27.000Z</published>
-    <updated>2025-12-10T08:29:30.843Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【Uva 題庫解題】C++ 個人解題筆記 - part5&lt;/h1&gt;
-&lt;p&gt;本次題庫擷取自 CPE 2025/12/09 歷屆考題。&lt;/p&gt;
-&lt;h2 id=&quot;1-Uva-10079-Pizza-Cutting&quot;&gt;1. Uva 10079 - Pizza</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="解題" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/"/>
-    
-    <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="CPE" scheme="https://luketsengtw.github.io/tags/CPE/"/>
-    
-    <category term="Uva" scheme="https://luketsengtw.github.io/tags/Uva/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>隨機存取協議：Pure ALOHA、CSMA</title>
-    <link href="https://luketsengtw.github.io/posts/950b2a58"/>
-    <id>https://luketsengtw.github.io/posts/950b2a58</id>
-    <published>2025-12-05T14:02:01.000Z</published>
-    <updated>2025-12-05T14:03:57.725Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;隨機存取協議：Pure ALOHA、CSMA&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹什麼是 Pure ALOHA、CSMA、CSMA/CD 等等，這些都是運作在 Data link layer</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Switching（交換技術）</title>
-    <link href="https://luketsengtw.github.io/posts/52cdaece"/>
-    <id>https://luketsengtw.github.io/posts/52cdaece</id>
-    <published>2025-12-04T15:17:32.000Z</published>
-    <updated>2025-12-04T15:19:02.769Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;Switching（交換技術）&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng.</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
-    
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>路由器是啥？路由器在幹嘛？一篇文章講清楚！</title>
-    <link href="https://luketsengtw.github.io/posts/d5e62c57"/>
-    <id>https://luketsengtw.github.io/posts/d5e62c57</id>
-    <published>2025-12-03T15:23:32.000Z</published>
-    <updated>2025-12-03T15:24:34.958Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;路由器是啥？路由器在幹嘛？一篇文章講清楚！&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng.</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
-    
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些常見的網路操作指令</title>
-    <link href="https://luketsengtw.github.io/posts/1bafc01a"/>
-    <id>https://luketsengtw.github.io/posts/1bafc01a</id>
-    <published>2025-12-02T13:44:21.000Z</published>
-    <updated>2025-12-02T13:45:15.798Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;一些常見的網路操作指令&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹一些常見的網路操作指令，如 ping、nslookup</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
-    
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++】競程筆記：Stack 考題總整理</title>
-    <link href="https://luketsengtw.github.io/posts/95f542c7"/>
-    <id>https://luketsengtw.github.io/posts/95f542c7</id>
-    <published>2025-12-02T07:42:25.000Z</published>
-    <updated>2025-12-02T13:45:15.800Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++】競程筆記：Stack 考題總整理&lt;/h1&gt;
-&lt;p&gt;Stack in STL：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;先引入標頭檔 &lt;code&gt;&amp;lt;stack&amp;gt;&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;建立一個堆疊：&lt;code&gt;stack &amp;lt;T&amp;gt;</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>簡單理解 TCP/IP 模型</title>
-    <link href="https://luketsengtw.github.io/posts/8c0bd446"/>
-    <id>https://luketsengtw.github.io/posts/8c0bd446</id>
-    <published>2025-11-26T11:01:32.000Z</published>
-    <updated>2025-11-26T11:03:46.665Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;簡單理解 TCP/IP 模型&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 本篇將來介紹 TCP/IP</summary>
-        
-      
-    
-    
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/categories/computer-talk/"/>
-    
-    
-    <category term="計算機概論" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="電腦常識" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E5%B8%B8%E8%AD%98/"/>
-    
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
-    
-    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
-    
-    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【C++】競程筆記：二分搜考題總整理</title>
-    <link href="https://luketsengtw.github.io/posts/f8b66f75"/>
-    <id>https://luketsengtw.github.io/posts/f8b66f75</id>
-    <published>2025-11-25T14:38:20.000Z</published>
-    <updated>2025-11-25T14:43:59.682Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【C++】競程筆記：二分搜考題總整理&lt;/h1&gt;
-&lt;h2 id=&quot;二分搜寫法模板&quot;&gt;二分搜寫法模板&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;模板一（找精確值）： &lt;code&gt;while (left &amp;lt;= right)&lt;/code&gt;，迴圈結束後 &lt;code&gt;left &amp;gt;</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
-    
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
-    
-    <category term="二分搜" scheme="https://luketsengtw.github.io/tags/%E4%BA%8C%E5%88%86%E6%90%9C/"/>
     
   </entry>
   
