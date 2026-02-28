@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2026-02-22T08:18:22.566Z</updated>
+  <updated>2026-02-28T09:09:05.280Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【計算機網路筆記】3.4 Principles of Reliable Data Transfer</title>
+    <link href="https://luketsengtw.github.io/posts/771d11c7"/>
+    <id>https://luketsengtw.github.io/posts/771d11c7</id>
+    <published>2026-02-27T12:50:11.000Z</published>
+    <updated>2026-02-28T09:09:05.280Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;計算機網路筆記34-principles-of-reliable-data-transfer&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
+    
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
+    <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
+    
+    <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
+    
+    <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
+    
+    <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>【計算機網路筆記】3.3 Connectionless Transport: UDP</title>
@@ -596,11 +633,11 @@
     <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
@@ -633,13 +670,13 @@
     <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -675,13 +712,13 @@
     <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
@@ -715,49 +752,19 @@
     <category term="競程筆記" scheme="https://luketsengtw.github.io/categories/competitive-programming/cp-learning/"/>
     
     
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
     <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
+    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
     
     <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
     
     <category term="DP" scheme="https://luketsengtw.github.io/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【考試向】資料結構筆記（鏈結串列）</title>
-    <link href="https://luketsengtw.github.io/posts/ed071748"/>
-    <id>https://luketsengtw.github.io/posts/ed071748</id>
-    <published>2026-01-08T13:01:07.000Z</published>
-    <updated>2026-01-19T05:04:05.395Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;考試向資料結構筆記鏈結串列&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#考試向資料結構筆記鏈結串列&quot;&gt;&lt;/a&gt; 【考試向】資料結構筆記（鏈結串列）&lt;/h1&gt;
-&lt;p&gt;歡迎你點入本篇文章！我是</summary>
-        
-      
-    
-    
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
-    
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
   </entry>
   
