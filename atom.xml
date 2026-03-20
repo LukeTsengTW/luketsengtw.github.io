@@ -6,7 +6,7 @@
   <link href="https://luketsengtw.github.io/atom.xml" rel="self"/>
   
   <link href="https://luketsengtw.github.io/"/>
-  <updated>2026-03-14T13:36:58.317Z</updated>
+  <updated>2026-03-20T09:45:53.911Z</updated>
   <id>https://luketsengtw.github.io/</id>
   
   <author>
@@ -17,19 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【論文閱讀】FastTracker: Real-Time and Accurate Visual Tracking</title>
+    <link href="https://luketsengtw.github.io/posts/8f02518b"/>
+    <id>https://luketsengtw.github.io/posts/8f02518b</id>
+    <published>2026-03-20T09:40:37.000Z</published>
+    <updated>2026-03-20T09:45:53.911Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【論文閱讀】FastTracker-Real-Time-and-Accurate-Visual-Tracking&quot;&gt;&lt;a href=&quot;#【論文閱讀】FastTracker-Real-Time-and-Accurate-Visual-Tracking&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="論文閱讀" scheme="https://luketsengtw.github.io/categories/paper-reading/"/>
+    
+    
+    <category term="AI" scheme="https://luketsengtw.github.io/tags/AI/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="深度學習" scheme="https://luketsengtw.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
+    
+    <category term="CV" scheme="https://luketsengtw.github.io/tags/CV/"/>
+    
+    <category term="電腦視覺" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E8%A6%96%E8%A6%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【計算機網路筆記】3.6 Principles of Congestion Control</title>
     <link href="https://luketsengtw.github.io/posts/ac1f33ff"/>
     <id>https://luketsengtw.github.io/posts/ac1f33ff</id>
     <published>2026-03-14T13:35:51.000Z</published>
-    <updated>2026-03-14T13:36:58.317Z</updated>
+    <updated>2026-03-14T13:38:28.244Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】3.6 Principles of Congestion Control&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-6-Principles-of-Congestion-Control&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-6-Principles-of-Congestion-Control&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -38,21 +70,21 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -68,8 +100,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】3.5 Connection-Oriented Transport: TCP&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-5-Connection-Oriented-Transport-TCP&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-5-Connection-Oriented-Transport-TCP&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -78,19 +109,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -106,9 +137,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【考試向】資料結構筆記（樹及二元樹）&lt;/h1&gt;
-&lt;p&gt;歡迎你點入本篇文章！我是 LukeTseng，本系列文章主要整理自學資料結構的一些知識，如果你喜歡我的文章，麻煩您不吝嗇的在文章底下按下一顆愛心，或是追蹤我唷～&lt;/p&gt;
-&lt;h2</summary>
+    <summary type="html">&lt;h1 id=&quot;【考試向】資料結構筆記（樹及二元樹）&quot;&gt;&lt;a href=&quot;#【考試向】資料結構筆記（樹及二元樹）&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -117,11 +146,11 @@
     <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
+    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -137,8 +166,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】3.4 Principles of Reliable Data Transfer&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-4-Principles-of-Reliable-Data-Transfer&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-4-Principles-of-Reliable-Data-Transfer&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -147,19 +175,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -175,8 +203,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】3.3 Connectionless Transport: UDP&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-3-Connectionless-Transport-UDP&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-3-Connectionless-Transport-UDP&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -185,19 +212,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -213,8 +240,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】3.2 Multiplexing and Demultiplexing&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-2-Multiplexing-and-Demultiplexing&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-2-Multiplexing-and-Demultiplexing&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -223,19 +249,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -251,8 +277,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】3.1 Introduction and Transport-Layer Services&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-1-Introduction-and-Transport-Layer-Services&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-1-Introduction-and-Transport-Layer-Services&quot;</summary>
         
       
     
@@ -261,19 +286,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -289,8 +314,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.7 Socket Programming: Creating Network Applications&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-7-Socket-Programming-Creating-Network-Applications&quot;&gt;&lt;a</summary>
         
       
     
@@ -299,19 +323,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
   </entry>
   
@@ -327,8 +351,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.6 Video Streaming and Content Distribution Networks&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-6-Video-Streaming-and-Content-Distribution-Networks&quot;&gt;&lt;a</summary>
         
       
     
@@ -337,19 +360,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -365,8 +388,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.5 Peer-to-Peer File Distribution&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-5-Peer-to-Peer-File-Distribution&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】2-5-Peer-to-Peer-File-Distribution&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -375,19 +397,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -403,8 +425,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.4 DNS—The Internet’s Directory Service&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-4-DNS—The-Internet’s-Directory-Service&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】2-4-DNS—The-Internet’s-Directory-Service&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -413,19 +434,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -441,8 +462,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.3 Electronic Mail in the Internet&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-3-Electronic-Mail-in-the-Internet&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】2-3-Electronic-Mail-in-the-Internet&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -451,19 +471,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -479,8 +499,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.2 The Web and HTTP&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down Approach,</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-2-The-Web-and-HTTP&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】2-2-The-Web-and-HTTP&quot; class=&quot;headerlink&quot; title=&quot;【計算機網路筆記】2.2 The Web and</summary>
         
       
     
@@ -489,19 +508,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -517,8 +536,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】2.1 Principles of Network Applications&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】2-1-Principles-of-Network-Applications&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】2-1-Principles-of-Network-Applications&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -527,19 +545,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -555,8 +573,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】1.5 Protocol Layers and Their Service Models&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】1-5-Protocol-Layers-and-Their-Service-Models&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】1-5-Protocol-Layers-and-Their-Service-Models&quot;</summary>
         
       
     
@@ -565,19 +582,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -593,8 +610,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】1.4 Delay, Loss, and Throughput in Packet-Switched Networks&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】1-4-Delay-Loss-and-Throughput-in-Packet-Switched-Networks&quot;&gt;&lt;a</summary>
         
       
     
@@ -603,19 +619,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -631,8 +647,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】1.3 The Network Core&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down Approach,</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】1-3-The-Network-Core&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】1-3-The-Network-Core&quot; class=&quot;headerlink&quot; title=&quot;【計算機網路筆記】1.3 The Network</summary>
         
       
     
@@ -641,19 +656,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -669,8 +684,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】1.2 The Network Edge&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down Approach, 7th</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】1-2-The-Network-Edge&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】1-2-The-Network-Edge&quot; class=&quot;headerlink&quot; title=&quot;【計算機網路筆記】1.2 The Network</summary>
         
       
     
@@ -679,19 +693,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -707,8 +721,7 @@
       
         
         
-    <summary type="html">&lt;h1&gt;【計算機網路筆記】1.1 What Is the Internet?&lt;/h1&gt;
-&lt;p&gt;Hello Guys, I’m LukeTseng. 歡迎你也感謝你點入本篇文章，本系列主要讀本為《Computer Networking: A Top-Down Approach,</summary>
+    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】1-1-What-Is-the-Internet&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】1-1-What-Is-the-Internet&quot; class=&quot;headerlink&quot; title=&quot;【計算機網路筆記】1.1 What Is the</summary>
         
       
     
@@ -717,61 +730,19 @@
     <category term="計算機網路" scheme="https://luketsengtw.github.io/categories/computer-networking/"/>
     
     
-    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
+    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
     
-    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    <category term="計算機網路" scheme="https://luketsengtw.github.io/tags/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%B6%B2%E8%B7%AF/"/>
     
     <category term="網路概論" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96/"/>
     
     <category term="網路" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E8%B7%AF/"/>
     
+    <category term="電腦雜談" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6%E9%9B%9C%E8%AB%87/"/>
+    
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
-    
-    <category term="Linux" scheme="https://luketsengtw.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Uva 題庫解題】CPE 二顆星選集 - part1</title>
-    <link href="https://luketsengtw.github.io/posts/bc451b2f"/>
-    <id>https://luketsengtw.github.io/posts/bc451b2f</id>
-    <published>2026-01-27T11:57:32.000Z</published>
-    <updated>2026-02-22T08:17:17.981Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;【Uva 題庫解題】CPE 二顆星選集 - part1&lt;/h1&gt;
-&lt;p&gt;本筆記及該系列主要以每篇 5 題為主，也僅供筆者個人學習用途，斟酌參考。&lt;/p&gt;
-&lt;p&gt;若你喜歡本筆記，不妨為文章按下一顆愛心，或是追蹤我的個人公開頁，感謝您點入本篇筆記。&lt;/p&gt;
-&lt;p&gt;CPE</summary>
-        
-      
-    
-    
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/categories/competitive-programming/"/>
-    
-    <category term="解題" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/"/>
-    
-    <category term="Uva" scheme="https://luketsengtw.github.io/categories/competitive-programming/CP-question/uva/"/>
-    
-    
-    <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
-    
-    <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
-    
-    <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
-    
-    <category term="演算法" scheme="https://luketsengtw.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="競程" scheme="https://luketsengtw.github.io/tags/%E7%AB%B6%E7%A8%8B/"/>
-    
-    <category term="CP" scheme="https://luketsengtw.github.io/tags/CP/"/>
     
   </entry>
   
