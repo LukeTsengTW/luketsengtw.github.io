@@ -97,9 +97,9 @@
     <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
@@ -110,25 +110,19 @@
     <link href="https://luketsengtw.github.io/posts/9144d040"/>
     <id>https://luketsengtw.github.io/posts/9144d040</id>
     <published>2026-04-27T16:00:19.000Z</published>
-    <updated>2026-04-27T16:02:02.710Z</updated>
+    <updated>2026-05-05T06:36:04.475Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【考試向】資料結構筆記（AVL-Tree）&quot;&gt;&lt;a href=&quot;#【考試向】資料結構筆記（AVL-Tree）&quot; class=&quot;headerlink&quot; title=&quot;【考試向】資料結構筆記（AVL Tree）&quot;&gt;&lt;/a&gt;【考試向】資料結構筆記（AVL</summary>
-        
-      
+    <summary type="html">資料結構考試筆記，整理 AVL Tree 的平衡因子、旋轉操作、插入調整與自我平衡二元搜尋樹的核心觀念。</summary>
     
     
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
@@ -139,16 +133,10 @@
     <link href="https://luketsengtw.github.io/posts/14074a52"/>
     <id>https://luketsengtw.github.io/posts/14074a52</id>
     <published>2026-04-25T08:34:10.000Z</published>
-    <updated>2026-04-25T08:35:36.313Z</updated>
+    <updated>2026-05-05T06:36:04.433Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-8-Evolution-of-Transport-Layer-Functionality&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-8-Evolution-of-Transport-Layer-Functionality&quot;</summary>
-        
-      
+    <summary type="html">傳輸層功能演進筆記，整理 QUIC、HTTP/3、TCP 限制、應用層傳輸設計與現代網路傳輸協定發展方向。</summary>
     
     
     
@@ -178,16 +166,10 @@
     <link href="https://luketsengtw.github.io/posts/c29ec182"/>
     <id>https://luketsengtw.github.io/posts/c29ec182</id>
     <published>2026-04-25T08:07:40.000Z</published>
-    <updated>2026-04-25T08:10:11.507Z</updated>
+    <updated>2026-05-05T06:36:04.391Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-7-TCP-Congestion-Control&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-7-TCP-Congestion-Control&quot; class=&quot;headerlink&quot; title=&quot;【計算機網路筆記】3.7 TCP</summary>
-        
-      
+    <summary type="html">TCP 壅塞控制筆記，整理 slow start、congestion avoidance、fast recovery、cwnd、ssthresh 與 TCP 傳輸速率調整。</summary>
     
     
     
@@ -239,11 +221,11 @@
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
     <category term="JavaScript" scheme="https://luketsengtw.github.io/tags/JavaScript/"/>
     
@@ -254,25 +236,19 @@
     <link href="https://luketsengtw.github.io/posts/c4c2007e"/>
     <id>https://luketsengtw.github.io/posts/c4c2007e</id>
     <published>2026-04-19T05:00:51.000Z</published>
-    <updated>2026-04-19T05:04:06.769Z</updated>
+    <updated>2026-05-05T06:36:04.600Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【考試向】資料結構筆記（堆積樹）&quot;&gt;&lt;a href=&quot;#【考試向】資料結構筆記（堆積樹）&quot; class=&quot;headerlink&quot; title=&quot;【考試向】資料結構筆記（堆積樹）&quot;&gt;&lt;/a&gt;【考試向】資料結構筆記（堆積樹）&lt;/h1&gt;&lt;p&gt;歡迎你點入本篇文章！我是</summary>
-        
-      
+    <summary type="html">資料結構考試筆記，整理 heap tree、max heap、min heap、heap insertion、deletion 與優先佇列的基礎概念。</summary>
     
     
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
@@ -305,11 +281,11 @@
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
     <category term="JavaScript" scheme="https://luketsengtw.github.io/tags/JavaScript/"/>
     
@@ -320,16 +296,10 @@
     <link href="https://luketsengtw.github.io/posts/3b12bf79"/>
     <id>https://luketsengtw.github.io/posts/3b12bf79</id>
     <published>2026-04-08T05:09:00.000Z</published>
-    <updated>2026-04-19T05:04:06.768Z</updated>
+    <updated>2026-05-05T06:36:03.612Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;TCP-IP-封包解析&quot;&gt;&lt;a href=&quot;#TCP-IP-封包解析&quot; class=&quot;headerlink&quot; title=&quot;TCP/IP 封包解析&quot;&gt;&lt;/a&gt;TCP/IP 封包解析&lt;/h1&gt;&lt;p&gt;紀錄 2026/04/08</summary>
-        
-      
+    <summary type="html">TCP/IP 封包解析筆記，整理 IP、TCP、UDP 封包欄位、標頭結構與網路協定分層下資料封裝的基本概念。</summary>
     
     
     
@@ -371,11 +341,11 @@
     <category term="C++" scheme="https://luketsengtw.github.io/categories/programming/cpp/"/>
     
     
-    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
-    
     <category term="C++" scheme="https://luketsengtw.github.io/tags/C/"/>
     
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="程式語言" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/"/>
     
   </entry>
   
@@ -406,11 +376,11 @@
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
     <category term="JavaScript" scheme="https://luketsengtw.github.io/tags/JavaScript/"/>
     
@@ -443,11 +413,11 @@
     
     <category term="Web" scheme="https://luketsengtw.github.io/tags/Web/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
     <category term="JavaScript" scheme="https://luketsengtw.github.io/tags/JavaScript/"/>
     
@@ -478,11 +448,11 @@
     
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
     <category term="JavaScript" scheme="https://luketsengtw.github.io/tags/JavaScript/"/>
     
@@ -513,11 +483,11 @@
     
     <category term="網頁" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81/"/>
     
-    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
+    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
     
     <category term="HTML" scheme="https://luketsengtw.github.io/tags/HTML/"/>
     
-    <category term="網頁程式設計" scheme="https://luketsengtw.github.io/tags/%E7%B6%B2%E9%A0%81%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    <category term="CSS" scheme="https://luketsengtw.github.io/tags/CSS/"/>
     
   </entry>
   
@@ -563,25 +533,19 @@
     <link href="https://luketsengtw.github.io/posts/b13c477e"/>
     <id>https://luketsengtw.github.io/posts/b13c477e</id>
     <published>2026-03-29T13:20:22.000Z</published>
-    <updated>2026-03-29T13:21:54.245Z</updated>
+    <updated>2026-05-05T06:36:04.516Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【考試向】資料結構筆記（二元搜尋樹）&quot;&gt;&lt;a href=&quot;#【考試向】資料結構筆記（二元搜尋樹）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">資料結構考試筆記，整理二元搜尋樹 BST 的定義、搜尋、插入、刪除、走訪與時間複雜度分析。</summary>
     
     
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/categories/data-structure/"/>
     
     
-    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
-    
     <category term="程式設計" scheme="https://luketsengtw.github.io/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"/>
+    
+    <category term="電腦" scheme="https://luketsengtw.github.io/tags/%E9%9B%BB%E8%85%A6/"/>
     
     <category term="資料結構" scheme="https://luketsengtw.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
     
@@ -625,16 +589,10 @@
     <link href="https://luketsengtw.github.io/posts/ac1f33ff"/>
     <id>https://luketsengtw.github.io/posts/ac1f33ff</id>
     <published>2026-03-14T13:35:51.000Z</published>
-    <updated>2026-03-14T13:38:28.244Z</updated>
+    <updated>2026-05-05T06:36:04.348Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-6-Principles-of-Congestion-Control&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-6-Principles-of-Congestion-Control&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">壅塞控制原理筆記，整理 congestion control、network-assisted、end-to-end、壅塞原因與傳輸層控制策略。</summary>
     
     
     
@@ -664,16 +622,10 @@
     <link href="https://luketsengtw.github.io/posts/938ae8bd"/>
     <id>https://luketsengtw.github.io/posts/938ae8bd</id>
     <published>2026-03-09T12:59:17.000Z</published>
-    <updated>2026-03-09T13:00:37.436Z</updated>
+    <updated>2026-05-05T06:36:04.306Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;【計算機網路筆記】3-5-Connection-Oriented-Transport-TCP&quot;&gt;&lt;a href=&quot;#【計算機網路筆記】3-5-Connection-Oriented-Transport-TCP&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">TCP 筆記，整理 connection-oriented transport、TCP segment、sequence number、ACK、timeout 與可靠傳輸機制。</summary>
     
     
     
